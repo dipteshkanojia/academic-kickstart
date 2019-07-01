@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Accomplish&shy;ments"
+title = "Awards"
 subtitle = ""
 
 # Date format
@@ -19,33 +19,42 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
+  organization = "IITB - Monash Research Academy"
+  organization_url = "https://www.iitbmonash.org"
+  title = "Best Poster Paper (PhD Junior Category)"
   url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
+  certificate_url = ""
+  date_start = "2016-08-01"
   date_end = ""
-  description = ""
+  description = "Awarded the best poster paper presentation in the PhD Juniors category"
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
+  organization = "ICON 2014"
+  organization_url = "http://ltrc.iiit.ac.in/icon/2014/"
+  title = "Statistical Machine Translation (SMT) Competition"
+  url = ""
+  date_start = "2014-12-25"
   date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
+  description = "Winner of the SMT competition held at ICON 2014, Goa. We built a Heirarchical SMT system which outperformed all other systems by a significant margin."
   
 [[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
-  url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
+  organization = "Teaching Assistant (Semester)"
+  organization_url = "https://www.cse.iitb.ac.in"
+  title = "TA of the Semester"
+  url = "https://www.cse.iitb.ac.in/page106?year=2017"
+  certificate_url = "https://www.cse.iitb.ac.in/page106?year=2017"
+  date_start = "2017-11-01"
+  date_end = ""
+  description = "Awarded TA of the Semester by CSE Department, IIT Bombay for assisting Prof. Kavi Arya with Software Foundations lab (CS251)"
 
+[[item]]
+  organization = "CISCO - CSE, IIT Bombay"
+  organization_url = "https://www.cse.iitb.ac.in"
+  title = "CISCO Fellowship Awardee"
+  url = "https://www.cse.iitb.ac.in/page106?year=2017"
+  certificate_url = "https://www.cse.iitb.ac.in/page106?year=2017"
+  date_start = "2016-07-01"
+  date_end = ""
+  description = "Awarded the CISCO fellowship from among all the applicants of Computer Science and Engineering Department, IIT Bombay"
+  
 +++
