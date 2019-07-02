@@ -1,6 +1,6 @@
 +++
 title = "NLP Fundamentals at VIVA IET"
-date = 2019-01-01T00:00:00  # Schedule page publish date.
+date = 2016-06-20T00:00:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
