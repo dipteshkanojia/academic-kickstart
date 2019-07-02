@@ -1,6 +1,6 @@
 +++
 title = "Natural Language Processing and its intersection with Data Science"
-date = 2019-01-01T00:00:00  # Schedule page publish date.
+date = 2018-12-15T00:00:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
