@@ -8,6 +8,7 @@ abstract: ""
 featured: false
 publication: "*Sanskrit and Other Languages Technology 2019*"
 url_pdf: "files/soiltech-2019-yogyata.pdf"
+tags: ["word sense disambiguation", "sanskrit", "linguistics"]
 
 ---
 

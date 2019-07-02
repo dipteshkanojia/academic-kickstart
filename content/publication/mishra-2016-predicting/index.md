@@ -7,7 +7,7 @@ publication_types: ["1"]
 abstract: ""
 featured: false
 publication: "*Thirtieth Association for the Advancement of Artificial Intelligence Conference (AAAI 2016)*"
-tags: ["sarcasm", "understandability", "gaze tracking", "sentiment analysis"]
+tags: ["sarcasm detection", "understandability", "gaze tracking", "sentiment analysis"]
 url_pdf: "files/aaai16-sarcasmunderstandability.pdf"
 
 ---
