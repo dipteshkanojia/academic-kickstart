@@ -121,7 +121,16 @@ date_format = "Jan 2006"
   date_start = "2018-01-08"
   date_end = "2018-01-12"
   description = """Global Wordnet Conference is organized and endorsed by the Global Wordnet Association (GWA)."""
-  
+
+[[experience]]
+  title = "Teaching Assistant"
+  company = "Computer Science and Engineering Department, IIT Bombay"
+  company_url = "http://www.cse.iitb.ac.in"
+  location = "Mumbai"
+  date_start = "2019-07-30"
+  date_end = ""
+  description = """Currently assisting Prof. Kavi Arya in conducting course on Software Systems Lab (CS699).	"""
+
 [[experience]]
   title = "Teaching Assistant"
   company = "Computer Science and Engineering Department, IIT Bombay"
