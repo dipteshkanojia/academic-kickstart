@@ -1,29 +1,29 @@
 +++
-title = "NLP Fundamentals at VIVA IET"
-date = 2016-06-20T09:00:00  # Schedule page publish date.
+title = "Investigations into the use of Distributed Semantics for Cognate Detection and Computational Phylogenetics"
+date = 2020-04-03T05:30:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
 # End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2016-06-20T09:00:00
-time_end = 2016-06-20T17:30:00
+time_start = 2020-04-03T05:30:00
+time_end = 2020-04-03T06:30:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Diptesh Kanojia"]
 
 # Abstract and optional shortened version.
-abstract = "In three different talks, I discussed various facets of fundamental NLP research being done at CFILT, IIT Bombay. The first talk one was about 'Lexical Resources' and their need in NLP tasks. During the second talk, I discussed the basics of POS tagging, Viterbi and fundamentals of NLP layers. The third talk was more of a demo session where I conducted an interactive hands-on session using Python and NLTK to demonstrate the basics."
-abstract_short = "Lexical Resources | POS Tagging | Interactive Hands-on Demo Session"
+abstract = "In this talk, I present my primary PhD contributions where different embeddings aid in the tasks of cognate detection, and computational phylogenetics. A set of unpublished results which show that cognates, indeed, help in the downstream task of machine translation were also shown."
+abstract_short = "PhD Contributions | Cognate Detection | False Friends' Detection | Computational Phylogenetics and Typology | NLP"
 
 # Name of event and optional event URL.
-event = "NLP Workshop @ VIVA Institute of Engineering and Technology, Virar"
-event_url = "http://www.cfilt.iitb.ac.in/Workshop.html"
+event = "Invited talk @ CSIRO"
+event_url = "#"
 
 # Location of event.
 location = "Mumbai, India"
 
 # Is this a selected talk? (true/false)
-selected = false
+selected = true
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
@@ -35,11 +35,11 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["talks"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = "http://www.cfilt.iitb.ac.in/Workshop.html"
+url_slides = "https://docs.google.com/presentation/d/15Qt1ujj0wnOXsJydV5pGaT4n6qFVbWz17kpskqCxpuw/edit?usp=sharing"
 url_video = ""
 url_code = ""
 

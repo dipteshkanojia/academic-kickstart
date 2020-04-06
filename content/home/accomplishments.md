@@ -56,5 +56,14 @@ date_format = "Jan 2006"
   date_start = "2016-07-01"
   date_end = ""
   description = "Awarded the CISCO fellowship from among all the applicants of Computer Science and Engineering Department, IIT Bombay"
-  
+
+[[item]]
+  organization = "Teaching Assistant (Semester)"
+  organization_url = "https://www.cse.iitb.ac.in"
+  title = "TA of the Semester"
+  url = "https://www.cse.iitb.ac.in/page106?year=2017"
+  certificate_url = "https://www.cse.iitb.ac.in/page106?year=2017"
+  date_start = "2019-08-01"
+  date_end = ""
+  description = "Awarded TA of the Semester by CSE Department, IIT Bombay for assisting Prof. Kavi Arya with Software lab (PG) (CS699)"  
 +++
