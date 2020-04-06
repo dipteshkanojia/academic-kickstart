@@ -62,6 +62,15 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Review Committee Member / Conference"
+  company = " Program Committee for The 58th Annual Meeting of the Association for Computational Linguistics (ACL 2020)"
+  company_url = "https://acl2020.org/"
+  location = "Online Conference due to the COVID-19 pandemic"
+  date_start = "2020-07-05"
+  date_end = "2020-07-10"
+  description = """ACL is one of the top-tier conferences in NLP. I reviewed paper from the Semantics track."""
+
+[[experience]]
+  title = "Review Committee Member / Conference"
   company = " Program Committee for The 57th Annual Meeting of the Association for Computational Linguistics (ACL 2019)"
   company_url = "http://www.acl2019.org/EN/index.xhtml"
   location = "Florence, Italy"
@@ -86,6 +95,7 @@ date_format = "Jan 2006"
   date_start = "2019-08-02"
   date_end = "2019-08-02"
   description = """Organized and sponsored by the Special Interest Group on the Lexicon (SIGLEX) of the Association for Computational Linguistics (ACL). Endorsed by the Global Wordnet Association (GWA). This joint event is the 15th edition of the Workshop on Multiword Expressions (MWE)"""
+
 [[experience]]
   title = "Review Committee Member / Workshop"
   company = " Review Committee Member for the GLOBALEX Workshop co-located with LREC 2018"
@@ -94,6 +104,15 @@ date_format = "Jan 2006"
   date_start = "2018-05-08"
   date_end = "2018-05-08"
   description = """This is the second workshop organized by GLOBALEX, a young constellation of the major continental associations of lexicography, this time in cooperation with the Global WordNet Association and the newly established ELEXIS project."""
+
+[[experience]]
+  title = "Review Committee / Conference"
+  company = " Program Committee for The Thirty-fourth AAAI Conference on Artificial Intelligence (AAAI-20)"
+  company_url = "https://aaai.org/Conferences/AAAI-20/"
+  location = "New York, USA"
+  date_start = "2020-02-07"
+  date_end = "2020-02-12"
+  description = """AAAI is one of the top-tier conferences in Artificial Intelligence (AI). I reviewed papers in the main conference and the demo track.    """
   
 [[experience]]
   title = "Review Committee / Conference"
@@ -128,8 +147,22 @@ date_format = "Jan 2006"
   company_url = "http://www.cse.iitb.ac.in"
   location = "Mumbai"
   date_start = "2019-07-30"
-  date_end = ""
-  description = """Currently assisting Prof. Kavi Arya in conducting course on Software Systems Lab (CS699).	"""
+  date_end = "2019-10-30"
+  description = """Assisted Prof. Kavi Arya in conducting course on Software Lab (PG) (CS699).
+
+   * <b>Awarded TA of the Semester by Computer Science and Engineering Department.</b>
+
+        """
+
+[[experience]]
+  title = "Teaching Assistant"
+  company = "Computer Science and Engineering Department, IIT Bombay"
+  company_url = "http://www.cse.iitb.ac.in"
+  location = "Mumbai"
+  date_start = "2020-01-01"
+  date_end = "2020-06-30"
+  description = """Assisted Prof. Kavi Arya in conducting theory and practical lab course on Embedded Systems (CS684). """
+
 
 [[experience]]
   title = "Teaching Assistant"
