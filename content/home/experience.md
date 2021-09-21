@@ -64,7 +64,7 @@ date_format = "Jan 2006"
    company = "Various Conferences and Journals"
    company_url = ""
    location = ""
-   date_start = "2020-12-01"
+   date_start = "2020-12-31"
    date_end = ""
    description = """
    Reviewed papers in the following conferences/journals:
@@ -72,7 +72,7 @@ date_format = "Jan 2006"
    * TALLIP
    * AAAI Main Conference (2021, 2020)
    * AAAI Demonstrations Track (2021, 2020, 2019)
-   * IJCAI Senior Program Committee Member (2020)
+   * IJCAI Senior Program Committee Member (2020, 2021)
    * IJCAI Novel Program Committee [3-year invite] (2022, 2023, 2024)
    * ACL (2021, 2020, 2019, 2018)
    * EMNLP (2021, 2020, 2019)
