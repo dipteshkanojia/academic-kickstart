@@ -32,10 +32,10 @@ interests:
 
 education:
   courses:
-  - course: PhD
+  - course: Doctor of Philosophy
     institution: IITB - Monash Research Academy
     year: 2021
-  - course: Bachelor of Technology
+  - course: Bachelor of Technology (CSE)
     institution: Uttar Pradesh Technical University
     year: 2013
 
