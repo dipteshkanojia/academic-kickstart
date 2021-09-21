@@ -89,9 +89,8 @@ email: "dipteshkanojia@gmail.com"
 # - Researchers
 # - Visitors
 ---
+I am a {{< staticref "https://www.surrey.ac.uk/people/diptesh-kanojia" "newtab" >}}Research Fellow{{< /staticref >}} working on problems intersecting the areas of Natural Language Processing (NLP) and Machine or Deep Learning (ML/DL). 
 
-I am a Research Fellow working on problems intersecting the areas of Natural Language Processing (NLP) and Machine Learning (ML) (broadly in Artificial Intelligence). 
+My interests lie in the sub-areas of Machine Translation, Cognitive Psycholinguistics, Distributional and Lexical Semantics, Multimodality/Multilingualism in NLP, Sentiment/Emotion Analysis; and Teaching. I graduated with a Joint PhD from the {{< staticref "https://www.iitbmonash.org" "newtab" >}}IITB-Monash Research Academy{{< /staticref >}} ( {{< staticref "https://www.iitb.ac.in" "newtab" >}}IIT Bombay, India{{< /staticref >}}; {{< staticref "https://www.monash.edu" "newtab" >}}Monash University, Australia{{< /staticref >}} ) in 2021; and was advised by {{< staticref "https://www.cse.iitb.ac.in/~pb" "newtab" >}}Prof. Pushpak Bhattacharyya{{< /staticref >}}, {{< staticref "https://users.monash.edu.au/~gholamrh/" "newtab" >}}Prof. Gholamreza Haffari{{< /staticref >}}, and {{< staticref "https://www.hss.iitb.ac.in/en/faculty-profile/malhar-kulkarni" "newtab" >}}Prof. Malhar Kulkarni{{< /staticref >}}.
 
-My interests lie in the sub-areas of Machine Translation, Cognitive Psycholinguistics, Distributional and Lexical Semantics, Multimodality/Multilingualism in NLP, Sentiment/Emotion Analysis; and Teaching. Graduating from the IITB-Monash Research Academy (Joint PhD with IIT Bombay, India and Monash University, Australia) in 2021.
-
-Before starting my PhD, I was a Research Engineer at the CFILT Lab, IIT Bombay, India, where my co-investigations led to publications in diverse sub-areas of NLP and AI.
+Before starting my PhD, I was a Research Engineer at the {{< staticref "https://www.cfilt.iitb.ac.in" "newtab" >}}CFILT Lab{{< /staticref >}}, IIT Bombay, India, where my investigations led to {{< staticref "http://scholar.google.co.in/citations?user=UNCgCAEAAAAJ" "newtab" >}}publications{{< /staticref >}} in diverse sub-areas of NLP and AI.
