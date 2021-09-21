@@ -41,6 +41,31 @@ date_format = "Jan 2006"
 
 	"""
 
+# [[experience]]
+#   title = "Review/Program Committee Member"
+#   company = "Various Conferences and Journals"
+#   company_url = ""
+#   location = ""
+#   date_start = "2017-06-01"
+#   date_end = ""
+#   description = """
+#   Reviewed papers in the following conferences/journals:
+#   
+#   * TALLIP 2019
+#   * Internation Journal for Intelligent Systems   
+#   * AAAI 2020 (Main Conference and Demonstrations)
+#   * AAAI 2019 (Demonstrations)
+#   * ACL (2020, 2019, 2018)
+#   * EMNLP (2019, 2020)
+#   * CoNLL (2019, 2020)
+#   * COLING 2020
+#   * GWC (2019, 2018)
+#   * LREC 2020
+#   * GLOBALEX Workshop with LREC 2018
+#   * SIGLEX-MWE Workshop with ACL 2019
+#   * ETRA 2020 (Secondary Reviewer)
+# 
+# 	"""
 
 [[experience]]
   title = "Review Committee Member / Conference"
@@ -140,6 +165,7 @@ date_format = "Jan 2006"
   date_start = "2018-01-08"
   date_end = "2018-01-12"
   description = """Global Wordnet Conference is organized and endorsed by the Global Wordnet Association (GWA)."""
+
 
 [[experience]]
   title = "Teaching Assistant"

@@ -14,6 +14,8 @@ role: PhD Research Scholar
 
 # Organizations/Affiliations
 organizations:
+- name: University of Surrey
+  url: "https://www.surrey.ac.uk/"
 - name: IITB-Monash Research Academy
   url: "http://www.iitbmonash.org"
 - name: IIT Bombay
@@ -27,18 +29,18 @@ bio: NLP Researcher | PhD Research Scholar | IIT Bombay | Monash University
 
 interests:
 - Artificial Intelligence
+- Natural Language Processing 
 - Computational Linguistics
 - Cognitive Psycholinguistics
 - Computational Phylogenetics
-- Cognate Detection
 - Machine Translation
-- WordNets
-- Word Sense Disambiguation
+
 
 education:
   courses:
-  - course: PhD (pursuing)
+  - course: PhD
     institution: IITB - Monash Research Academy
+    year: 2021
   - course: Bachelor of Technology
     institution: Uttar Pradesh Technical University
     year: 2013
@@ -92,4 +94,8 @@ email: "dipteshkanojia@gmail.com"
 # - Visitors
 ---
 
-I am a Research Scholar at the IITB - Monash Research Academy also associated with the Center for Indian Languages Technology (CFILT). Formerly, a Research Engineer with CFILT, I joined Ph.D. at the academy in January, 2016. My research interests are Natural Language Processing, Machine Learning, and broadly <a href="http://www.urbandictionary.com/define.php?term=artificial+intelligence&defid=774513">Artificial Intelligence</a>. ;) 
+I am a Research Fellow working on problems intersecting the areas of Natural Language Processing (NLP) and Machine Learning (ML) (broadly in <a href="http://www.urbandictionary.com/define.php?term=artificial+intelligence&defid=774513">Artificial Intelligence</a>). 
+
+My interests lie in the sub-areas of Machine Translation, Cognitive Psycholinguistics, Distributional and Lexical Semantics, Multimodality/Multilingualism in NLP, Sentiment/Emotion Analysis; and Teaching. Graduating from the IITB-Monash Research Academy (Joint PhD with IIT Bombay, India and Monash University, Australia) in 2021.
+
+Before starting my PhD, I was a Research Engineer at the CFILT Lab, IIT Bombay, India, where my co-investigations led to publications in diverse sub-areas of NLP and AI.
