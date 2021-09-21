@@ -14,12 +14,14 @@ role: Postdoctoral Research Fellow
 
 # Organizations/Affiliations
 organizations:
+- name: Centre for Translation Studies
+  url: "https://www.surrey.ac.uk/centre-translation-studies"
 - name: University of Surrey
   url: "https://www.surrey.ac.uk/"
-- name: CFILT
+- name: CFILT Lab, IIT Bombay
   url: "http://www.cfilt.iitb.ac.in"
 # Short bio (displayed in user profile at end of posts)
-bio: NLP Researcher | PhD Research Scholar | IIT Bombay | Monash University
+bio: NLP Researcher | Research Fellow | University of Surrey
 
 interests:
 - Artificial Intelligence
