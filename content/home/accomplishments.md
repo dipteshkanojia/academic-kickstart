@@ -19,6 +19,16 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "EACL 2021 Conference"
+  organization_url = "https://www.iitbmonash.org"
+  title = "Best Paper Honourable Mention (Long Papers)"
+  url = "https://2021.eacl.org/best-paper/"
+  certificate_url = "https://2021.eacl.org/best-paper/"
+  date_start = "2021-04-23"
+  date_end = ""
+  description = "Our work 'Cognition-aware Cognate Detection' was awarded the best paper honourable mention (long papers) at The 16th Conference of the European Chapter of the Association for Computational Linguistics."
+
+[[item]]
   organization = "IITB - Monash Research Academy"
   organization_url = "https://www.iitbmonash.org"
   title = "Best Poster Paper (PhD Junior Category)"
