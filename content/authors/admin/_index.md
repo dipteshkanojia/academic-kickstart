@@ -10,18 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD Research Scholar
+role: Postdoctoral Research Fellow
 
 # Organizations/Affiliations
 organizations:
 - name: University of Surrey
   url: "https://www.surrey.ac.uk/"
-- name: IITB-Monash Research Academy
-  url: "http://www.iitbmonash.org"
-- name: IIT Bombay
-  url: "http://www.iitb.ac.in"
-- name: Monash University
-  url: "http://www.monash.edu"
 - name: CFILT
   url: "http://www.cfilt.iitb.ac.in"
 # Short bio (displayed in user profile at end of posts)
@@ -94,7 +88,7 @@ email: "dipteshkanojia@gmail.com"
 # - Visitors
 ---
 
-I am a Research Fellow working on problems intersecting the areas of Natural Language Processing (NLP) and Machine Learning (ML) (broadly in <a href="http://www.urbandictionary.com/define.php?term=artificial+intelligence&defid=774513">Artificial Intelligence</a>). 
+I am a Research Fellow working on problems intersecting the areas of Natural Language Processing (NLP) and Machine Learning (ML) (broadly in Artificial Intelligence). 
 
 My interests lie in the sub-areas of Machine Translation, Cognitive Psycholinguistics, Distributional and Lexical Semantics, Multimodality/Multilingualism in NLP, Sentiment/Emotion Analysis; and Teaching. Graduating from the IITB-Monash Research Academy (Joint PhD with IIT Bombay, India and Monash University, Australia) in 2021.
 
