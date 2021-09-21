@@ -77,9 +77,7 @@ social:
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Diptesh_Kanojia
-- icon: facebook
-  icon_pack: fab
-  link: https://www.facebook.com/dipteshkanojia
+
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "dipteshkanojia@gmail.com"
   
