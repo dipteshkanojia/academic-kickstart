@@ -26,13 +26,14 @@ date_format = "Jan 2006"
   date_start = "2021-02-04"
   date_end = ""
   description = """
-  Work Profile:
+  Ongoing Projects:
   
   * Quality Estimation for Machine Translation
-  * Post-editing for Machine Translation
+  * Post-editing for Machine Translation (Collaboration with the CFILT Lab, IIT Bombay)
   * Multilingual Translation in Healthcare domain
   * Multilingual Translation of Sentiment in Tweets
   * Automatic Video Description
+  * Computational Humour (Collaboration with the CFILT Lab, IIT Bombay)
   * Fake News Detection with Evidence Summarization
   * Multimodal Hate-speech Detection 
 	
