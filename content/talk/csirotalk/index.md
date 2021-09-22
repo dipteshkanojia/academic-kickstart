@@ -20,7 +20,7 @@ event = "Invited talk @ CSIRO"
 event_url = "#"
 
 # Location of event.
-location = "Mumbai, India"
+location = "Sydney, Australia (Online)"
 
 # Is this a selected talk? (true/false)
 selected = true
@@ -35,11 +35,11 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["talks"]
+tags = ["talks", "cognate detection", "semantics", "distributional semantics"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = "https://docs.google.com/presentation/d/15Qt1ujj0wnOXsJydV5pGaT4n6qFVbWz17kpskqCxpuw/edit?usp=sharing"
+url_slides = "files/csirotalk-2020-semantics-cognates.pdf"
 url_video = ""
 url_code = ""
 

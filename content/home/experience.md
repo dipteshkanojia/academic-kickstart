@@ -33,6 +33,8 @@ date_format = "Jan 2006"
   * Multilingual Translation in Healthcare domain
   * Multilingual Translation of Sentiment in Tweets
   * Automatic Video Description
+  * Fake News Detection with Evidence Summarization
+  * Multimodal Hate-speech Detection 
 	
 	"""
 	

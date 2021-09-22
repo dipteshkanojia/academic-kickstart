@@ -64,7 +64,7 @@ date_format = "Jan 2006"
   url = "https://www.cse.iitb.ac.in/page106?year=2017"
   certificate_url = "https://www.cse.iitb.ac.in/page106?year=2017"
   date_start = "2016-07-01"
-  date_end = ""
+  date_end = "2020-07-01"
   description = "Awarded the CISCO fellowship from among all the applicants of Computer Science and Engineering Department, IIT Bombay"
 
 [[item]]
