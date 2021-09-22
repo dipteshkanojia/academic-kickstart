@@ -8,7 +8,7 @@ abstract: ""
 featured: false
 publication: "*Association for the Advancement of Artificial Intelligence Conference  (AAAI 2017)*"
 tags: ["gaze tracking", "theoretical"]
-url_pdf: "files/aaai17-scanpathcomplexity.pdf"
+url_pdf: "files/aaai-2017-scanpathcomplexity.pdf"
 
 ---
 
