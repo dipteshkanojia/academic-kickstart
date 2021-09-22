@@ -10,7 +10,7 @@ publication: "*Findings of the Association for Computational Linguistics: ACL-IJ
 url_pdf: "files/aclfind-2021-nci.pdf"
 tags: ["noun-compound", "deep learning", "framenet", "theoretical"]
 url_pdf: "files/aclfind-2021-nci.pdf"
-
+url_code: "https://www.cse.iitb.ac.in/~girishp/nc-dataset/"
 
 ---
 
