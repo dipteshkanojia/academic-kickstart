@@ -3,7 +3,7 @@
 widget = "slider"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 59  # Order that this section will appear.
+weight = 64  # Order that this section will appear.
 
 # Slide interval.
 # Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
@@ -36,7 +36,7 @@ height = "225px"
 
 [[item]]
   #title = "Adversarial Evaluation of Quality Estimation"
-  content = "Work on Adversarial Evaluation of Quality Estimation accepted at WMT 2021."
+  content = "Our study on Adversarial Evaluation of Quality Estimation accepted at WMT 2021. Coming here soon!"
   align = "right"
 
   overlay_color = "#000d1a"  # An HTML color value.
@@ -50,7 +50,7 @@ height = "225px"
 [[item]]
   #title = "Right"
   #content = "I am right aligned :smile:"
-  content = "Work on Rating Humour Quotient in Standup Comedy accepted at EMNLP 2021."
+  content = "Our study on Rating Humour Quotient in Standup Comedy accepted at EMNLP 2021. Coming here soon!"
   align = "right"
 
   overlay_color = "#110e1a"  # An HTML color value.
