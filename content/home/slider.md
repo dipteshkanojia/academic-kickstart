@@ -39,7 +39,7 @@ height = "225px"
   content = "Our study on Adversarial Evaluation of Quality Estimation accepted at WMT 2021. Coming here soon!"
   align = "right"
 
-  overlay_color = "#000d1a"  # An HTML color value.
+  overlay_color = "rgb(29, 33, 39)"  # An HTML color value.
   overlay_img = ""  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 #  cta_label = "arXiv"
@@ -53,7 +53,7 @@ height = "225px"
   content = "Our study on Rating Humour Quotient in Standup Comedy accepted at EMNLP 2021. Coming here soon!"
   align = "right"
 
-  overlay_color = "#110e1a"  # An HTML color value.
+  overlay_color = "rgb(29, 33, 39)"  # An HTML color value.
   overlay_img = ""  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 +++
