@@ -5,8 +5,8 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
+#title = "Diptesh Kanojia (दिप्तेश कनोजिया)"
 title = "Kanojia, Diptesh"
-
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 baseurl = "/"
