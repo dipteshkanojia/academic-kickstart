@@ -41,7 +41,7 @@ tags = ["machine translation", "tutorial", "unsupervised"]
 url_pdf = ""
 url_slides = "files/icontutorial-2020-slides.pdf"
 url_video = ""
-url_code = "https://github.com/murthyrudra/unmt_tutorial_icon2020"
+url_source = "https://github.com/murthyrudra/unmt_tutorial_icon2020"
 
 # Does the content use math formatting?
 math = true
