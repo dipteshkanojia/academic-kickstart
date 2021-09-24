@@ -9,5 +9,6 @@ featured: false
 publication: "*Twelth International Conference on Natural Language Processing*"
 tags: ["machine translation", "chat", "application"]
 url_pdf: "files/icon-2015-transchat.pdf"
+url_poster: "files/poster-icon-2015-transchat.pdf"
 ---
 

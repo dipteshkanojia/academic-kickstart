@@ -9,5 +9,6 @@ featured: false
 publication: "*Global WordNet Conference*"
 tags: ["wordnets", "word sense disambiguation", "theoretical"]
 url_pdf: "files/gwc14-wsd-clue.pdf"
+url_slides: "files/slides-kanojia-2014-not.pdf"
 ---
 
