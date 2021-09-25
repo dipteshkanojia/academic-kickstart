@@ -10,5 +10,6 @@ publication: "*Association for the Advancement of Artificial Intelligence Confer
 tags: ["sarcasm detection", "application","linguistics"]
 url_pdf: "files/aaai-2017-sarcasmsuite.pdf"
 url_project: "https://www.cfilt.iitb.ac.in/~sarcasmsuite/sarcasmsuite/"
+url_slides: "files/ppt-aaai-2017-sarcasm.pdf"
 ---
 

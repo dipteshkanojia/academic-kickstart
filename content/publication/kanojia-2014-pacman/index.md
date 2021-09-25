@@ -9,5 +9,6 @@ featured: false
 publication: "*Proceedings of the 11th International Conference on Natural Language Processing*"
 tags: ["machine translation", "corpus management", "application"]
 url_pdf: "files/icon-2014-pacman.pdf"
+url_poster: "files/poster-icon-2014-pacman.pdf"
 ---
 
