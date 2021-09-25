@@ -21,8 +21,8 @@ featured: false
 # Links (optional).
 url_pdf: "files/lrec-2020-cognate.pdf"
 url_preprint: ""
-url_code: "https://github.com/dipteshkanojia/challengeCognateFF"
-url_dataset: ""
+url_dataset: "https://github.com/dipteshkanojia/challengeCognateFF"
+url_code: ""
 url_project: ""
 url_slides: ""
 url_video: ""

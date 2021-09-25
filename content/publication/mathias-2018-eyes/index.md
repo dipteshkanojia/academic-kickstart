@@ -4,10 +4,11 @@ date: 2018-01-01
 publishDate: 2019-06-27T12:40:43.658566Z
 authors: ["Sandeep Mathias", "Diptesh Kanojia", "Kevin Patel", "Samarth Agarwal", "Abhijit Mishra", "Pushpak Bhattacharyya"]
 publication_types: ["1"]
-abstract: ""
+abstract: "Predicting a reader's rating of text quality is a challenging task that involves estimating different subjective aspects of the text, like structure, clarity, etc. Such subjective aspects are better handled using cognitive information. One such source of cognitive information is gaze behaviour. In this paper, we show that gaze behaviour does indeed help in effectively predicting the rating of text quality. To do this, we first we model text quality as a function of three properties - organization, coherence and cohesion. Then, we demonstrate how capturing gaze behaviour helps in predicting each of these properties, and hence the overall quality, by reporting improvements obtained by adding gaze features to traditional textual features for score prediction. We also hypothesize that if a reader has fully understood the text, the corresponding gaze behaviour would give a better indication of the assigned rating, as opposed to partial understanding. Our experiments validate this hypothesis by showing greater agreement between the given rating and the predicted rating when the reader has a full understanding of the text."
 featured: false
 publication: "*Association for Computational Linguistics (ACL 2018)*"
 tags: ["essay grading", "gaze tracking"]
-url_pdf: "acl18-essaycognitive.pdf"
+url_pdf: "files/acl18-essaycognitive.pdf"
+url_poster: "files/poster-acl-2018-aeg.pdf"
 ---
 
