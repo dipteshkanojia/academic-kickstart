@@ -22,7 +22,7 @@ featured: false
 url_pdf: "files/lrec-2020-cdsa.pdf"
 url_preprint: ""
 url_code: ""
-url_dataset: ""
+url_dataset: "https://nijianmo.github.io/amazon/index.html"
 url_project: ""
 url_slides: ""
 url_video: ""
