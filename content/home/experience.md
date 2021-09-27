@@ -72,7 +72,8 @@ date_format = "Jan 2006"
    description = """
    Reviewed papers in the following conferences/journals:
    
-   * TALLIP
+   * Computer Speech and Language 
+   * Transactions on Asian and Low-Resource Language Information Processing
    * AAAI Main Conference (2021, 2020)
    * AAAI Demonstrations Track (2021, 2020, 2019)
    * IJCAI Senior Program Committee Member (2020, 2021)
@@ -83,6 +84,7 @@ date_format = "Jan 2006"
    * EACL (2021)
    * COLING (2020)
    * GWC (2021, 2019, 2018)
+   * IEEE SSCI 2021
    * LREC 2020
    * GLOBALEX Workshop with LREC 2018
    * SIGLEX-MWE Workshop (2020, 2019)
