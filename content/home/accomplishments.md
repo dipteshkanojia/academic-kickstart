@@ -31,12 +31,12 @@ date_format = "Jan 2006"
 [[item]]
   organization = "IITB - Monash Research Academy"
   organization_url = "https://www.iitbmonash.org"
-  title = "Best Poster Paper (PhD Junior Category)"
+  title = "Best Poster Presentation (Early Researcher Category)"
   url = ""
   certificate_url = ""
   date_start = "2016-08-01"
   date_end = ""
-  description = "Awarded the best poster paper presentation in the PhD Juniors category"
+  description = "Awarded the best poster paper presentation in the PhD Early Researchers categorya from amongst all researchers of the IITB-Monash Research Academy"
 
 [[item]]
   organization = "ICON 2014"
