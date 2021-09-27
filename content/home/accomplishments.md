@@ -36,7 +36,7 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2016-08-01"
   date_end = ""
-  description = "Awarded the best poster paper presentation in the PhD Early Researchers categorya from amongst all researchers of the IITB-Monash Research Academy"
+  description = "Awarded the best poster paper presentation in the PhD Early Researchers category from amongst all students of the IITB-Monash Research Academy"
 
 [[item]]
   organization = "ICON 2014"
