@@ -78,14 +78,15 @@ date_format = "Jan 2006"
    * AAAI Demonstrations Track (2021, 2020, 2019)
    * IJCAI Senior Program Committee Member (2020, 2021)
    * IJCAI Novel Program Committee [3-year invite] (2022, 2023, 2024)
+   * ACL Rolling Reviews (2021)
    * ACL (2021, 2020, 2019, 2018)
    * EMNLP (2021, 2020, 2019)
    * CoNLL (2021, 2020, 2019)
    * EACL (2021)
    * COLING (2020)
    * GWC (2021, 2019, 2018)
-   * IEEE SSCI 2021
-   * LREC 2020
+   * IEEE SSCI (2021)
+   * LREC (2020)
    * GLOBALEX Workshop with LREC 2018
    * SIGLEX-MWE Workshop (2020, 2019)
    * ETRA 2020 (Secondary Reviewer)
