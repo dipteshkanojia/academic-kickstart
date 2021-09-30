@@ -12,9 +12,14 @@ day_night = true
 font = "default"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+# SEO
+description = "NLP Researcher"
+site_type = "Person"
+local_business_type = ''
+org_name = ''
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
+#sharing = "true"
 sharing_image = "sharingimage.png"
 
 # Twitter username (without @). Used when a vistor shares your site on Twitter.
