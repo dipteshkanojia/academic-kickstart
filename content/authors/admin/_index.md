@@ -28,8 +28,9 @@ interests:
 - Natural Language Processing 
 - Computational Linguistics
 - Cognitive Psycholinguistics
-- Computational Phylogenetics
 - Machine Translation
+- Computational Humor
+- Computational Phylogenetics
 
 
 education:
