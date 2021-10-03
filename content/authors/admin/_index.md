@@ -27,7 +27,7 @@ interests:
 - Artificial Intelligence
 - Natural Language Processing 
 - Computational Linguistics
-- Cognitive Psycholinguistics
+- Cognitively-inspired NLP
 - Machine Translation
 - Computational Humor
 - Computational Phylogenetics
