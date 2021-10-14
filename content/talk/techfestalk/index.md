@@ -39,7 +39,7 @@ tags = ["talks"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = "http://www.cfilt.iitb.ac.in"
+url_slides = "files/ppt-NLPatCFILTTechfestTalk.pdf"
 url_video = ""
 url_code = ""
 
