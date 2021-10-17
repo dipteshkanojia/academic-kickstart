@@ -36,7 +36,7 @@ height = "225px"
 
 [[item]]
   #title = "Adversarial Evaluation of Quality Estimation"
-  content = "Our study on Adversarial Evaluation of Quality Estimation accepted at WMT 2021. Coming here soon!"
+  content = "Our study on Adversarial Evaluation of Quality Estimation accepted at WMT 2021. Slides and Video presentation is here!"
   align = "right"
 
   overlay_color = "rgb(29, 33, 39)"  # An HTML color value.
@@ -50,7 +50,7 @@ height = "225px"
 [[item]]
   #title = "Right"
   #content = "I am right aligned :smile:"
-  content = "Our study on Rating Humour Quotient in Standup Comedy accepted at EMNLP 2021. Coming here soon!"
+  content = "Our study on Rating Humour Quotient in Standup Comedy accepted at EMNLP 2021. Poster and Data to be released soon!"
   align = "right"
 
   overlay_color = "rgb(29, 33, 39)"  # An HTML color value.
