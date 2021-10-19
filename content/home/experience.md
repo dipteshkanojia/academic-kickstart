@@ -38,7 +38,21 @@ date_format = "Jan 2006"
   * Multimodal Hate-speech Detection 
 	
 	"""
-	
+[[experience]]
+  title = "ACL PCC Member (2021-2023)"
+  company = "Association for Computational Linguistics"
+  company_url = "https://www.aclweb.org/adminwiki/index.php?title=Professional_Conduct_Committee"
+  location = ""
+  date_start = "2020-12-30"
+  date_end = ""
+  description = """
+  
+  
+  * Member of the Professional Conduct Committee (PCC) establised by ACL. 
+  * Responsible for responding to complaints raised under the Anti-Harassment Policy.
+
+	"""
+
 [[experience]]
   title = "Research Engineer"
   company = "Center for Indian Language Technology (CFILT)"
