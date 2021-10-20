@@ -217,6 +217,19 @@ date_format = "Jan 2006"
   company = "Computer Science and Engineering Department, IIT Bombay"
   company_url = "http://www.cse.iitb.ac.in"
   location = "Mumbai"
+  date_start = "2020-07-30"
+  date_end = "2020-12-01"
+  description = """
+  
+  Assisted Prof. Pushpak Bhattacharyya in conducting the course on ['Speech, Natural Language Processing and the Web' (CS626)](https://www.cse.iitb.ac.in/~jyotsanak/CS626/). 
+  
+  """
+  
+[[experience]]
+  title = "Teaching Assistant"
+  company = "Computer Science and Engineering Department, IIT Bombay"
+  company_url = "http://www.cse.iitb.ac.in"
+  location = "Mumbai"
   date_start = "2020-01-01"
   date_end = "2020-06-30"
   description = """Assisted Prof. Kavi Arya in conducting theory and practical lab course on Embedded Systems (CS684). """
