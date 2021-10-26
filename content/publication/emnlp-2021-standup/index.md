@@ -9,9 +9,10 @@ featured: false
 publication: "*Proceedings of the 26th Conference of the Empirical Methods for Natural Language Processing*"
 url_pdf: "files/emnlp-2021-standup.pdf"
 tags: ["computational humour", "rating humour", "standup comedy", "multimodal", "dataset", "empirical"]
-#url_poster: ""
-#url_code: "https://github.com/prashantksharma/CaCD"
-#url_slides: "files/ppt-eacl-2021-cognate.pdf"
-#url_video: "https://slideslive.com/38954530/cognitionaware-cognate-detection"
+url_poster: "files/poster-emnlp-2021-funny.pdf"
+url_code: "https://github.com/TheExtraSemiColon/AI-OpenMic"
+url_dataset: "https://github.com/TheExtraSemiColon/AI-OpenMic"
+url_slides: "files/ppt-emnlp-2021-funny.pdf"
+# url_video: "files/"
 ---
 
