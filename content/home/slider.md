@@ -50,7 +50,7 @@ height = "225px"
 [[item]]
   #title = "Right"
   #content = "I am right aligned :smile:"
-  content = "Our study on Rating Humour Quotient in Standup Comedy accepted at EMNLP 2021. Poster and Data to be released soon!"
+  content = "Our study on Rating Humour Quotient in Standup Comedy accepted at EMNLP 2021. Poster and Dataset released!"
   align = "right"
 
   overlay_color = "rgb(29, 33, 39)"  # An HTML color value.
