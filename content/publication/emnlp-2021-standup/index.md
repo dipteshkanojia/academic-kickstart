@@ -13,6 +13,6 @@ url_poster: "files/poster-emnlp-2021-standup.pdf"
 url_code: "https://github.com/TheExtraSemiColon/AI-OpenMic"
 url_dataset: "https://github.com/TheExtraSemiColon/AI-OpenMic"
 url_slides: "files/ppt-emnlp-2021-standup.pdf"
-# url_video: "files/"
+url_video: "files/video-emnlp-2021-standup.mp4"
 ---
 
