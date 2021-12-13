@@ -11,5 +11,6 @@ publication: "*Proceedings of the ACM India Joint International Conference on Da
 tags: ["cognate detection", "wordnets","linguistics","phylogenetics"]
 url_pdf: "files/codscomad-2019-cognatedetection.pdf"
 url_poster: "files/poster-codscomad-2019-cognate.pdf"
+url_slides: "files/ppt-codscomad-2019-cognatedetection.pdf"
 ---
 
