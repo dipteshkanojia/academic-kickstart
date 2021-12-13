@@ -11,6 +11,7 @@ url_pdf: "files/icon-2021-fakenews-evidence.pdf"
 tags: ["fake news", "fake news detection", "evidence collection", "evidence summarization"]
 url_pdf: "files/icon-2021-fakenews-evidence.pdf"
 url_code: "https://github.com/rawat-mrinal06/fake_news"
-
+url_slides: "files/ppt-icon-2021-fakenews-evidence.pdf"
+url_video: "files/video-icon-2021-fakenews-evidence.mp4"
 ---
 
