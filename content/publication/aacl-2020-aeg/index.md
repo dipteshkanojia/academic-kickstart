@@ -11,5 +11,6 @@ url_pdf: "files/aacl-2020-aeg.pdf"
 tags: ["gaze tracking", "deep learning", "automatic essay grading", "experimental", "multi-tasking"]
 url_pdf: "files/aacl-2020-aeg.pdf"
 url_dataset: "http://www.cfilt.iitb.ac.in/cognitive-nlp/"
+url_video: "https://www.youtube.com/watch?v=AdbYRboWrmI"
 ---
 

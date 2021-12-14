@@ -11,5 +11,7 @@ url_pdf: "files/ijcai-2020-gazesurvey.pdf"
 tags: ["gaze tracking", "deep learning", "machine learning", "survey", "theoretical"]
 url_pdf: "files/ijcai-2020-gazesurvey.pdf"
 url_poster: "files/poster-ijcai-2020-gazesurvey.pdf"
+url_slides: "files/ppt-ijcai-2020-survey.pdf"
+url_video: "files/video-ijcai-2020-survey.mp4"
 ---
 
