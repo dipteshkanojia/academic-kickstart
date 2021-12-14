@@ -11,7 +11,7 @@ publication: "*GWC 2012 6th International Global Wordnet Conference*"
 url_pdf: "files/gwc16-bilingual.pdf"
 tags: ["word sense disambiguation", "theoretical"]
 url_pdf: "files/gwc12-man-machine.pdf"
-
+url_slides: "files/ppt-chatterjee-2012-study.pdf"
 
 ---
 
