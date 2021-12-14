@@ -9,5 +9,6 @@ featured: false
 publication: "*Proceedings of COLING 2012: Demonstration Papers*"
 tags: ["word sense disambiguation", "applciation", "linguistics"]
 url_pdf: "files/coling12-discrimination-net.pdf"
+url_video: "https://www.youtube.com/watch?v=DgpdTHlNAyg"
 ---
 
