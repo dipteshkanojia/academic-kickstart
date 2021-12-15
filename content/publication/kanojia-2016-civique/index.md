@@ -11,5 +11,6 @@ tags: ["social media", "emergency detection", "application"]
 url_pdf: "files/sodam2016-civique-urban-emergencies.pdf"
 url_poster: "files/poster-kanojia-2016-civique.pdf"
 url_slides: "files/ppt-kanojia-2016-civique.pdf"
+url_preprint: "https://arxiv.org/abs/1610.04377"
 ---
 

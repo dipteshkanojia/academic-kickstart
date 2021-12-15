@@ -11,5 +11,6 @@ tags: ["sentiment analysis", "gaze tracking"]
 url_pdf: "files/conll16-cognitive-sentiment.pdf"
 url_dataset: "https://www.cfilt.iitb.ac.in/~cognitive-nlp2/"
 url_slides: "files/ppt3mtt-mishra-2016-leveraging.pptx"
+url_preprint: "https://arxiv.org/abs/1701.05581"
 ---
 
