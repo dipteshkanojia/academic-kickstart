@@ -13,5 +13,6 @@ url_pdf: "files/icon-2021-fakenews-evidence.pdf"
 url_code: "https://github.com/rawat-mrinal06/fake_news"
 url_slides: "files/ppt-icon-2021-fakenews-evidence.pdf"
 url_video: "files/video-icon-2021-fakenews-evidence.mp4"
+url_dataset: "https://constraint-shared-task-2021.github.io/"
 ---
 
