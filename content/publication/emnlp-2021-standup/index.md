@@ -8,6 +8,7 @@ abstract: "Computational Humour (CH) has attracted the interest of Natural Langu
 featured: false
 publication: "*Proceedings of the 26th Conference of the Empirical Methods for Natural Language Processing*"
 url_pdf: "files/emnlp-2021-standup.pdf"
+url_preprint: "https://arxiv.org/abs/2110.12765"
 tags: ["computational humour", "rating humour", "standup comedy", "multimodal", "dataset", "empirical"]
 url_poster: "files/poster-emnlp-2021-standup.pdf"
 url_code: "https://github.com/TheExtraSemiColon/AI-OpenMic"

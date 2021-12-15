@@ -11,5 +11,6 @@ tags: ["sarcasm detection", "gaze tracking", "empirical"]
 url_pdf: "files/acl2016-cognitivesarcasm.pdf"
 url_poster: "files/poster-acl-2016-harnessing.pdf"
 url_dataset: "https://www.cfilt.iitb.ac.in/~cognitive-nlp2/"
+url_preprint: "https://arxiv.org/abs/1701.05574"
 ---
 

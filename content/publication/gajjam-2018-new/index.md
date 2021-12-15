@@ -10,5 +10,6 @@ publication: "*World Sanskrit Conference (WSC 2018)*"
 tags: ["gaze tracking", "sanskrit", "linguistics", "cognitive"]
 url_pdf: "files/gajjam-2018-cognitive.pdf"
 url_slides: "files/ppt-gajjam-2018-cognitive.pdf"
+url_preprint: "https://arxiv.org/abs/1810.04440"
 ---
 

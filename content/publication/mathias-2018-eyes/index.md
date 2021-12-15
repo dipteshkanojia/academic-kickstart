@@ -10,5 +10,6 @@ publication: "*Association for Computational Linguistics (ACL 2018)*"
 tags: ["essay grading", "gaze tracking"]
 url_pdf: "files/acl18-essaycognitive.pdf"
 url_poster: "files/poster-acl-2018-aeg.pdf"
+url_preprint: "https://arxiv.org/abs/1810.04839"
 ---
 

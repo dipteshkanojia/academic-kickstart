@@ -14,5 +14,6 @@ url_dataset: "https://github.com/sheffieldnlp/mlqe-pe"
 url_code: "https://github.com/dipteshkanojia/qe-evaluation"
 url_slides: "files/ppt-wmt-2021-qeeval.pdf"
 url_video: "files/video-wmt-2021-qeeval.mp4"
+url_preprint: "https://arxiv.org/abs/2109.10859"
 ---
 

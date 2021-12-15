@@ -20,7 +20,7 @@ featured: false
 
 # Links (optional).
 url_pdf: "files/lrec-2020-cdsa.pdf"
-url_preprint: ""
+url_preprint: "https://arxiv.org/abs/2004.04478"
 url_code: ""
 url_dataset: "https://nijianmo.github.io/amazon/index.html"
 url_project: ""
