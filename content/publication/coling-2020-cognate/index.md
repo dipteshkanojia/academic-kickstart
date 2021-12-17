@@ -9,7 +9,7 @@ featured: false
 publication: "*Proceedings of the 28th International Conference on Computational Linguistics*"
 url_pdf: "files/coling-2020-cognate.pdf"
 tags: ["cognate detection", "machine translation", "deep learning", "cross-lingual", "theoretical"]
-url_pdf: "files/coling-2020-cognate.pdf"
+url_preprint: "https://arxiv.org/abs/2112.08789"
 url_dataset: "https://github.com/dipteshkanojia/challengeCognateFF"
 url_video: "https://underline.io/events/54/sessions/1323/lecture/6380-harnessing-cross-lingual-features-to-improve-cognate-detection-for-low-resource-languages"
 url_slides: "files/ppt-coling-2020-cognate.pdf"
