@@ -1,5 +1,5 @@
 +++
-title = "Quality Estimation for Machine Translation"
+title = "[Upcoming] Quality Estimation for Machine Translation"
 date = 2021-12-19T00:00:00  # Schedule page publish date.
 draft = false
 
@@ -36,7 +36,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["talks", "cognate detection", "semantics", "distributional semantics"]
+tags = ["talks", "quality estimation", "machine translation", "adversarial evaluation", "probing systems"]
 
 # Links (optional).
 url_pdf = ""
