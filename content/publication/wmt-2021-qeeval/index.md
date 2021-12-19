@@ -13,7 +13,7 @@ url_dataset: "https://github.com/sheffieldnlp/mlqe-pe"
 #url_poster: ""
 url_code: "https://github.com/dipteshkanojia/qe-evaluation"
 url_slides: "files/ppt-wmt-2021-qeeval.pdf"
-url_video: "files/video-wmt-2021-qeeval.mp4"
+url_video: "https://www.youtube.com/watch?v=oW9jefvgHSM"
 url_preprint: "https://arxiv.org/abs/2109.10859"
 ---
 
