@@ -20,7 +20,7 @@ featured: false
 
 # Links (optional).
 url_pdf: "files/lrec-2020-cognate.pdf"
-url_preprint: ""
+url_preprint: "https://arxiv.org/abs/2112.09526"
 url_dataset: "https://github.com/dipteshkanojia/challengeCognateFF"
 url_code: ""
 url_project: ""
