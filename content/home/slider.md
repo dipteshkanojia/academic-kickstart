@@ -33,6 +33,18 @@ height = "225px"
 #  cta_url = "https://sourcethemes.com/academic/"
 #  cta_icon_pack = "fas"
 #  cta_icon = "graduation-cap"
+[[item]]
+  #title = "Quality Estimation for Machine Translation"
+  content = "Invited Talk at Microsoft Research, Bangalore, India on 21st December. Excited!"
+  align = "right"
+
+  overlay_color = "rgb(29, 33, 39)"  # An HTML color value.
+  overlay_img = ""  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+#  cta_label = "arXiv"
+#  cta_url = "http://arxiv.org/abs/2109.10859"
+#  cta_icon_pack = "fas"
+#  cta_icon = "scroll"
 
 [[item]]
   #title = "Adversarial Evaluation of Quality Estimation"
