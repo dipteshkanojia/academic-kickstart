@@ -20,7 +20,7 @@ event = "NLP Workshop @ VIVA Institute of Engineering and Technology, Virar"
 event_url = "http://www.cfilt.iitb.ac.in/Workshop.html"
 
 # Location of event.
-location = "Mumbai, India"
+location = "VIVA Group of Institutions, Mumbai, India"
 
 # Is this a selected talk? (true/false)
 selected = false

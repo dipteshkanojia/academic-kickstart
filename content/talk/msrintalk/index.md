@@ -17,11 +17,11 @@ abstract = "Current Machine Translation (MT) systems achieve very good results o
 abstract_short = "Quality Estimation | Probing QE Systems | Adversarial Evaluation | NLP"
 
 # Name of event and optional event URL.
-event = "Invited talk @ Microsoft Research, Bangalore, India"
+event = "Invited talk @ Microsoft Research, Bengaluru, India"
 event_url = "#"
 
 # Location of event.
-location = "Bangalore, India (Online)"
+location = "Microsoft Research, Bengaluru, India (Online)"
 
 # Is this a selected talk? (true/false)
 selected = true

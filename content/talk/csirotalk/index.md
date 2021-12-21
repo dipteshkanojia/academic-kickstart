@@ -20,7 +20,7 @@ event = "Invited talk @ CSIRO"
 event_url = "#"
 
 # Location of event.
-location = "Sydney, Australia (Online)"
+location = "Data61, CSIRO, Sydney, Australia (Online)"
 
 # Is this a selected talk? (true/false)
 selected = true
