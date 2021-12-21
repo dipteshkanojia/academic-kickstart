@@ -20,7 +20,7 @@ event = "Open Data Science Workshop @ Techfest"
 event_url = "https://techfest.org"
 
 # Location of event.
-location = "Mumbai, India"
+location = "Techfest, IITB, Mumbai, India"
 
 # Is this a selected talk? (true/false)
 selected = true
