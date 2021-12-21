@@ -1,5 +1,5 @@
 +++
-title = "[Upcoming] Quality Estimation for Machine Translation"
+title = "Quality Estimation for Machine Translation"
 date = 2021-12-19T00:00:00  # Schedule page publish date.
 draft = false
 
@@ -40,9 +40,9 @@ tags = ["talks", "quality estimation", "machine translation", "adversarial evalu
 
 # Links (optional).
 url_pdf = ""
-url_slides = ""
+url_slides = "files/MSRIndia-InvTalk-QE-21122021.pdf"
 url_video = ""
-url_code = ""
+url_code = "https://github.com/dipteshkanojia/qe-evaluation"
 
 # Does the content use math formatting?
 math = true
