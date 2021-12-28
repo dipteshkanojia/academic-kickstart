@@ -20,9 +20,9 @@ featured: false
 
 # Links (optional).
 url_pdf: "files/lrec-2020-embeddings.pdf"
-url_preprint: ""
+url_preprint: "http://arxiv.org/abs/2112.13800"
 url_dataset: "https://www.cfilt.iitb.ac.in/~diptesh/embeddings/"
-url_code: ""
+url_code: "https://www.cfilt.iitb.ac.in/~diptesh/embeddings/"
 url_project: ""
 url_slides: ""
 url_video: ""
