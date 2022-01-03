@@ -7,6 +7,7 @@ abstract: "Gaze behaviour has been used as a way to gather cognitive information
 
 featured: false
 publication: "*Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence Survey track*"
+url_preprint: "https://arxiv.org/abs/2112.15471"
 url_pdf: "files/ijcai-2020-gazesurvey.pdf"
 tags: ["gaze tracking", "deep learning", "machine learning", "survey", "theoretical"]
 url_pdf: "files/ijcai-2020-gazesurvey.pdf"

@@ -21,7 +21,7 @@ featured: false
 
 # Links (optional).
 url_pdf: "files/gwc-2019-cognate.pdf"
-url_preprint: ""
+url_preprint: "https://arxiv.org/abs/2112.15124"
 url_code: ""
 url_dataset: ""
 url_project: ""
