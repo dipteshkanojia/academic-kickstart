@@ -9,7 +9,7 @@ featured: false
 publication: "*Proceedings of the 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 10th International Joint Conference on Natural Language Processing*"
 url_pdf: "files/aacl-2020-aeg.pdf"
 tags: ["gaze tracking", "deep learning", "automatic essay grading", "experimental", "multi-tasking"]
-url_pdf: "files/aacl-2020-aeg.pdf"
+url_preprint: "https://arxiv.org/abs/2005.12078"
 url_dataset: "http://www.cfilt.iitb.ac.in/cognitive-nlp/"
 url_video: "https://www.youtube.com/watch?v=AdbYRboWrmI"
 ---
