@@ -10,7 +10,7 @@ featured: false
 publication: "*Proceedings of the 17th International Conference on Natural Language Processing (ICON)*"
 url_pdf: "files/icon-2020-aeg.pdf"
 tags: ["gaze tracking", "deep learning", "automatic essay grading", "experimental", "zero-shot"]
-url_pdf: "files/icon-2020-aeg.pdf"
+url_preprint: "https://arxiv.org/abs/2102.11258"
 url_dataset: "https://www.kaggle.com/c/asap-aes/data"
 url_slides: "files/ppt-icon-2020-aeg.pdf"
 ---
