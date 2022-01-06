@@ -19,7 +19,7 @@ featured: false
 
 # Links (optional).
 url_pdf: "files/sssu-2020-commentaries.pdf"
-url_preprint: ""
+url_preprint: "http://arxiv.org/abs/2201.01693"
 url_code: ""
 url_dataset: ""
 url_project: "http://www.cfilt.iitb.ac.in/that/"

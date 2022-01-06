@@ -10,5 +10,6 @@ publication: "*Global Wordnet Conference (GWC 2018)*"
 tags: ["mapping", "wordnets", "linguistics"]
 url_pdf: "files/gwc18-wnlinking.pdf"
 url_slides: "files/ppt-gwc-2018-liking.pdf"
+url_preprint: "http://arxiv.org/abs/2201.01747"
 ---
 

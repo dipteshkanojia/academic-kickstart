@@ -8,6 +8,7 @@ abstract: "In today’s digital world language technology has gained importance.
 featured: false
 publication: "*Sanskrit and Other Languages Technology 2019*"
 url_pdf: "files/soiltech-2019-yogyata.pdf"
+url_preprint: "http://arxiv.org/abs/2201.01700"
 tags: ["word sense disambiguation", "sanskrit", "linguistics"]
 url_poster: "files/poster-soiltech-2019-yogyata.pdf"
 ---
