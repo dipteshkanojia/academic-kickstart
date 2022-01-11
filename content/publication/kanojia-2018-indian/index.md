@@ -8,6 +8,7 @@ abstract: "Wordnets are rich lexico-semantic resources. Linked wordnets are exte
 featured: false
 publication: "*Language Resources and Evaluation Conference (LREC 2018)*"
 tags: ["api", "wordnets", "mapping"]
+url_preprint: "http://arxiv.org/abs/2201.02977"
 url_pdf: "files/lrec-2018-wnlinking.pdf"
 url_poster: "files/poster-lrec-2018-wnlinking.pdf"
 url_dataset: "https://www.cfilt.iitb.ac.in/~wordnet/hindiwn/downloadIWN.php"
