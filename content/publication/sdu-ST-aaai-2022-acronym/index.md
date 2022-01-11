@@ -11,6 +11,7 @@ tags: ["acronym extraction", "shared task", "data analysis", "data augmentation"
 url_pdf: "files/sdu-ST-aaai-2022-acronym.pdf"
 url_code: "https://github.com/dipteshkanojia/PR-AAAI22-SDU-ST1-AE"
 #url_slides: ""
+url_preprint: "http://arxiv.org/abs/2201.03026"
 #url_video: ""
 ---
 
