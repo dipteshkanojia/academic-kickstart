@@ -36,7 +36,10 @@ Yes, I know! but what if you wanted to have a look at the results and output on 
 
 Motivated enough to do this? Let us get on with it!
 
-## Requirements:
+
+## Requirements
+
+
  👉 A Telegram Account: If you don’t have the Telegram app installed just download it from the play store. After downloading create an account using your mobile number just like WhatsApp.
 
  👉 python-telegram-bot library: We will need a library module called python-telegram-bot. This library provides a pure Python interface for the Telegram Bot API. It’s compatible with Python versions 3.6.8+. In addition to the pure API implementation, this library features a number of high-level classes to make the development of bots easy and straightforward. These classes are contained in the “telegram.ext” submodule. For more information, you can check their [official GitHub repo](https://github.com/python-telegram-bot/python-telegram-bot).
