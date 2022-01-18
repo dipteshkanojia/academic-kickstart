@@ -5,7 +5,7 @@ title: "Creating a Telegram Bot to Share Updates via Python"
 subtitle: "Welcome 👋 to the first blog post!"
 summary: ""
 authors: ["Diptesh Kanojia"]
-tags: ["bot", "telegram", "python"]
+tags: ["python", "notifications", "telegram", "hacks"]
 categories: ["python", "notifications", "telegram", "hacks"]
 date: 2022-01-18T11:13:13Z
 lastmod: 2022-01-18T11:13:13Z
