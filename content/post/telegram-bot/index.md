@@ -116,5 +116,9 @@ For example, you can see that my 💬 ID is 1600389501, note your 💬 ID down a
 
 {{< figure src="botScreenshot.png">}}
 
-  👉 More on this later, for now, setup this and have fun training models continously while getting progress notifications.
+👉 More on this later, for now, setup this and have fun training models continously while getting progress notifications.
+
+This ends the whole discussion on how to start getting notifications when your process execution comes to a halt using a Telegram bot. However, let us say you have co-authors, and all of you can run the code with different hyperparameters. Could you use the same steps above to send this message to a group? Why not create a telegram group and add your bot to it? Why not allow the bot to send messages to the group via a different 💬 ID? I will try this in a few days and create a new post.
+
+
 
