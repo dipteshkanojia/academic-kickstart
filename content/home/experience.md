@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company = "Surrey Institute for People-Centred AI"
   company_url = "https://www.surrey.ac.uk/artificial-intelligence"
   location = "Surrey, United Kingdom"
-  date_start = "2022-02-1"
+  date_start = "2022-02-01"
   date_end = ""
   description = """
   Ongoing Projects:
@@ -36,8 +36,19 @@ date_format = "Jan 2006"
   * Automatic Video Description
   * Computational Humour (Collaboration with the CFILT Lab, IIT Bombay)
   * Fake News Detection with Evidence Summarization	
-	"""
-	
+	  """
+
+[[experience]]
+  title = "Visiting Faculty"
+  company = "Indian Institute of Information Technology Lucknow, India"
+  company_url = "https://iiitl.ac.in/index.php/personnel/dr-diptesh-kanojia/"
+  location = "Lucknow, India"
+  date_start = "2022-01-10"
+  date_end = ""
+  description = """
+  I co-teach the Natural Language Processing course to the Master's students at IIIT Lucknow, with [Dr. Rudramurthy V](https://iiitl.ac.in/index.php/personnel/10954/)
+	  """
+
 [[experience]]
   title = "Postdoctoral Research Fellow"
   company = "Centre for Translation Studies (CTS)"
