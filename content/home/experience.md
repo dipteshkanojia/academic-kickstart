@@ -19,24 +19,45 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Postdoctoral Research Fellow"
-  company = "Centre for Translation Studies (CTS)"
-  company_url = "https://www.surrey.ac.uk/centre-translation-studies"
+  title = "Lecturer"
+  company = "Surrey Institute for People-Centred AI"
+  company_url = "https://www.surrey.ac.uk/artificial-intelligence"
   location = "Surrey, United Kingdom"
-  date_start = "2021-02-04"
+  date_start = "2022-02-1"
   date_end = ""
   description = """
   Ongoing Projects:
   
   * Quality Estimation for Machine Translation
   * Post-editing for Machine Translation (Collaboration with the CFILT Lab, IIT Bombay)
+  * Abbreviation and Acronym Identification
   * Multilingual Translation in Healthcare domain
   * Multilingual Translation of Sentiment in Tweets
   * Automatic Video Description
   * Computational Humour (Collaboration with the CFILT Lab, IIT Bombay)
   * Fake News Detection with Evidence Summarization
-  * Multimodal Hate-speech Detection 
+  
+  Aprat from these research topics, I also co-teach the NLP module at the Department of Computer Science at Surrey.	
+	"""
 	
+[[experience]]
+  title = "Postdoctoral Research Fellow"
+  company = "Centre for Translation Studies (CTS)"
+  company_url = "https://www.surrey.ac.uk/centre-translation-studies"
+  location = "Surrey, United Kingdom"
+  date_start = "2021-01-22"
+  date_end = "2021-01-31"
+  description = """
+  Projects:
+  
+  * Quality Estimation for Machine Translation
+  * Post-editing for Machine Translation (Collaboration with the CFILT Lab, IIT Bombay)
+  * Abbreviation and Acronym Identification
+  * Multilingual Translation in Healthcare domain
+  * Multilingual Translation of Sentiment in Tweets
+  * Automatic Video Description
+  * Computational Humour (Collaboration with the CFILT Lab, IIT Bombay)
+  * Fake News Detection with Evidence Summarization	
 	"""
 
 [[experience]]
