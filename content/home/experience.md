@@ -35,9 +35,7 @@ date_format = "Jan 2006"
   * Multilingual Translation of Sentiment in Tweets
   * Automatic Video Description
   * Computational Humour (Collaboration with the CFILT Lab, IIT Bombay)
-  * Fake News Detection with Evidence Summarization
-  
-  Aprat from these research topics, I also co-teach the NLP module at the Department of Computer Science at Surrey.	
+  * Fake News Detection with Evidence Summarization	
 	"""
 	
 [[experience]]
@@ -46,7 +44,7 @@ date_format = "Jan 2006"
   company_url = "https://www.surrey.ac.uk/centre-translation-studies"
   location = "Surrey, United Kingdom"
   date_start = "2021-01-22"
-  date_end = "2021-01-31"
+  date_end = "2022-01-31"
   description = """
   Projects:
   
