@@ -14,7 +14,7 @@ role: Lecturer
 
 # Organizations/Affiliations
 organizations:
-- name: Surrey Institute fo People-Centred AI
+- name: Surrey Institute for People-Centred AI
   url: "https://www.surrey.ac.uk/artificial-intelligence"
 - name: University of Surrey
   url: "https://www.surrey.ac.uk/"
