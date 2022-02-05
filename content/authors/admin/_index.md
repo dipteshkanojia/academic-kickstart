@@ -14,14 +14,16 @@ role: Lecturer
 
 # Organizations/Affiliations
 organizations:
-- name: Surrey Institute for People-Centred AI
+- name: Surrey Institute for PAI
   url: "https://www.surrey.ac.uk/artificial-intelligence"
 - name: University of Surrey
   url: "https://www.surrey.ac.uk/"
 - name: CFILT Lab, IIT Bombay
   url: "http://www.cfilt.iitb.ac.in"
+- name: CDSAI, IIIT Lucknow
+  url: "https://iiitl.ac.in/index.php/personnel/dr-diptesh-kanojia/"
 # Short bio (displayed in user profile at end of posts)
-bio: NLP Researcher | Research Fellow | University of Surrey
+bio: NLP Researcher | Lecturer | University of Surrey
 
 interests:
 - Artificial Intelligence
