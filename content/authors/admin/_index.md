@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Postdoctoral Research Fellow
+role: Lecturer
 
 # Organizations/Affiliations
 organizations:
-- name: Centre for Translation Studies
-  url: "https://www.surrey.ac.uk/centre-translation-studies"
+- name: Surrey Institute fo People-Centred AI
+  url: "https://www.surrey.ac.uk/artificial-intelligence"
 - name: University of Surrey
   url: "https://www.surrey.ac.uk/"
 - name: CFILT Lab, IIT Bombay
@@ -87,9 +87,7 @@ email: "dipteshkanojia@gmail.com"
 # - Researchers
 # - Visitors
 ---
-I am a {{< staticref "https://www.surrey.ac.uk/people/diptesh-kanojia" "newtab" >}}Lecturer at Surrey Institute for People-Centred AI{{< /staticref >}}. My reserach adderesses problems intersecting the areas of Natural Language Processing (NLP) and Machine or Deep Learning (ML/DL). 
-
-The focus of my research is Machine Translation; working with {{< staticref "https://www.surrey.ac.uk/people/sabine-braun" "newtab" >}}Prof. Sabine Braun{{< /staticref >}}, {{< staticref "https://www.surrey.ac.uk/people/constantin-orasan" "newtab" >}}Prof. ‪Constantin Orăsan{{< /staticref >}}, {{< staticref "https://www.surrey.ac.uk/people/felix-do-carmo" "newtab" >}}Dr. Félix do Carmo{{< /staticref >}} and other colleagues.
+I am a {{< staticref "https://www.surrey.ac.uk/people/diptesh-kanojia" "newtab" >}}Lecturer at Surrey Institute for People-Centred AI{{< /staticref >}}. My reserach adderesses problems intersecting the areas of Natural Language Processing (NLP) and Machine or Deep Learning (ML/DL). The focus of my research is Machine Translation; working with {{< staticref "https://www.surrey.ac.uk/people/sabine-braun" "newtab" >}}Prof. Sabine Braun{{< /staticref >}}, {{< staticref "https://www.surrey.ac.uk/people/constantin-orasan" "newtab" >}}Prof. ‪Constantin Orăsan{{< /staticref >}}, {{< staticref "https://www.surrey.ac.uk/people/felix-do-carmo" "newtab" >}}Dr. Félix do Carmo{{< /staticref >}} and other colleagues.
 
 Other than that, my interests also lie in the NLP sub-areas of Cognitive NLP, Distributional and Lexical Semantics, Multimodality/Multilingualism in NLP, Sentiment/Emotion Analysis; and Teaching. I graduated with a Joint PhD from the {{< staticref "https://www.iitbmonash.org" "newtab" >}}IITB-Monash Research Academy{{< /staticref >}} ( {{< staticref "https://www.iitb.ac.in" "newtab" >}}IIT Bombay, India{{< /staticref >}} & {{< staticref "https://www.monash.edu" "newtab" >}}Monash University, Australia{{< /staticref >}} ) in 2021; and was advised by {{< staticref "https://www.cse.iitb.ac.in/~pb" "newtab" >}}Prof. Pushpak Bhattacharyya{{< /staticref >}}, {{< staticref "https://users.monash.edu.au/~gholamrh/" "newtab" >}}Prof. Gholamreza Haffari{{< /staticref >}}, and {{< staticref "https://www.hss.iitb.ac.in/en/faculty-profile/malhar-kulkarni" "newtab" >}}Prof. Malhar Kulkarni{{< /staticref >}}.
 
