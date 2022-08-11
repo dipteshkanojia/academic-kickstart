@@ -12,7 +12,7 @@ time_end = 2022-08-10T14:30:00
 authors = ["Diptesh Kanojia"]
 
 # Abstract and optional shortened version.
-abstract = "In this talk, I discuss the Transformers architecture in some detail along with the evolution of embeddings in the NLP sub-area of AI. The talk also features various other architectures and example of the fine tuning process (some of which are ongoing investigations and shall be redacted when the slides are uploaded)"
+abstract = "In this talk, I discuss the Transformers architecture in some detail along with the evolution of embeddings in the NLP sub-area of AI. The talk also features various other architectures and example of the fine tuning process. Some slides have been redacted as they are ongoing investigations in our research group. These were presented internally at the University."
 abstract_short = "Transformers | Natural Language Processing | BERT | Attention | Neural Machine Translation"
 
 # Name of event and optional event URL.
@@ -39,7 +39,7 @@ tags = ["talks", "transformers", "bert", "attention"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = "#"
+url_slides = "files/cvssptalk-2022-transformers-nlp.pdf"
 url_video = ""
 url_code = ""
 
