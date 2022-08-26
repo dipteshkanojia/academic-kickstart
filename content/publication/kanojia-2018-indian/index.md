@@ -12,5 +12,7 @@ url_preprint: "http://arxiv.org/abs/2201.02977"
 url_pdf: "files/lrec-2018-wnlinking.pdf"
 url_poster: "files/poster-lrec-2018-wnlinking.pdf"
 url_dataset: "https://www.cfilt.iitb.ac.in/~wordnet/hindiwn/downloadIWN.php"
+url_dataset: "https://github.com/cfiltnlp/IWN-En"
+url_code: "https://github.com/cfiltnlp/IWN-En"
 ---
 
