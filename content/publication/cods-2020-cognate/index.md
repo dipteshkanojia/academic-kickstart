@@ -21,8 +21,8 @@ featured: false
 # Links (optional).
 url_pdf: "files/cods-2020-cognate.pdf"
 url_preprint: ""
-url_code: ""
-url_dataset: ""
+url_code: "http://www.cfilt.iitb.ac.in/cognateSiamese"
+url_dataset: "https://github.com/cfiltnlp/challengeCognateFF"
 url_project: ""
 url_slides: ""
 url_video: ""
