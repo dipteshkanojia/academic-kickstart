@@ -11,10 +11,10 @@ publication: "*Proceedings of the 12th Workshop on Computational Approaches to S
 url_pdf: "files/wassa-2022-emotion.pdf"
 # url_preprint: "https://arxiv.org/abs/2204.12061"
 tags: ["emotion recognition", "empathy prediction", "discourse", "sentiment", "shared-task"]
-# url_slides: ""
-# url_code: ""
+# url_slides: "files/ppt-wassa-2022-emotion.pdf"
+# url_code: "https://github.com/Chanson0573/WASSA_SharedTask"
 # url_dataset: ""
 # url_poster: ""
-#url_video: ""
+# url_video: ""
 ---
 
