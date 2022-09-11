@@ -13,7 +13,7 @@ url_pdf: "files/eacl-2021-cognate.pdf"
 tags: ["best paper honourable mention", "gaze tracking", "deep learning", "cognate detection", "experimental", "cross lingual"]
 url_pdf: "files/eacl-2021-cognate.pdf"
 url_poster: "files/poster-eacl-2021-cognate.pdf"
-url_code: "https://github.com/prashantksharma/CaCD"
+url_code: "https://github.com/cfiltnlp/CaCD"
 url_slides: "files/ppt-eacl-2021-cognate.pdf"
 url_video: "https://slideslive.com/38954530/cognitionaware-cognate-detection"
 url_preprint: "https://arxiv.org/abs/2112.08087"
