@@ -34,6 +34,15 @@ height = "225px"
 #  cta_icon_pack = "fas"
 #  cta_icon = "graduation-cap"
 [[item]]
+  #title = "Paper Accepted at COLING 2022"
+  content = "'Harnessing Abstractive Summarization for Fact-Checked Claim Detection' gets accepted at COLING 2022. Paper released; Code, data and models to be made available soon!"
+  align = "right"
+
+  overlay_color = "rgb(29, 33, 39)"  # An HTML color value.
+  overlay_img = ""  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  
+[[item]]
   #title = "Quality Estimation for Machine Translation"
   content = "Invited Talk at Microsoft Research, Bangalore, India on 21st December. Excited!"
   align = "right"
