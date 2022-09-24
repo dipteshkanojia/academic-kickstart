@@ -14,6 +14,7 @@ tags: ["fact-checking", "google fact check", "automatic pipeline", "abstractive 
 # url_poster: "files/poster-eacl-2021-cognate.pdf"
 url_code: "https://github.com/varadhbhatnagar/FC-Claim-Det"
 # url_slides: "files/ppt-eacl-2021-cognate.pdf"
+url_dataset: "https://github.com/varadhbhatnagar/FC-Claim-Det"
 # url_video: "https://slideslive.com/38954530/cognitionaware-cognate-detection"
 # url_preprint: "https://arxiv.org/abs/2112.08087"
 ---
