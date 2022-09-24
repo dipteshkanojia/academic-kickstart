@@ -12,11 +12,11 @@ time_end = 2022-09-16T14:30:00
 authors = ["Diptesh Kanojia"]
 
 # Abstract and optional shortened version.
-abstract = "In this talk, I gave an introduction to chatbots and its basic building blocks. We discussed the role of fundamental NLP tasks in chatbots and how they can be used to build a chatbot. I also discussed the various challenges in building a chatbot and how to overcome them."
+abstract = "In this invited talk to the [LITHME WG8](https://lithme.eu/working-groups/wg8/) meeting, I gave an introduction to chatbots and its basic building blocks. We discussed the role of fundamental NLP tasks in chatbots and how they can be used to build a chatbot. I also discussed the various challenges in building a chatbot and how to overcome them."
 abstract_short = "Chatbots | Intent Classification | Named Entity Recognition | NLP"
 
 # Name of event and optional event URL.
-event = "Invited talk @ LITHME WG8"
+event = "Invited talk @ [LITHME WG8](https://lithme.eu/working-groups/wg8/)"
 event_url = "#"
 
 # Location of event.
