@@ -35,7 +35,7 @@ height = "225px"
 #  cta_icon = "graduation-cap"
 [[item]]
   #title = "Paper Accepted at COLING 2022"
-  content = "'Harnessing Abstractive Summarization for Fact-Checked Claim Detection' gets accepted at COLING 2022. Paper released; Code, data and models to be made available soon!"
+  content = "'Harnessing Abstractive Summarization for Fact-Checked Claim Detection' gets accepted at COLING 2022. Paper released along with ccde and data released.Models to be made available soon!"
   align = "right"
 
   overlay_color = "rgb(29, 33, 39)"  # An HTML color value.
