@@ -56,8 +56,8 @@ time_format = "3:04 PM"
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "dipteshkanojia [at] gmail [dot] com"
-phone = "+44 - [seven][four][zero][four]67984[one]"
-address = "Centre for Translation Studies (Room 13LC03), Library and Learning Centre, University of Surrey, Guildford GU2 7XH, United Kingdom"
+# phone = "+44 - [seven][four][zero][four]67984[one]"
+address = "46BA01, Surrey Institute for People-Centred AI, CVSSP Building, University of Surrey, Guildford GU2 7XH, United Kingdom"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = """Monday - Friday, 11:00 to 17:00"""
