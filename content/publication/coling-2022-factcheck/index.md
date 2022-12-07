@@ -13,9 +13,9 @@ url_pdf: "files/coling-2022-factcheck.pdf"
 tags: ["fact-checking", "google fact check", "automatic pipeline", "abstractive summarization", "twitter data", "social media", "misinformation"]
 # url_poster: "files/poster-eacl-2021-cognate.pdf"
 url_code: "https://github.com/varadhbhatnagar/FC-Claim-Det"
-# url_slides: "files/ppt-eacl-2021-cognate.pdf"
+url_slides: "files/ppt-coling-2022-factcheck.pdf"
 url_dataset: "https://github.com/varadhbhatnagar/FC-Claim-Det"
-# url_video: "https://slideslive.com/38954530/cognitionaware-cognate-detection"
-# url_preprint: "https://arxiv.org/abs/2112.08087"
+url_video: "https://www.youtube.com/watch?v=iwdanIRAsmQ"
+url_preprint: "https://arxiv.org/abs/2209.04612"
 ---
 
