@@ -94,9 +94,9 @@ map = 2
 map_api_key = "pk.eyJ1IjoiZGlwdGVzaGthbm9qaWEiLCJhIjoiY2p4aGg0eDM1MTU4MzNwczB0emYzaGVqbyJ9.gItEC4_Q-3i-jEa_Z7BSOA"
 #latitude = "19.131267"
 #longitude = "72.915754"
-latitude = "51.24271"
-longitude = "-0.58945"
-zoom = 15
+latitude = "51.24372"
+longitude = "-0.5886"
+zoom = 16
 
 ############################
 ## Plugins                ##
