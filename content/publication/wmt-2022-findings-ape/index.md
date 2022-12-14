@@ -10,6 +10,8 @@ publication: "*Proceedings of the 7th Conference on Machine Translation (WMT 202
 url_pdf: "https://www.statmt.org/wmt22/pdf/2022.wmt-1.5.pdf"
 tags: ["automatic post-editing", "APE", "English-Marathi", "low-resource", "post-machine-translation"]
 url_slides: "files/ppt-wmt-2022-findings-ape.pdf"
-url_dataset: "https://github.com/surrey-nlp/APE-Shared-Task"
+url_dataset: https://www.statmt.org/wmt22/ape-task.html"
+url_code: "https://github.com/surrey-nlp/APE-Shared-Task"
+
 ---
 
