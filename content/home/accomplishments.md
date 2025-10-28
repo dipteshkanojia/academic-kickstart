@@ -19,6 +19,15 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "School of CS and EE, University of Surrey"
+  organization_url = "https://www.surrey.ac.uk/school-computer-science-and-electronic-engineering"
+  title = "Tony Jeans Inspirational Teaching Award"
+  url = "https://www.linkedin.com/posts/surrey-institute-for-people-centred-ai_we-are-delighted-to-announce-that-pais-activity-7222266310913671168-ba8z?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAFOEsgBzvzLhp7Mtm3Uq4NAEPxibbYX0hY"
+  date_start = "2024-07-24"
+  date_end = "2024-07-24"
+  description = "Student-nominated Tony Jeans award is given annually to a member of academic staff nominated by students for being the “most inspiring”. Tony Jeans was a popular and long serving member of the academic staff at the University of Surrey and was a truly excellent lecturer. Therefore, the award recognises someone that the students feel has really made a difference to their understanding or the way they learn, or simply their desire to learn and be successful."
+
+[[item]]
   organization = "EACL 2021 Conference"
   organization_url = "https://www.iitbmonash.org"
   title = "Best Paper Honourable Mention (Long Papers)"
@@ -31,7 +40,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = "IITB - Monash Research Academy"
   organization_url = "https://www.iitbmonash.org"
-  title = "Best Poster Presentation (Early Researcher Category)"
+  title = "Best Poster Presentation"
   url = ""
   certificate_url = ""
   date_start = "2016-08-01"

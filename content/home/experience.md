@@ -19,23 +19,38 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Senior Lecturer"
+  company = "Surrey Institute for People-Centred AI"
+  company_url = "https://www.surrey.ac.uk/artificial-intelligence"
+  location = "Surrey, United Kingdom"
+  date_start = "2025-03-01"
+  date_end = ""
+  description = """
+  Ongoing Projects:
+  
+  * Machine Translation
+  * Information Retrieval (w/ eBay Inc.)
+  * Online Content Moderation
+  * Multimodal Content Generation
+  * Accessible Audio Description
+	  """
+
+[[experience]]
   title = "Lecturer"
   company = "Surrey Institute for People-Centred AI"
   company_url = "https://www.surrey.ac.uk/artificial-intelligence"
   location = "Surrey, United Kingdom"
   date_start = "2022-02-01"
-  date_end = ""
+  date_end = "2025-02-28"
   description = """
   Ongoing Projects:
   
-  * Quality Estimation for Machine Translation
-  * Post-editing for Machine Translation (Collaboration with the CFILT Lab, IIT Bombay)
-  * Abbreviation and Acronym Identification
-  * Multilingual Translation in Healthcare domain
-  * Multilingual Translation of Sentiment in Tweets
-  * Automatic Video Description
-  * Computational Humour (Collaboration with the CFILT Lab, IIT Bombay)
+  * Machine Translation (Evaluation and Correction)
+  * Information Retrieval (w/ eBay Inc.)
+  * Accessible Audio Description
+  * Computational Humour
   * Fake News Detection with Evidence Summarization	
+  * Biomedical NER
 	  """
 
 [[experience]]
@@ -44,9 +59,9 @@ date_format = "Jan 2006"
   company_url = "https://iiitl.ac.in/index.php/personnel/dr-diptesh-kanojia/"
   location = "Lucknow, India"
   date_start = "2022-01-10"
-  date_end = ""
+  date_end = "2023-05-30"
   description = """
-  I co-teach the Natural Language Processing course to the Master's students at IIIT Lucknow, with [Dr. Rudramurthy V](https://iiitl.ac.in/index.php/personnel/10954/)
+  I co-taught the Natural Language Processing course to the Master's students at IIIT Lucknow, with [Dr. Rudramurthy V](https://research.ibm.com/people/rudra-murthy-venkataramana)
 	  """
 
 [[experience]]
@@ -62,11 +77,6 @@ date_format = "Jan 2006"
   * Quality Estimation for Machine Translation
   * Post-editing for Machine Translation (Collaboration with the CFILT Lab, IIT Bombay)
   * Abbreviation and Acronym Identification
-  * Multilingual Translation in Healthcare domain
-  * Multilingual Translation of Sentiment in Tweets
-  * Automatic Video Description
-  * Computational Humour (Collaboration with the CFILT Lab, IIT Bombay)
-  * Fake News Detection with Evidence Summarization	
 	"""
 
 [[experience]]
@@ -77,29 +87,11 @@ date_format = "Jan 2006"
    date_start = "2017-01-15"
    date_end = ""
    description = """
-   Reviewed papers in the following conferences/journals:
+   (Meta-) Reviewed papers in the following conferences/journals:
    
-   * Computer Speech and Language
-   * Transactions on Asian and Low-Resource Language Information Processing
-   * Pattern Recognition Letters
-   * AAAI Main Conference (2021, 2020)
-   * AAAI Demonstrations Track (2021, 2020, 2019)
-   * IJCAI Senior Program Committee Member (2020, 2021)
-   * IJCAI Novel Program Committee [3-year invite] (2022, 2023, 2024)
-   * ACL Rolling Reviews (2021)
-   * ACL (2021, 2020, 2019, 2018)
-   * EMNLP (2021, 2020, 2019)
-   * CoNLL (2021, 2020, 2019)
-   * EACL (2021)
-   * COLING (2020)
-   * LREC (2020)
-   * GWC (2021, 2019, 2018)
-   * IEEE SSCI (2021)
-   * GLOBALEX Workshop with LREC 2018
-   * SIGLEX-MWE Workshop (2020, 2019)
-   * Eye Tracking Research and Applications (ETRA 2020)
+   * *ACL Rolling Review, EMNLP, NeurIPS, CVPR, AAAI, IJCAI, ICCV, COLING, and LREC
+   * Journals: CSL, TALLIP, PR Letters, ACM CSUR
    <br /> <br />
-
 
    [**ACL Professional Conduct Committee (2021 - 2023)**](https://www.aclweb.org/adminwiki/index.php?title=Professional_Conduct_Committee)
    * Member of the Professional Conduct Committee (PCC) establised by ACL; responsible for responding to complaints raised under the Anti-Harassment Policy.
@@ -121,7 +113,7 @@ date_format = "Jan 2006"
 
   * Assisted Prof. Kavi Arya in conducting course on Software Lab (PG) (CS699). [Autumn 2019]
    
-        Awarded TA of the Semester by Computer Science and Engineering Department.
+      - Awarded TA of the Semester by Computer Science and Engineering Department.
 
   * Assisted Prof. Rushikesh Joshi in conducting theory course on Software Architecture (CS718). [Spring 2019]
 
@@ -129,7 +121,7 @@ date_format = "Jan 2006"
 
   * Assisted Prof. Kavi Arya in conducting course on Software Lab (UG) (CS251). [Autumn 2017]
 
-          Awarded TA of the Semester by Computer Science and Engineering Department.
+      - Awarded TA of the Semester by Computer Science and Engineering Department.
   
   * Assisted Prof. Supratik Chakraborty in conducting theory course on [Digital Logic Design (CS226)](https://www.cse.iitb.ac.in/~supratik/courses/cs226/spr17/). [Spring 2017]
   """
@@ -144,15 +136,8 @@ date_format = "Jan 2006"
   description = """
   Work Profile:
   
-  * Sarcasm Detection using Cognitive Studies.
-  * Sarcasm Understandability using Cogninitive Studies in NLP.
-  * Multilingual Topic Modelling to improve Indian Language Machine Translation.
-  * Working simultaneously on Hindi, Marathi, Sanskrit WordNets, IndoWordNet and Development of DiscrimiNET.
-  * DiscrimiNET - a resource based disambiguation engine with the ability to disambiguate b/w word senses based on clue words. (on a pause)
-  * TransChat - Machine Translation for Instant Messaging.
-  * Parallel Corpora Management Workbench (PaCMan) - a machine translation aid allowing translation / validation / alignment for parallel corpora.
-  * PanchaBhoota - Hierarchical Phrase based Statistical Machine Translation system for five language pairs.
-  * Cognitive studies for Sentiment annotation.
+  * Sentiment/Sarcasm Understandability using Cognitive NLP.
+  * Work on Hindi, Marathi, Sanskrit WordNets, IndoWordNet.
   * Systems Administrator for Centre for Indian Language Technology handling / troubleshooting / maintaining both server systems, and desktop computers.
 	
 	"""
