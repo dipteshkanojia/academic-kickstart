@@ -16,10 +16,9 @@ font = "default"
 description = "NLP Researcher"
 site_type = "Person"
 local_business_type = ''
-org_name = ''
+org_name = 'University of Surrey'
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-#sharing = "true"
 sharing_image = "sharing.png"
 
 # Twitter username (without @). Used when a vistor shares your site on Twitter.
@@ -59,7 +58,7 @@ email = "dipteshkanojia [at] gmail [dot] com"
 address = "BA Building, University of Surrey"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-# office_hours = """On Conta"""
+office_hours = """Available on contact via email"""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 #appointment_url = "https://calendly.com"
