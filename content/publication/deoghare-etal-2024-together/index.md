@@ -8,5 +8,6 @@ featured: false
 publication: "*Findings of the Association for Computational Linguistics: EMNLP 2024*"
 url_pdf: "https://aclanthology.org/2024.findings-emnlp.634.pdf"
 url_preprint: "https://arxiv.org/abs/2410.17973"
+url_code: "https://github.com/cfiltnlp/Multilingual-APE"
 tags: ["automatic post-editing", "multilingual", "low-resource languages", "machine translation"]
 ---
