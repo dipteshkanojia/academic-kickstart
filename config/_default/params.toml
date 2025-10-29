@@ -20,7 +20,7 @@ org_name = ''
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 #sharing = "true"
-sharing_image = "sharingimage.png"
+sharing_image = "sharing.png"
 
 # Twitter username (without @). Used when a vistor shares your site on Twitter.
 twitter = "diptesh"
@@ -56,11 +56,10 @@ time_format = "3:04 PM"
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "dipteshkanojia [at] gmail [dot] com"
-# phone = "+44 - [seven][four][zero][four]67984[one]"
-address = "46BA01, Surrey Institute for People-Centred AI, CVSSP Building, University of Surrey, Guildford GU2 7XH, United Kingdom"
+address = "BA Building, University of Surrey"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = """Monday - Friday, 11:00 to 17:00"""
+# office_hours = """On Conta"""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 #appointment_url = "https://calendly.com"
