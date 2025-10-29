@@ -38,30 +38,10 @@ Apparently, our garden isn't ours anymore; pretty much annexed by this tabby aut
 
 {{< figure src="Cat2.jpg" title="'where are my treats, servant?'" >}}
 
-Here's the crazy part, given we had pet cats earlier, we *feed him* cat treats. He comes right inside nowadays through the kitchen window and pretty much demands them.
-
 {{< figure src="Cat1.jpg" title="It's frankly embarrassing that *you're* the one with the opposable thumbs." >}}
+
+Here's the crazy part, given we had pet cats earlier, we *feed him* cat treats. He comes right inside nowadays through the kitchen window and pretty much demands for food.
 
 You'd think this would buy some loyalty, or at least a nice purr, right? Nope. Just an excercise in territorial rights and treat tax collection. 
 
-I will update this page further with more disdained looks. 
-
-<style>
-  /*
-    This CSS will:
-    1. Target all figures inside your article.
-    2. Set their max-width to 500px (or any size you like).
-    3. Center the entire figure (image + caption) in the post.
-    4. Center the h4 caption text underneath.
-  */
-  
-  .article-style figure {
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .article-style figure figcaption h4 {
-    text-align: center;
-  }
-</style>
+I will update this page further with more **disdained** looks.
