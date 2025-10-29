@@ -20,7 +20,7 @@ event = "NLP Café @ CTS, University of Surrey"
 event_url = "https://nlp-at-cts.dinel.org.uk/"
 
 # Location of event.
-location = "CTS Building, University of Surrey, United Kingdom"
+location = "Centre for Translation Studies, University of Surrey"
 
 # Is this a selected talk? (true/false)
 selected = true
