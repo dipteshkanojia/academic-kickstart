@@ -10,5 +10,7 @@ url_pdf: "https://arxiv.org/abs/2508.07484"
 url_preprint: "https://arxiv.org/abs/2508.07484"
 url_code: "https://github.com/surrey-nlp/ALOPE"
 url_dataset: "https://huggingface.co/collections/surrey-nlp/alope-models"
+url_poster: "files/poster-colm-25-alope.pdf"
+url_slides: "files/NLPCafe-ALOPE.pdf"
 tags: ["quality estimation", "machine translation", "LLMs", "layer optimization", "low-resource languages"]
 ---

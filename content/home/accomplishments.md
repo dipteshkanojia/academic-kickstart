@@ -19,12 +19,21 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "MM4SG Workshop @ WWW 2025 Conference"
+  organization_url = "https://sites.google.com/view/mm4sg-webconf25"
+  title = "Best Paper"
+  url = ""
+  date_start = "2025-04-29"
+  date_end = ""
+  description = "'Towards a Robust Framework for Multimodal Hate Detection: A Study on Video vs. Image-based Content' awarded the best paper within the MM4SG Workshop @ ACM WebConf (WWW 2025)"
+
+[[item]]
   organization = "School of CS and EE, University of Surrey"
   organization_url = "https://www.surrey.ac.uk/school-computer-science-and-electronic-engineering"
   title = "Tony Jeans Inspirational Teaching Award"
   url = "https://www.linkedin.com/posts/surrey-institute-for-people-centred-ai_we-are-delighted-to-announce-that-pais-activity-7222266310913671168-ba8z?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAFOEsgBzvzLhp7Mtm3Uq4NAEPxibbYX0hY"
   date_start = "2024-07-24"
-  date_end = "2024-07-24"
+  date_end = ""
   description = "Student-nominated Tony Jeans award is given annually to a member of academic staff for being the most inspiring. Tony Jeans (1971-2008) was a popular and long serving member of the academic staff at the University of Surrey and was a truly excellent lecturer. The award is a tribute to his legacy of inspiring students."
 
 [[item]]

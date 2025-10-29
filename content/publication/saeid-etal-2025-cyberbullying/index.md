@@ -8,5 +8,6 @@ featured: false
 publication: "*Proceedings of the 15th International Conference on Recent Advances in Natural Language Processing - Natural Language Processing in the Generative AI era*"
 url_pdf: "https://acl-bg.org/proceedings/2025/RANLP%202025/pdf/2025.ranlp-1.120.pdf"
 url_preprint: "https://arxiv.org/abs/2508.06360"
+url_poster: "files/poster-ranlp-2025-CB.pdf"
 tags: ["cyberbullying detection", "aggression", "LLMs", "prompting", "social media"]
 ---

@@ -8,5 +8,7 @@ featured: false
 publication: "*Findings of the Association for Computational Linguistics: ACL 2025*"
 url_pdf: "https://aclanthology.org/2025.findings-acl.441.pdf"
 url_dataset: "https://huggingface.co/datasets/unswnlporg/BESSTIE"
+url_code: "https://github.com/unswnlp/BESSTIE"
+url_poster: "files/poster-acl-2025-BESSTIE.pdf"
 tags: ["sentiment analysis", "sarcasm detection", "varieties of English", "benchmark", "LLMs"]
 ---
