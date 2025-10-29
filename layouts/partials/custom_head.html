@@ -3,3 +3,16 @@
 {{ template "_internal/google_analytics.html" . }}
 
 {{/* This partial is included in `themes/academic/layout/partials/site_head.html`. */}}
+<style>
+.article-style figure {
+  /* You can change 600px to 500px if you prefer */
+  max-width: 500px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* This rule centers the h4 caption text *inside* the figure block */
+.article-style figure figcaption h4 {
+  text-align: center;
+}
+</style>
