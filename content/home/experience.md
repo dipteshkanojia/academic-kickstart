@@ -43,7 +43,7 @@ date_format = "Jan 2006"
   date_start = "2022-02-01"
   date_end = "2025-02-28"
   description = """
-  Ongoing Projects:
+  Projects:
   
   * Machine Translation (Evaluation and Correction)
   * Information Retrieval (w/ eBay Inc.)
@@ -89,11 +89,11 @@ date_format = "Jan 2006"
    description = """
    (Meta-) Reviewed papers in the following conferences/journals:
    
-   * *ACL Rolling Review, EMNLP, NeurIPS, CVPR, AAAI, IJCAI, ICCV, COLING, and LREC
-   * Journals: CSL, TALLIP, PR Letters, ACM CSUR
+   * *ACL Rolling Reviews, NeurIPS, CVPR, AAAI, ACM MM, IJCAI, ICCV, COLING, and LREC
+   * ACM CSUR, CSL, NLP, TALLIP, PR Letters. 
    <br /> <br />
 
-   [**ACL Professional Conduct Committee (2021 - 2023)**](https://www.aclweb.org/adminwiki/index.php?title=Professional_Conduct_Committee)
+   [**ACL Professional Conduct Committee (2021 - 2026)**](https://www.aclweb.org/adminwiki/index.php?title=Professional_Conduct_Committee)
    * Member of the Professional Conduct Committee (PCC) establised by ACL; responsible for responding to complaints raised under the Anti-Harassment Policy.
  
 	"""
@@ -107,28 +107,26 @@ date_format = "Jan 2006"
   date_end = "2020-07-30"
   description = """
   <br />
-  * Assisted Prof. Pushpak Bhattacharyya in conducting the course on ['Speech, Natural Language Processing and the Web' (CS626)](https://www.cse.iitb.ac.in/~jyotsanak/CS626/). [Autumn 2020]
+  * Assisted theory course on ['Speech, Natural Language Processing and the Web' (CS626)](https://www.cse.iitb.ac.in/~jyotsanak/CS626/). [Autumn 2020]
           
-  * Assisted Prof. Kavi Arya in conducting theory and practical lab course on Embedded Systems (CS684). [Spring 2020]
+  * Assisted theory course and practical lab on Embedded Systems (CS684). [Spring 2020]
 
-  * Assisted Prof. Kavi Arya in conducting course on Software Lab (PG) (CS699). [Autumn 2019]
-   
-      - Awarded TA of the Semester by Computer Science and Engineering Department.
+  * Assisted on Software Lab (PG) (CS699). [Autumn 2019]
+      - Awarded TA of the Semester
 
-  * Assisted Prof. Rushikesh Joshi in conducting theory course on Software Architecture (CS718). [Spring 2019]
+  * Assisted theory course on Software Architecture (CS718). [Spring 2019]
 
-  * Assisted Prof. R.K. Shyamsundar in conducting theory course Data Structures (CS213). [Autumn 2018]
+  * Assisted theory course on Data Structures (CS213). [Autumn 2018]
 
-  * Assisted Prof. Kavi Arya in conducting course on Software Lab (UG) (CS251). [Autumn 2017]
-
-      - Awarded TA of the Semester by Computer Science and Engineering Department.
+  * Assisted on Software Lab (UG) (CS251). [Autumn 2017]
+      - Awarded TA of the Semester
   
-  * Assisted Prof. Supratik Chakraborty in conducting theory course on [Digital Logic Design (CS226)](https://www.cse.iitb.ac.in/~supratik/courses/cs226/spr17/). [Spring 2017]
+  * Assisted on theory course [Digital Logic Design (CS226)](https://www.cse.iitb.ac.in/~supratik/courses/cs226/spr17/). [Spring 2017]
   """
 
 [[experience]]
   title = "Research Engineer"
-  company = "Center for Indian Language Technology (CFILT)"
+  company = "Computation for Indian Language Technology (CFILT)"
   company_url = "http://www.cfilt.iitb.ac.in"
   location = "Mumbai"
   date_start = "2013-06-30"
@@ -138,7 +136,15 @@ date_format = "Jan 2006"
   
   * Sentiment/Sarcasm Understandability using Cognitive NLP.
   * Work on Hindi, Marathi, Sanskrit WordNets, IndoWordNet.
-  * Systems Administrator for Centre for Indian Language Technology handling / troubleshooting / maintaining both server systems, and desktop computers.
+  * Automatic Essay Grading
+  * Systems Administrator and Webmaster
+  * Developer
+  
+    - Wordnet Android apps
+    - PaCMan: Parallel Corpora Management Workbench for Machine Translation
+    - DiscrimiNET: heuristic-based sense dismbiguation and context annotation framework
+    - Extensions (Chrome and Firefox): made Wordnets accessible as dictionaries.  
+    - Python IndoWordnet API
 	
 	"""
 

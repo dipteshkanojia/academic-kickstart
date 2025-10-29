@@ -1,0 +1,12 @@
+---
+title: "BESSTIE: A Benchmark for Sentiment and Sarcasm Classification for Varieties of English"
+date: 2025-07-27T00:00:00
+authors: ["Dipankar Srirag", "Aditya Joshi", "Jordan Painter", "Diptesh Kanojia"]
+publication_types: ["1"]
+abstract: "Despite large language models (LLMs) being known to exhibit bias against non-mainstream varieties, there are no known labeled datasets for sentiment analysis of English. To address this gap, we introduce BESSTIE, a benchmark for sentiment and sarcasm classification for three varieties of English: Australian (en-AU), Indian (en-IN), and British (en-UK). Using web-based content from two domains, namely, Google Place reviews and Reddit comments, we collect datasets for these language varieties using two methods: location-based and topic-based filtering. Native speakers of the language varieties manually annotate the datasets with sentiment and sarcasm labels. To assess whether the dataset accurately represents these varieties, we conduct two validation steps: (a) manual annotation of language varieties and (b) automatic language variety prediction. We perform an additional annotation exercise to validate the reliance of the annotated labels. Subsequently, we fine-tune nine large language models (LLMs) (representing a range of encoder/decoder and mono/multilingual models) on these datasets, and evaluate their performance on the two tasks. Our results reveal that the models consistently perform better on inner-circle varieties (i.e., en-AU and en-UK), with significant performance drops for en-IN, particularly in sarcasm detection. We also report challenges in cross-variety generalisation, highlighting the need for language variety-specific datasets such as ours. BESSTIE promises to be a useful evaluative benchmark for future research in equitable LLMs, specifically in terms of language varieties. The BESSTIE dataset is publicly available at: https://huggingface.co/datasets/unswnlporg/BESSTIE."
+featured: false
+publication: "*Findings of the Association for Computational Linguistics: ACL 2025*"
+url_pdf: "https://aclanthology.org/2025.findings-acl.441.pdf"
+url_dataset: "https://huggingface.co/datasets/unswnlporg/BESSTIE"
+tags: ["sentiment analysis", "sarcasm detection", "varieties of English", "benchmark", "LLMs"]
+---

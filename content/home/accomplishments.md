@@ -25,17 +25,16 @@ date_format = "Jan 2006"
   url = "https://www.linkedin.com/posts/surrey-institute-for-people-centred-ai_we-are-delighted-to-announce-that-pais-activity-7222266310913671168-ba8z?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAFOEsgBzvzLhp7Mtm3Uq4NAEPxibbYX0hY"
   date_start = "2024-07-24"
   date_end = "2024-07-24"
-  description = "Student-nominated Tony Jeans award is given annually to a member of academic staff nominated by students for being the “most inspiring”. Tony Jeans was a popular and long serving member of the academic staff at the University of Surrey and was a truly excellent lecturer. Therefore, the award recognises someone that the students feel has really made a difference to their understanding or the way they learn, or simply their desire to learn and be successful."
+  description = "Student-nominated Tony Jeans award is given annually to a member of academic staff for being the most inspiring. Tony Jeans (1971-2008) was a popular and long serving member of the academic staff at the University of Surrey and was a truly excellent lecturer. The award is a tribute to his legacy of inspiring students."
 
 [[item]]
   organization = "EACL 2021 Conference"
   organization_url = "https://www.iitbmonash.org"
   title = "Best Paper Honourable Mention (Long Papers)"
   url = "https://2021.eacl.org/best-paper/"
-  certificate_url = "https://2021.eacl.org/best-paper/"
   date_start = "2021-04-23"
   date_end = ""
-  description = "Our work 'Cognition-aware Cognate Detection' was awarded the best paper honourable mention (long papers) at The 16th Conference of the European Chapter of the Association for Computational Linguistics."
+  description = "'Cognition-aware Cognate Detection' awarded the best paper honourable mention (long papers) @ EACL 2021"
 
 [[item]]
   organization = "IITB - Monash Research Academy"
@@ -54,7 +53,7 @@ date_format = "Jan 2006"
   url = ""
   date_start = "2014-12-25"
   date_end = ""
-  description = "Winner of the SMT competition held at ICON 2014, Goa. We built a Heirarchical SMT system which outperformed all other systems by a significant margin."
+  description = "Part of the winning team of SMT competition held at ICON 2014, Goa. We built a Heirarchical Phrase-based SMT system for English to Indic Language MT which performed the best on all 5 language pairs."
   
 [[item]]
   organization = "Teaching Assistant (Semester)"
@@ -64,9 +63,14 @@ date_format = "Jan 2006"
   date_end = "2019-08-01"
   description = """
   <br />
-  * Awarded TA of the Semester by CSE Department, IIT Bombay for assisting Prof. Kavi Arya with Software lab (PG) (CS699)
+  * Awarded for assisting on PG Software lab (CS699). 
+
+    - Course Instructor: Prof. Kavi Arya
   <br />
-  * Awarded TA of the Semester by CSE Department, IIT Bombay for assisting Prof. Kavi Arya with Software Foundations lab (CS251)
+  * Awarded for assisting on UG Software Foundations lab (CS251)
+
+    - Course Instructor: Prof. Kavi Arya
+  <br />
   """
 
 [[item]]

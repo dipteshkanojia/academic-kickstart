@@ -1,0 +1,11 @@
+---
+title: "Findings of the WMT25 Shared Task on Automated Translation Evaluation Systems: Linguistic Diversity is Challenging and References Still Help"
+date: 2025-11-01T00:00:00
+authors: ["Alon Lavie", "Greg Hanneman", "Sweta Agrawal", "Diptesh Kanojia", "Chi-kiu Lo", "Vilém Zouhar", "Frédéric Blain", "Chrysoula Zerva", "Eleftherios Avramidis", "Sourabh Dattatray Deoghare", "Archchana Sindhujan", "Jiayi Wang", "David Ifeoluwa Adelani", "Brian Thompson", "Tom Kocmi", "Markus Freitag", "Daniel Deutsch"]
+publication_types: ["1"]
+abstract: "The WMT25 Shared Task on Automated Translation Evaluation Systems evaluates metrics and quality estimation systems that assess the quality of language translation systems. This task unifies and consolidates the separate WMT shared tasks on Machine Translation Evaluation Metrics and Quality Estimation from previous years. Our primary goal is to encourage the development and assessment of new state-of-the-art translation quality evaluation systems. The shared task this year consisted of three subtasks: (1) segment-level quality score prediction, (2) span-level translation error annotation, and (3) quality-informed segment-level error correction. The evaluation data for the shared task were provided by the General MT shared task and were complemented by \"challenge sets\" from both the organizers and participants. Task 1 results indicate the strong performance of large LLMs at the system level, while reference-based baseline metrics outperform LLMs at the segment level. Task 2 results indicate that accurate error detection and balancing precision and recall are persistent challenges. Task 3 results show that minimal editing is challenging even when informed by quality indicators. Robustness across the broad diversity of languages remains a major challenge across all three subtasks."
+featured: false
+publication: "*Proceedings of the Tenth Conference on Machine Translation*"
+url_pdf: "https://www2.statmt.org/wmt25/pdf/2025.wmt-1.23.pdf"
+tags: ["machine translation", "quality estimation", "shared task", "linguistic diversity", "evaluation systems"]
+---
