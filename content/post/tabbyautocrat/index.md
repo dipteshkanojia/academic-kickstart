@@ -2,7 +2,7 @@
 
 title: "The Tabby Autocrat"
 subtitle: "He's not just watching, he's judging."
-summary: "Garden has been taken over by this tabby cat who watch my every move with a judgmental side-eye despite being fed."
+summary: "Garden has been taken over by this tabby cat who watches my every move with a judgmental side-eye, despite being fed."
 authors: ["Diptesh Kanojia"]
 tags: ["personal", "photography", "cats", "humour", "garden"]
 categories: ["Personal", "Photography"]
