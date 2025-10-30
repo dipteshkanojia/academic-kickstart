@@ -1,7 +1,7 @@
 ---
 title: "Evaluating Machine Translation for Emotion-loaded User Generated Content (TransEval4Emo-UGC)"
 date: 2024-06-26T00:00:00
-authors: ["Shenbin Qian", "Constantin Orasan", "Félix Do Carmo", "Diptesh Kanojia"]
+authors: ["Shenbin Qian", "Constantin Orăsan", "Félix Do Carmo", "Diptesh Kanojia"]
 publication_types: ["1"]
 abstract: "This paper presents a dataset for evaluating the machine translation of emotion-loaded user generated content. It contains human-annotated quality evaluation data and post-edited reference translations. The dataset is available at our GitHub repository."
 featured: false
