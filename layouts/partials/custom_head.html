@@ -16,3 +16,46 @@
   text-align: center;
 }
 </style>
+
+<style>
+  /* --- Site Title Hover (Fade Version) --- */
+
+  .navbar-brand.name-hover-effect {
+    font-size: 1.3rem; 
+    position: relative;
+    min-width: 200px;
+  }
+
+  .navbar-brand.name-hover-effect .en-name,
+  .navbar-brand.name-hover-effect .hi-name {
+    /* 2. Set up the fade transition (NOW INCLUDES FONT-SIZE) */
+    transition: opacity 0.4s ease-in-out, font-size 0.4s ease-in-out; /* <-- CHANGED */
+  }
+
+  .navbar-brand.name-hover-effect .en-name {
+    /* 3. English name is visible and in the normal flow */
+    opacity: 1;
+    position: relative;
+  }
+
+  .navbar-brand.name-hover-effect .hi-name {
+    /* 4. Hindi name is stacked on top, but fully transparent */
+    position: absolute;
+    top: 12px; /* You may need to adjust this again! */
+    left: 0;
+    opacity: 0;
+    pointer-events: none; 
+  }
+
+  /* 5. On hover... */
+  .navbar-brand.name-hover-effect:hover .en-name {
+    /* 5a. Fade out English name */
+    opacity: 0;
+  }
+  .navbar-brand.name-hover-effect:hover .hi-name {
+    /* 5b. Fade in Hindi name (NOW WITH LARGER FONT) */
+    font-size: 1.5rem; /* <-- CHANGED (Make this bigger/smaller as you like) */
+    opacity: 1;
+    pointer-events: auto; /* Make it clickable */
+  }
+</style>
