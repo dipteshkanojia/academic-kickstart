@@ -9,13 +9,13 @@ day_night = true
 
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`.
-font = "default"
+font = "classic"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 # SEO
-description = "NLP Researcher"
-site_type = "Person"
-local_business_type = ''
+description = "Diptesh Kanojia is an NLP Researcher working on cross-lingual and multimodal representation learning to address challenges like online toxicity, misinformation, and digital accessibility for low-resource languages."
+site_type = "Personal"
+local_business_type = 'Academic'
 org_name = 'University of Surrey'
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
@@ -32,11 +32,11 @@ logo = ""
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
 # highlight_languages = ["r"]  # Add support for highlighting additional languages
-# highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
+highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
 # Enable global LaTeX math rendering?
 #   If false, you can enable it locally on a per page basis.
-math = false
+math = true
 
 # Privacy pack
 #   Show a cookie consent message to visitors
@@ -146,7 +146,7 @@ sharing = true
   #   3: Card
   #   4: Citation (publications only)
   post_view = 2
-  publication_view = 2
+  publication_view = 1
   talk_view = 2
 
 # Search.

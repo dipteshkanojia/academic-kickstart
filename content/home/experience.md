@@ -55,13 +55,13 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Visiting Faculty"
-  company = "Indian Institute of Information Technology Lucknow, India"
+  company = "IIIT Lucknow, India"
   company_url = "https://iiitl.ac.in/index.php/personnel/dr-diptesh-kanojia/"
   location = "Lucknow, India"
   date_start = "2022-01-10"
   date_end = "2023-05-30"
   description = """
-  I co-taught the Natural Language Processing course to the Master's students at IIIT Lucknow, with [Dr. Rudramurthy V](https://research.ibm.com/people/rudra-murthy-venkataramana)
+  Co-taught the Natural Language Processing course with [Dr. Rudramurthy V](https://research.ibm.com/people/rudra-murthy-venkataramana), and co-supervised Master's projects.
 	  """
 
 [[experience]]
