@@ -59,3 +59,103 @@
     pointer-events: auto; /* Make it clickable */
   }
 </style>
+
+<!-- style>
+  /* --- Bilingual Embedding Space Effect --- */
+
+  /* 1. The Main Container (the <a> tag) */
+  .navbar-brand.embedding-space-effect {
+    position: relative;
+    
+    /* Set a minimum size to prevent "jiggling" */
+    min-width: 250px; 
+    min-height: 80px; /* You will need to adjust this! */
+    
+    /* Center the content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* 2. The Groups (Both Eng and Hindi) */
+  .en-group, .hi-group {
+    /* Stack them on top of each other */
+    position: absolute;
+    
+    /* Set up the fade transition */
+    transition: opacity 0.4s ease-in-out;
+    
+    /* Center the text inside */
+    text-align: center;
+  }
+
+  /* 3. Default State (Show English, Hide Hindi) */
+  .en-group {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .hi-group {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  /* 4. Hover State (Hide English, Show Hindi) */
+  .embedding-space-effect:hover .en-group {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .embedding-space-effect:hover .hi-group {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* 5. The Main Titles (Eng + Hindi) */
+  .main-title {
+    font-size: 1.3rem; /* Your base font size */
+    font-weight: 600;
+    display: block;
+    position: relative;
+    /* This ensures it's "on top" of the embedding words */
+    z-index: 10; 
+  }
+
+  /* 6. Hindi Title - Font Size increase on hover */
+  .hi-title {
+    /* Transition for the font-size */
+    transition: font-size 0.4s ease-in-out;
+  }
+  .embedding-space-effect:hover .hi-title {
+    font-size: 1.4rem; /* Your larger hovered font size */
+  }
+
+  /* 7. The Embedding Words (Shared style) */
+  .embedding-word {
+    position: absolute;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #888;
+    z-index: 5; /* Behind the main title */
+  }
+
+  /* 8. POSITIONS (Same for both Eng and Hindi) */
+  /* Tweak these top/left values! */
+  /* 'top' is relative to the center, 'left' to the center */
+
+  .embedding-word.word-1 { /* NLP / भाषा */
+    top: -15px; /* Above the title */
+    left: 20px;
+  }
+  .embedding-word.word-2 { /* LLMs / मॉडल */
+    top: 5px;
+    left: -40px; /* To the left of the title */
+  }
+  .embedding-word.word-3 { /* Ethics / नैतिकता */
+    top: 35px; /* Below the title */
+    left: 0px;
+  }
+  .embedding-word.word-4 { /* Multilingual / बहुभाषी */
+    top: 30px;
+    left: 100px; /* To the right */
+  }
+</style -->

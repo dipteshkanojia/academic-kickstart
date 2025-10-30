@@ -10,6 +10,31 @@
       {{- site.Title -}}
       {{- end -}}
     </a -->
+    <!-- a class="navbar-brand embedding-space-effect" href="{{ "/" | relLangURL }}">
+      {{- if site.Params.logo -}}
+        <img src="{{ printf "/img/%s" site.Params.logo | relURL }}" alt="{{ site.Title }}">
+      {{- else -}}
+
+        <div class="en-group">
+          <span class="main-title en-title">{{- site.Title -}}</span>
+          
+          <span class="embedding-word word-1">NLP</span>
+          <span class="embedding-word word-2">LLMs</span>
+          <span class="embedding-word word-3">Ethics</span>
+          <span class="embedding-word word-4">Multilingual</span>
+        </div>
+
+        <div class="hi-group">
+          <span class="main-title hi-title">दिप्तेश कनोजिया</span>
+          
+          <span class="embedding-word word-1">भाषा (NLP)</span>
+          <span class="embedding-word word-2">मॉडल (LLMs)</span>
+          <span class="embedding-word word-3">नैतिकता</span>
+          <span class="embedding-word word-4">बहुभाषी</span>
+        </div>
+
+      {{- end -}}
+      </a -->
     <a class="navbar-brand name-hover-effect" href="{{ "/" | relLangURL }}">
       {{- if site.Params.logo -}}
         <img src="{{ printf "/img/%s" site.Params.logo | relURL }}" alt="{{ site.Title }}">
