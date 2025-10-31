@@ -15,7 +15,7 @@ font = "classic"
 # SEO
 description = "Diptesh Kanojia is an NLP Researcher working on cross-lingual and multimodal representation learning to address challenges like online toxicity, misinformation, and digital accessibility for low-resource languages."
 site_type = "Personal"
-local_business_type = 'Academic'
+local_business_type = ''
 org_name = 'University of Surrey'
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.

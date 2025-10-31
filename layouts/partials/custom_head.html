@@ -60,6 +60,102 @@
   }
 </style>
 
+<style>
+  /* --- Nav Menu Hover Effect --- */
+
+  .nav-text-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+
+  .en-nav, .hi-nav, .hi-big-nav, .hi-med-nav, .hi-sm-nav {
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .en-nav {
+    opacity: 1;
+    position: relative;
+  }
+
+  .hi-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    /* This tries to keep the width consistent */
+    width: 100%;
+    text-align: center;
+  }
+  
+  .hi-big-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    /* This tries to keep the width consistent */
+    width: 100%;
+    text-align: center;
+  }
+
+  .hi-sm-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    /* This tries to keep the width consistent */
+    width: 100%;
+    text-align: left;
+  }
+
+  .hi-med-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    /* This tries to keep the width consistent */
+    width: 100%;
+    text-align: center;
+  }
+
+  /* On hover of the main link OR the wrapper itself... */
+  .nav-link:hover .en-nav,
+  .nav-text-wrapper:hover .en-nav {
+    opacity: 0;
+  }
+
+  .nav-link:hover .hi-nav,
+  .nav-text-wrapper:hover .hi-nav {
+    opacity: 1.1;
+    font-size: 1.25rem;
+    pointer-events: auto;
+  }
+
+  .nav-link:hover .hi-big-nav,
+  .nav-text-wrapper:hover .hi-big-nav {
+    opacity: 1.1;
+    font-size: 2.5rem;
+    pointer-events: auto;
+  }
+
+  .nav-link:hover .hi-med-nav,
+  .nav-text-wrapper:hover .hi-med-nav {
+    opacity: 1.1;
+    font-size: 1.5rem;
+    pointer-events: auto;
+  }
+
+  .nav-link:hover .hi-sm-nav,
+  .nav-text-wrapper:hover .hi-sm-nav {
+    opacity: 1;
+    font-size: 1rem;
+    pointer-events: auto;
+  }
+</style>
+
 <!-- style>
   /* --- Bilingual Embedding Space Effect --- */
 

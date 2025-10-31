@@ -53,7 +53,7 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2016-08-01"
   date_end = ""
-  description = "Awarded the best poster paper presentation in the PhD Early Researchers category from amongst all students of the IITB-Monash Research Academy"
+  description = "Awarded the best poster paper presentation in the PhD Early Researchers category"
 
 [[item]]
   organization = "ICON 2014"
@@ -62,7 +62,7 @@ date_format = "Jan 2006"
   url = ""
   date_start = "2014-12-25"
   date_end = ""
-  description = "Part of the winning team of SMT competition held at ICON 2014, Goa. We built a Heirarchical Phrase-based SMT system for English to Indic Language MT which performed the best on all 5 language pairs."
+  description = "Part of the winning team of SMT competition held at ICON 2014, Goa. We submitted a Heirarchical Phrase-based SMT system for English to Indic Language MT which performed the best on all 5 language pairs."
   
 [[item]]
   organization = "Teaching Assistant (Semester)"
@@ -90,5 +90,5 @@ date_format = "Jan 2006"
   certificate_url = "https://www.cse.iitb.ac.in/page106?year=2017"
   date_start = "2016-07-01"
   date_end = "2020-07-01"
-  description = "Awarded the CISCO fellowship from among all the applicants of Computer Science and Engineering Department, IIT Bombay"
+  description = "Awarded the CISCO fellowship for pursuing PhD research"
 +++

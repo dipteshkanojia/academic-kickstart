@@ -101,7 +101,26 @@
 
         <li class="nav-item">
           <a class="nav-link {{if $is_link_in_current_path }} active{{end}}" href="{{.URL | relLangURL}}"{{ if and $is_widget_page $is_same_page }} data-target="{{$hash}}"{{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>
-            {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
+            {{- .Pre -}}
+              {{/* First, check if the link is one we want to translate */}}
+              {{ if or (eq .Name "Experience") (eq .Name "Research") (eq .Name "Blog") }}
+
+                <span class="nav-text-wrapper">
+                  <span class="en-nav">{{ .Name | safeHTML }}</span>
+                  <span class="hi-nav">
+                    {{ if eq .Name "Experience" }}अनुभव
+                    {{ else if eq .Name "Research" }}अनुसंधान
+                    {{ else if eq .Name "Blog" }}पोस्ट
+                    {{ end }}
+                  </span>
+                </span>
+
+              {{ else }}
+
+                <span>{{ .Name | safeHTML }}</span>
+                
+              {{ end }}
+            {{- .Post -}}
           </a>
         </li>
 
