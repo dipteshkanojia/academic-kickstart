@@ -144,7 +144,7 @@
   .nav-link:hover .hi-med-nav,
   .nav-text-wrapper:hover .hi-med-nav {
     opacity: 1.1;
-    font-size: 1.5rem;
+    font-size: 1.55rem;
     pointer-events: auto;
   }
 
@@ -155,6 +155,91 @@
     pointer-events: auto;
   }
 </style>
+
+<style>
+  /* --- Sidebar Alignment & Name Randomizer --- */
+
+  /* 1. Nuke the theme's default text-align: center */
+  #profile {
+    text-align: left !important;
+  }
+
+  /* 2. Re-center the avatar image (which was also broken) */
+  #profile .portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* 3. Center your name (the name cycler) */
+  .name-cycler {
+    position: relative;
+    min-height: 40px; /* Prevents jiggling */
+    text-align: center;
+  }
+
+  .name-cycler span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center; /* Ensure all names are centered */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none;
+  }
+
+  .name-cycler span.name-en {
+    opacity: 1; /* Show English by default */
+  }
+
+  .name-cycler:hover span.name-en {
+    opacity: 0; /* Hide English on hover */
+  }
+
+  .name-cycler span.is-hover-visible {
+    opacity: 1; /* JS will add this class */
+  }
+
+  /* 4. Force all other sidebar text to be left-aligned */
+  #profile .portrait-title h3,
+  #profile .network-icon {
+    text-align: center;
+    padding-left: 0; /* Fixes icon list indent */
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const nameContainer = document.querySelector('.name-cycler');
+    if (nameContainer) {
+      const nameEn = nameContainer.querySelector('.name-en');
+      const otherNames = nameContainer.querySelectorAll('.name-other');
+      let currentRandomName = null;
+
+      if (otherNames.length > 0) {
+        nameContainer.addEventListener('mouseenter', function() {
+          // Pick a random index from the 'otherNames' list
+          const randomIndex = Math.floor(Math.random() * otherNames.length);
+          currentRandomName = otherNames[randomIndex];
+
+          // Show the randomly selected name
+          if (currentRandomName) {
+            currentRandomName.classList.add('is-hover-visible');
+          }
+        });
+
+        nameContainer.addEventListener('mouseleave', function() {
+          // Hide the random name when mouse leaves
+          if (currentRandomName) {
+            currentRandomName.classList.remove('is-hover-visible');
+            currentRandomName = null;
+          }
+        });
+      }
+    }
+  });
+</script>
 
 <!-- style>
   /* --- Bilingual Embedding Space Effect --- */
