@@ -18,49 +18,6 @@
 </style>
 
 <style>
-  /* --- Site Title Hover (Fade Version) --- */
-
-  .navbar-brand.name-hover-effect {
-    font-size: 1.3rem; 
-    position: relative;
-    min-width: 200px;
-  }
-
-  .navbar-brand.name-hover-effect .en-name,
-  .navbar-brand.name-hover-effect .hi-name {
-    /* 2. Set up the fade transition (NOW INCLUDES FONT-SIZE) */
-    transition: opacity 0.4s ease-in-out, font-size 0.4s ease-in-out; /* <-- CHANGED */
-  }
-
-  .navbar-brand.name-hover-effect .en-name {
-    /* 3. English name is visible and in the normal flow */
-    opacity: 1;
-    position: relative;
-  }
-
-  .navbar-brand.name-hover-effect .hi-name {
-    /* 4. Hindi name is stacked on top, but fully transparent */
-    position: absolute;
-    top: 12px; /* You may need to adjust this again! */
-    left: 0;
-    opacity: 0;
-    pointer-events: none; 
-  }
-
-  /* 5. On hover... */
-  .navbar-brand.name-hover-effect:hover .en-name {
-    /* 5a. Fade out English name */
-    opacity: 0;
-  }
-  .navbar-brand.name-hover-effect:hover .hi-name {
-    /* 5b. Fade in Hindi name (NOW WITH LARGER FONT) */
-    font-size: 1.5rem; /* <-- CHANGED (Make this bigger/smaller as you like) */
-    opacity: 1;
-    pointer-events: auto; /* Make it clickable */
-  }
-</style>
-
-<style>
   /* --- Nav Menu Hover Effect --- */
 
   .nav-text-wrapper {
@@ -85,7 +42,7 @@
     pointer-events: none;
     /* This tries to keep the width consistent */
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
   
   .hi-big-nav {
@@ -157,38 +114,53 @@
 </style>
 
 <style>
-  /* --- Sidebar Alignment & Name Randomizer --- */
+  /* --- Sidebar/Navbar Name Randomizer & Alignment --- */
 
   /* 1. Nuke the theme's default text-align: center */
   #profile {
     text-align: left !important;
   }
 
-  /* 2. Re-center the avatar image (which was also broken) */
+  /* 2. Re-center the avatar image */
   #profile .portrait {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* 3. Center your name (the name cycler) */
+  /* 3. General settings for all name cyclers */
   .name-cycler {
     position: relative;
     min-height: 40px; /* Prevents jiggling */
+  }
+
+  /* 4. Settings for the NAVBAR TITLE cycler */
+  a.name-cycler {
+    font-size: 1.3rem; /* Your original title font size */
+    min-width: 200px;
+  }
+
+  /* 5. Settings for the SIDEBAR NAME cycler */
+  h2.name-cycler {
     text-align: center;
   }
 
+  /* 6. Generic settings for all name spans */
   .name-cycler span {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    text-align: center; /* Ensure all names are centered */
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
     pointer-events: none;
   }
 
+  /* 7. Specific alignment for name spans */
+  a.name-cycler span { text-align: left; }
+  h2.name-cycler span { text-align: center; }
+
+  /* 8. The JS logic classes (these are perfect) */
   .name-cycler span.name-en {
     opacity: 1; /* Show English by default */
   }
@@ -197,48 +169,60 @@
     opacity: 0; /* Hide English on hover */
   }
 
-  .name-cycler span.is-hover-visible {
-    opacity: 1.1; /* JS will add this class */
+  /* 9. Separate hover styles for each name */
+  h2.name-cycler span.is-hover-visible {
+    opacity: 1.1; /* Sidebar hover */
     font-size: 1.83rem;
   }
+  a.name-cycler span.is-hover-visible {
+    opacity: 1; /* Navbar hover */
+    font-size: 1.5rem; /* Your old navbar hover size */
+  }
 
-  /* 4. Force all other sidebar text to be left-aligned */
+  /* 10. CRITICAL: Fix sidebar text alignment */
   #profile .portrait-title h3,
   #profile .network-icon {
-    text-align: center;
-    padding-left: 0; /* Fixes icon list indent */
+    text-align: center; /* This fixes the alignment */
+    padding-left: 0; 
   }
 </style>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    const nameContainer = document.querySelector('.name-cycler');
-    if (nameContainer) {
-      const nameEn = nameContainer.querySelector('.name-en');
-      const otherNames = nameContainer.querySelectorAll('.name-other');
-      let currentRandomName = null;
+    // 1. Find ALL name containers
+    const nameContainers = document.querySelectorAll('.name-cycler');
 
-      if (otherNames.length > 0) {
-        nameContainer.addEventListener('mouseenter', function() {
-          // Pick a random index from the 'otherNames' list
-          const randomIndex = Math.floor(Math.random() * otherNames.length);
-          currentRandomName = otherNames[randomIndex];
+    // 2. Loop over each one
+    nameContainers.forEach(function(nameContainer) {
+      
+      // 3. The rest of your script logic, unchanged:
+      if (nameContainer) {
+        const nameEn = nameContainer.querySelector('.name-en');
+        const otherNames = nameContainer.querySelectorAll('.name-other');
+        let currentRandomName = null;
 
-          // Show the randomly selected name
-          if (currentRandomName) {
-            currentRandomName.classList.add('is-hover-visible');
-          }
-        });
+        if (otherNames.length > 0) {
+          nameContainer.addEventListener('mouseenter', function() {
+            // Pick a random index from the 'otherNames' list
+            const randomIndex = Math.floor(Math.random() * otherNames.length);
+            currentRandomName = otherNames[randomIndex];
 
-        nameContainer.addEventListener('mouseleave', function() {
-          // Hide the random name when mouse leaves
-          if (currentRandomName) {
-            currentRandomName.classList.remove('is-hover-visible');
-            currentRandomName = null;
-          }
-        });
+            // Show the randomly selected name
+            if (currentRandomName) {
+              currentRandomName.classList.add('is-hover-visible');
+            }
+          });
+
+          nameContainer.addEventListener('mouseleave', function() {
+            // Hide the random name when mouse leaves
+            if (currentRandomName) {
+              currentRandomName.classList.remove('is-hover-visible');
+              currentRandomName = null;
+            }
+          });
+        }
       }
-    }
+    }); // End of forEach loop
   });
 </script>
 
