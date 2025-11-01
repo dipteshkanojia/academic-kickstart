@@ -123,13 +123,16 @@
             {{ $interest := . | string }}
 
             {{/* Check if this is one of the items we want to translate */}}
-            {{ if or (eq $interest "Natural Language Processing") (eq $interest "Artificial Intelligence") }}
+            {{ if or (eq $interest "Natural Language Processing") (eq $interest "Cross-lingual Representation Learning") (eq $interest "Multimodal NLP") (eq $interest "Computational Linguistics") (eq $interest "Artificial Intelligence") }}
 
               <span class="nav-text-wrapper">
                 <span class="en-nav">{{ . | markdownify | emojify }}</span>
                 <span class="hi-sm-nav">
                   {{ if eq $interest "Natural Language Processing" }}भाषा प्रसंस्करण
-                  {{ else if eq $interest "Artificial Intelligence" }}कृत्रिम बुद्धिमत्ता
+                  {{ else if eq $interest "Cross-lingual Representation Learning" }}अंतर-भाषीय अंकीकरण
+                  {{ else if eq $interest "Multimodal NLP" }}मल्टीमोडल NLP 
+                  {{ else if eq $interest "Computational Linguistics" }}संगणकीय भाषाविज्ञान
+                  {{ else if eq $interest "Artificial Intelligence" }}निर्मित बुद्धिमत्ता 
                   {{ end }}
                 </span>
               </span>

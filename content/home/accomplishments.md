@@ -44,24 +44,23 @@ date_format = "Jan 2006"
   date_start = "2021-04-23"
   date_end = ""
   description = "'Cognition-aware Cognate Detection' awarded the best paper honourable mention (long papers) @ EACL 2021"
-
- [[item]]
-  organization = "Teaching Assistant (Semester)"
-  organization_url = "https://www.cse.iitb.ac.in"
-  title = "TA of the Semester"
-  date_start = "2017-11-01"
-  date_end = "2019-08-01"
-  description = """
-  <br />
-  * Awarded for assisting on PG Software lab (CS699). 
-
-    - Course Instructor: Prof. Kavi Arya
-  <br />
-  * Awarded for assisting on UG Software Foundations lab (CS251)
-
-    - Course Instructor: Prof. Kavi Arya
-  <br />
-  """
+ 
+# [[item]]
+#  organization = "Teaching Assistant (Semester)"
+#  organization_url = "https://www.cse.iitb.ac.in"
+#  title = "TA of the Semester"
+#  date_start = "2017-11-01"
+#  date_end = "2019-08-01"
+#  description = """
+#  * Awarded for assisting on PG Software lab (CS699). 
+#
+#     - Course Instructor: Prof. Kavi Arya
+#   
+#   * Awarded for assisting on UG Software Foundations lab (CS251)
+#
+#     - Course Instructor: Prof. Kavi Arya
+#
+#   """
 
 # [[item]]
 #  organization = "IITB - Monash Research Academy"
