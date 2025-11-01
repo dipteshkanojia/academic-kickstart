@@ -21,7 +21,7 @@ organizations:
 - name: CFILT Lab, IIT Bombay
   url: "http://www.cfilt.iitb.ac.in"
 # Short bio (displayed in user profile at end of posts)
-bio: NLP Researcher | Senior Lecturer | University of Surrey
+bio: NLP Researcher 
 
 interests:
 - Natural Language Processing 
