@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="D + क — Negative-Space Keyline">
+  <title>D + क — Negative-Space Keyline</title>
+  <desc>Framed with generous rounding; clean and brandable.</desc>
+  
+  <style>
+    :root { --ink: #0f0f0f; --inkA: #0f0f0f; --inkB: #0f0f0f; }
+    .ink { fill: var(--ink); }
+    .inkA { fill: var(--inkA); }
+    .inkB { fill: var(--inkB); }
+    .ring { stroke: var(--ink); fill: none; }
+    .latin { font-family: 'Inter', 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 800; }
+    .devan { font-family: 'Noto Sans Devanagari', 'Noto Serif Devanagari', 'Mangal', 'Kohinoor Devanagari', 'Devanagari Sangam MN', serif; font-weight: 800; }
+  </style>
+
+  
+  <rect x="44" y="44" width="424" height="424" rx="48" ry="48" class="ring" stroke-width="12"/>
+  <g transform="translate(256,256)">
+    <text class="ink latin" x="-10" y="-8" font-size="232" text-anchor="end">D</text>
+    <text class="ink devan" x="10" y="-8" font-size="232" text-anchor="start">क</text>
+    <g transform="scale(1,-1)">
+      <text class="ink latin" x="-10" y="-8" font-size="232" text-anchor="end" opacity="0.92">D</text>
+      <text class="ink devan" x="10" y="-8" font-size="232" text-anchor="start" opacity="0.92">क</text>
+    </g>
+  </g>
+
+</svg>

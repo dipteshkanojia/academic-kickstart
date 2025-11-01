@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bilingual monogram favicon (D + क)">
+  <title>Bilingual monogram favicon (D + क)</title>
+  <desc>Favicon/tiny size–optimized monogram. Increased weight and simplified to avoid blur at 16–32px.</desc>
+  
+  <style>
+    :root { --ink: #111111; --muted: rgba(17,17,17,0.28); }
+    .ink { fill: var(--ink); }
+    .ring { stroke: var(--ink); fill: none; }
+    .latin { font-family: 'Inter', 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 800; }
+    .devan { font-family: 'Noto Sans Devanagari', 'Noto Serif Devanagari', 'Mangal', 'Kohinoor Devanagari', 'Devanagari Sangam MN', serif; font-weight: 800; }
+  </style>
+
+  <!-- Safe-area rounded square (optional keyline) -->
+  <rect x="8" y="8" width="240" height="240" rx="36" ry="36" class="ring" stroke-width="10"/>
+  <g transform="translate(128,128)">
+    <!-- Slightly increased size and reduced offsets for small-size legibility -->
+    <text class="ink latin" x="-5" y="-5" font-size="120" text-anchor="end">D</text>
+    <text class="ink devan" x="5" y="-5" font-size="120" text-anchor="start">क</text>
+    <g transform="scale(1,-1)">
+      <text class="ink latin" x="-5" y="-5" font-size="120" text-anchor="end" opacity="0.92">D</text>
+      <text class="ink devan" x="5" y="-5" font-size="120" text-anchor="start" opacity="0.92">क</text>
+    </g>
+  </g>
+</svg>

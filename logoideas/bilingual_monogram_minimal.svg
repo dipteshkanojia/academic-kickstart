@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bilingual monogram logo (D + क) minimal">
+  <title>Bilingual monogram logo (D + क) — Minimal</title>
+  <desc>Minimal vertical-palindrome mark without a border; tuned spacing and centering for use in navbars and hero locks.</desc>
+  
+  <style>
+    :root { --ink: #111111; --muted: rgba(17,17,17,0.28); }
+    .ink { fill: var(--ink); }
+    .ring { stroke: var(--ink); fill: none; }
+    .latin { font-family: 'Inter', 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 800; }
+    .devan { font-family: 'Noto Sans Devanagari', 'Noto Serif Devanagari', 'Mangal', 'Kohinoor Devanagari', 'Devanagari Sangam MN', serif; font-weight: 800; }
+  </style>
+
+  <!-- Shared spine for visual lock -->
+  <rect x="255" y="92" width="2" height="328" class="ink"/>
+  <g transform="translate(256,256)">
+    <text class="ink latin" x="-8" y="-8" font-size="230" text-anchor="end">D</text>
+    <text class="ink devan" x="8" y="-8" font-size="230" text-anchor="start">क</text>
+    <g transform="scale(1,-1)">
+      <text class="ink latin" x="-8" y="-8" font-size="230" text-anchor="end" opacity="0.88">D</text>
+      <text class="ink devan" x="8" y="-8" font-size="230" text-anchor="start" opacity="0.88">क</text>
+    </g>
+  </g>
+</svg>

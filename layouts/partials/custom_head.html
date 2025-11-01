@@ -114,38 +114,21 @@
 </style>
 
 <style>
-  /* --- Sidebar/Navbar Name Randomizer & Alignment --- */
+  /* --- Sidebar/Navbar Name Randomizer --- */
 
-  /* 1. Nuke the theme's default text-align: center */
-  #profile {
-    text-align: left !important;
-  }
-
-  /* 2. Re-center the avatar image */
-  #profile .portrait {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* 3. General settings for all name cyclers */
+  /* General settings for all name cyclers */
   .name-cycler {
     position: relative;
     min-height: 40px; /* Prevents jiggling */
   }
 
-  /* 4. Settings for the NAVBAR TITLE cycler */
+  /* Settings for the NAVBAR TITLE cycler */
   a.name-cycler {
     font-size: 1.3rem; /* Your original title font size */
     min-width: 200px;
   }
 
-  /* 5. Settings for the SIDEBAR NAME cycler */
-  h2.name-cycler {
-    text-align: center;
-  }
-
-  /* 6. Generic settings for all name spans */
+  /* Generic settings for all name spans */
   .name-cycler span {
     position: absolute;
     top: 0;
@@ -155,12 +138,16 @@
     transition: opacity 0.5s ease-in-out;
     pointer-events: none;
   }
-
-  /* 7. Specific alignment for name spans */
+  
+  /* Specific alignment for NAVBAR name spans */
+  /* This keeps your top-left title left-aligned */
   a.name-cycler span { text-align: left; }
-  h2.name-cycler span { text-align: center; }
+  
+  /* Note: Your sidebar name (h2.name-cycler) will 
+     now correctly inherit the 'text-align: center' 
+     from the theme's default #profile style. */
 
-  /* 8. The JS logic classes (these are perfect) */
+  /* The JS logic classes */
   .name-cycler span.name-en {
     opacity: 1; /* Show English by default */
   }
@@ -169,21 +156,14 @@
     opacity: 0; /* Hide English on hover */
   }
 
-  /* 9. Separate hover styles for each name */
+  /* Separate hover styles for each name */
   h2.name-cycler span.is-hover-visible {
     opacity: 1.1; /* Sidebar hover */
     font-size: 1.83rem;
   }
   a.name-cycler span.is-hover-visible {
     opacity: 1; /* Navbar hover */
-    font-size: 1.5rem; /* Your old navbar hover size */
-  }
-
-  /* 10. CRITICAL: Fix sidebar text alignment */
-  #profile .portrait-title h3,
-  #profile .network-icon {
-    text-align: center; /* This fixes the alignment */
-    padding-left: 0; 
+    font-size: 1.5rem;
   }
 </style>
 

@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Awards"
+title = "Select Awards"
 subtitle = ""
 
 # Date format
@@ -36,7 +36,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = "Student-nominated Tony Jeans award is given annually to a member of academic staff for being the most inspiring. Tony Jeans (1971-2008) was a popular and long serving member of the academic staff at the University of Surrey and was a truly excellent lecturer. The award is a tribute to his legacy of inspiring students."
 
-[[item]]
+ [[item]]
   organization = "EACL 2021 Conference"
   organization_url = "https://www.iitbmonash.org"
   title = "Best Paper Honourable Mention (Long Papers)"
@@ -45,26 +45,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = "'Cognition-aware Cognate Detection' awarded the best paper honourable mention (long papers) @ EACL 2021"
 
-[[item]]
-  organization = "IITB - Monash Research Academy"
-  organization_url = "https://www.iitbmonash.org"
-  title = "Best Poster Presentation"
-  url = ""
-  certificate_url = ""
-  date_start = "2016-08-01"
-  date_end = ""
-  description = "Awarded the best poster paper presentation in the PhD Early Researchers category"
-
-[[item]]
-  organization = "ICON 2014"
-  organization_url = "http://ltrc.iiit.ac.in/icon/2014/"
-  title = "Statistical Machine Translation (SMT) Competition"
-  url = ""
-  date_start = "2014-12-25"
-  date_end = ""
-  description = "Part of the winning team of SMT competition held at ICON 2014, Goa. We submitted a Heirarchical Phrase-based SMT system for English to Indic Language MT which performed the best on all 5 language pairs."
-  
-[[item]]
+ [[item]]
   organization = "Teaching Assistant (Semester)"
   organization_url = "https://www.cse.iitb.ac.in"
   title = "TA of the Semester"
@@ -82,13 +63,32 @@ date_format = "Jan 2006"
   <br />
   """
 
-[[item]]
-  organization = "CISCO - CSE, IIT Bombay"
-  organization_url = "https://www.cse.iitb.ac.in"
-  title = "CISCO Fellowship Awardee"
-  url = "https://www.cse.iitb.ac.in/page106?year=2017"
-  certificate_url = "https://www.cse.iitb.ac.in/page106?year=2017"
-  date_start = "2016-07-01"
-  date_end = "2020-07-01"
-  description = "Awarded the CISCO fellowship for pursuing PhD research"
+# [[item]]
+#  organization = "IITB - Monash Research Academy"
+#  organization_url = "https://www.iitbmonash.org"
+#  title = "Best Poster Presentation"
+#  url = ""
+#  certificate_url = ""
+#  date_start = "2016-08-01"
+#  date_end = ""
+#  description = "Awarded the best poster paper presentation in the PhD Early Researchers category" 
+
+# [[item]]
+#  organization = "ICON 2014"
+#  organization_url = "http://ltrc.iiit.ac.in/icon/2014/"
+#  title = "Statistical Machine Translation (SMT) Competition"
+#  url = ""
+#  date_start = "2014-12-25"
+#  date_end = ""
+#  description = "Part of the winning team of SMT competition held at ICON 2014, Goa. We submitted a Heirarchical Phrase-based SMT system for English to Indic Language MT which performed the best on all 5 language pairs."
+
+# [[item]]
+#  organization = "CISCO - CSE, IIT Bombay"
+#  organization_url = "https://www.cse.iitb.ac.in"
+#  title = "CISCO Fellowship Awardee"
+#  url = "https://www.cse.iitb.ac.in/page106?year=2017"
+#  certificate_url = "https://www.cse.iitb.ac.in/page106?year=2017"
+#  date_start = "2016-07-01"
+#  date_end = "2020-07-01"
+#  description = "Awarded the CISCO fellowship for pursuing PhD research" 
 +++

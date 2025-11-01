@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="D + क — Split-Tone Reflection">
+  <title>D + क — Split-Tone Reflection</title>
+  <desc>Top/bottom use --inkA/--inkB for theming or hover effects.</desc>
+  
+  <style>
+    :root { --ink: #0f0f0f; --inkA: #0f0f0f; --inkB: #0f0f0f; }
+    .ink { fill: var(--ink); }
+    .inkA { fill: var(--inkA); }
+    .inkB { fill: var(--inkB); }
+    .ring { stroke: var(--ink); fill: none; }
+    .latin { font-family: 'Inter', 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 800; }
+    .devan { font-family: 'Noto Sans Devanagari', 'Noto Serif Devanagari', 'Mangal', 'Kohinoor Devanagari', 'Devanagari Sangam MN', serif; font-weight: 800; }
+  </style>
+
+  
+  <g transform="translate(256,256)">
+    <text class="inkA latin" x="-10" y="-8" font-size="240" text-anchor="end">D</text>
+    <text class="inkA devan" x="10" y="-8" font-size="240" text-anchor="start">क</text>
+    <g transform="scale(1,-1)">
+      <text class="inkB latin" x="-10" y="-8" font-size="240" text-anchor="end">D</text>
+      <text class="inkB devan" x="10" y="-8" font-size="240" text-anchor="start">क</text>
+    </g>
+  </g>
+
+</svg>

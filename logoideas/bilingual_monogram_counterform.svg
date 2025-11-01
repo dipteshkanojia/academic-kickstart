@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="D + क — Mirror Counterform">
+  <title>D + क — Mirror Counterform</title>
+  <desc>Outline D hosts क inside the bowl; vertically mirrored.</desc>
+  
+  <style>
+    :root { --ink: #0f0f0f; --inkA: #0f0f0f; --inkB: #0f0f0f; }
+    .ink { fill: var(--ink); }
+    .inkA { fill: var(--inkA); }
+    .inkB { fill: var(--inkB); }
+    .ring { stroke: var(--ink); fill: none; }
+    .latin { font-family: 'Inter', 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 800; }
+    .devan { font-family: 'Noto Sans Devanagari', 'Noto Serif Devanagari', 'Mangal', 'Kohinoor Devanagari', 'Devanagari Sangam MN', serif; font-weight: 800; }
+  </style>
+
+  
+  <rect x="40" y="40" width="432" height="432" rx="32" ry="32" class="ring" stroke-width="6"/>
+  <g transform="translate(256,256)">
+    <!-- Outline D (stroke only) -->
+    <text x="-8" y="-8" font-size="280" text-anchor="end" class="latin" fill="none" stroke="var(--ink)" stroke-width="16">D</text>
+    <!-- क inside counter (smaller) -->
+    <text class="ink devan" x="36" y="-6" font-size="160" text-anchor="middle">क</text>
+    <!-- Mirror -->
+    <g transform="scale(1,-1)">
+      <text x="-8" y="-8" font-size="280" text-anchor="end" class="latin" fill="none" stroke="var(--ink)" stroke-width="16" opacity="0.9">D</text>
+      <text class="ink devan" x="36" y="-6" font-size="160" text-anchor="middle" opacity="0.9">क</text>
+    </g>
+  </g>
+
+</svg>

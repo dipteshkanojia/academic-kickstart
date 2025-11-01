@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="D + क — Circle Ambigram Duotone">
+  <title>D + क — Circle Ambigram Duotone</title>
+  <desc>Rotational duotone: upright pair in --inkA, rotated pair in --inkB with higher opacity to read both orientations.</desc>
+  
+  <style>
+    :root { --ink: #0f0f0f; --inkA: #111111; --inkB: #666666; --ring: var(--ink); }
+    .ink { fill: var(--ink); }
+    .inkA { fill: var(--inkA); }
+    .inkB { fill: var(--inkB); }
+    .ring { stroke: var(--ring); fill: none; }
+    .latin { font-family: 'Inter', 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 800; }
+    .devan { font-family: 'Noto Sans Devanagari', 'Noto Serif Devanagari', 'Mangal', 'Kohinoor Devanagari', 'Devanagari Sangam MN', serif; font-weight: 800; }
+  </style>
+
+  
+  <circle cx="256" cy="256" r="236" class="ring" stroke-width="10"/>
+  <g transform="translate(256,256)">
+    <text class="inkA latin" x="-14" y="2" font-size="236" text-anchor="end">D</text>
+    <text class="inkA devan" x="14" y="2" font-size="236" text-anchor="start">क</text>
+  </g>
+  <g transform="translate(256,256) rotate(180)" opacity="0.6">
+    <text class="inkB latin" x="-14" y="2" font-size="236" text-anchor="end">D</text>
+    <text class="inkB devan" x="14" y="2" font-size="236" text-anchor="start">क</text>
+  </g>
+  
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="D + क — Circle Ambigram Split-Ring">
+  <title>D + क — Circle Ambigram Split-Ring</title>
+  <desc>Split ring with small notches at cardinal points to emphasize rotational symmetry.</desc>
+  
+  <style>
+    :root { --ink: #0f0f0f; --inkA: #111111; --inkB: #666666; --ring: var(--ink); }
+    .ink { fill: var(--ink); }
+    .inkA { fill: var(--inkA); }
+    .inkB { fill: var(--inkB); }
+    .ring { stroke: var(--ring); fill: none; }
+    .latin { font-family: 'Inter', 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 800; }
+    .devan { font-family: 'Noto Sans Devanagari', 'Noto Serif Devanagari', 'Mangal', 'Kohinoor Devanagari', 'Devanagari Sangam MN', serif; font-weight: 800; }
+  </style>
+
+  
+  <!-- Outer ring broken at top/bottom for alignment emphasis -->
+  <path d="M256,20 A236,236 0 0,1 256,492" stroke-width="12" class="ring"/>
+  <path d="M256,20 A236,236 0 0,0 256,492" stroke-width="12" class="ring"/>
+  <!-- Tiny alignment ticks -->
+  <rect x="252" y="12" width="8" height="24" fill="var(--ring)"/>
+  <rect x="252" y="476" width="8" height="24" fill="var(--ring)"/>
+  <g transform="translate(256,256)">
+    <text class="ink latin" x="-12" y="0" font-size="240" text-anchor="end">D</text>
+    <text class="ink devan" x="12" y="0" font-size="240" text-anchor="start">क</text>
+  </g>
+  <g transform="translate(256,256) rotate(180)" opacity="0.22">
+    <text class="ink latin" x="-12" y="0" font-size="240" text-anchor="end">D</text>
+    <text class="ink devan" x="12" y="0" font-size="240" text-anchor="start">क</text>
+  </g>
+  
+</svg>

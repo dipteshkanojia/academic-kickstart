@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bilingual monogram logo (D + क) with shared spine">
+  <title>Bilingual monogram logo (D + क) — Shared Spine</title>
+  <desc>Vertical-palindrome monogram with a central shared spine to tighten symmetry and improve recognizability at small sizes.</desc>
+  
+  <style>
+    :root { --ink: #111111; --muted: rgba(17,17,17,0.28); }
+    .ink { fill: var(--ink); }
+    .ring { stroke: var(--ink); fill: none; }
+    .latin { font-family: 'Inter', 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 800; }
+    .devan { font-family: 'Noto Sans Devanagari', 'Noto Serif Devanagari', 'Mangal', 'Kohinoor Devanagari', 'Devanagari Sangam MN', serif; font-weight: 800; }
+  </style>
+
+  <!-- Optional rounded square keyline for layout reference -->
+  <rect x="40" y="40" width="432" height="432" rx="48" ry="48" class="ring" stroke-width="8"/>
+  <!-- Shared spine -->
+  <rect x="252" y="96" width="8" height="320" class="ink"/>
+  <g transform="translate(256,256)">
+    <!-- Top pair (full) -->
+    <text class="ink latin" x="-10" y="-10" font-size="220" text-anchor="end">D</text>
+    <text class="ink devan" x="10" y="-10" font-size="220" text-anchor="start">क</text>
+    <!-- Bottom mirrored pair (slightly muted for depth) -->
+    <g transform="scale(1,-1)">
+      <text class="ink latin" x="-10" y="-10" font-size="220" text-anchor="end" opacity="0.9">D</text>
+      <text class="ink devan" x="10" y="-10" font-size="220" text-anchor="start" opacity="0.9">क</text>
+    </g>
+  </g>
+</svg>

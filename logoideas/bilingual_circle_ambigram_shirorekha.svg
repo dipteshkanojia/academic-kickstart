@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="D + क — Circle Ambigram Shirorekha">
+  <title>D + क — Circle Ambigram Shirorekha</title>
+  <desc>Devanagari headline integrated as a thin band across both orientations inside the ring.</desc>
+  
+  <style>
+    :root { --ink: #0f0f0f; --inkA: #111111; --inkB: #666666; --ring: var(--ink); }
+    .ink { fill: var(--ink); }
+    .inkA { fill: var(--inkA); }
+    .inkB { fill: var(--inkB); }
+    .ring { stroke: var(--ring); fill: none; }
+    .latin { font-family: 'Inter', 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 800; }
+    .devan { font-family: 'Noto Sans Devanagari', 'Noto Serif Devanagari', 'Mangal', 'Kohinoor Devanagari', 'Devanagari Sangam MN', serif; font-weight: 800; }
+  </style>
+
+  
+  <circle cx="256" cy="256" r="236" class="ring" stroke-width="10"/>
+  <!-- Headline bands -->
+  <rect x="112" y="214" width="288" height="10" fill="var(--ring)" rx="3"/>
+  <rect x="112" y="288" width="288" height="10" fill="var(--ring)" rx="3"/>
+  <g transform="translate(256,256)">
+    <text class="ink latin" x="-14" y="2" font-size="236" text-anchor="end">D</text>
+    <text class="ink devan" x="14" y="2" font-size="236" text-anchor="start">क</text>
+  </g>
+  <g transform="translate(256,256) rotate(180)" opacity="0.2">
+    <text class="ink latin" x="-14" y="2" font-size="236" text-anchor="end">D</text>
+    <text class="ink devan" x="14" y="2" font-size="236" text-anchor="start">क</text>
+  </g>
+  
+</svg>
