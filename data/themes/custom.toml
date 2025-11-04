@@ -1,0 +1,23 @@
+# Custom Theme - Diptesh's Personal Theme
+name = "Custom"
+
+# Is theme light or dark?
+light = true
+
+# Primary - Deep blue with a tech feel
+primary = "#1a365d"
+
+# Menu - Light gray background for light theme
+menu_primary = "#f8fafc"
+menu_text = "rgba(255,255,255,0.8)"
+menu_text_active = "#60a5fa"
+menu_title = "#f1f5f9"
+
+# Home sections - Light blue-gray gradient
+home_section_odd = "rgb(248, 250, 252)"
+home_section_even = "rgb(241, 245, 249)"
+
+# Additional custom colors for NLP/tech theme
+# These can be used in custom CSS if needed
+accent_secondary = "#7c3aed"
+text_highlight = "#059669"

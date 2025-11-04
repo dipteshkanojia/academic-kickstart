@@ -1,0 +1,22 @@
+# Theme metadata
+name = "Mr Robot"
+
+# Is theme light or dark?
+light = false
+
+# Primary
+#primary = "rgb(0, 136, 204)"
+primary = "hsl(220, 100%, 70%)"
+
+# Menu
+menu_primary = "rgb(33, 37, 41)"
+#menu_text = "rgb(0, 136, 204)"
+menu_text_active = "hsl(220, 100%, 70%)"
+menu_text = "rgba(255,255,255,1)"
+menu_title = "hsl(220, 100%, 70%)"
+
+# Home sections
+#home_section_odd = "rgb(29, 33, 39)"
+#home_section_even = "rgb(29, 33, 39)"
+home_section_odd = "hsla(231, 15%, 18%, 1)"
+home_section_even = "hsla(231, 15%, 16%, 1)"

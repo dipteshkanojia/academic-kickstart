@@ -40,7 +40,7 @@
       {{- else -}}
         <span class="name-en">{{- site.Title -}}</span>
         <span class="name-other">दिप्तेश कनोजिया</span>
-        <span class="name-other">দিপ্তেশ কনোজিয়া</span>
+        <!-- <span class="name-other">দিপ্তেশ কনোজিয়া</span>
         <span class="name-other">দিপ্তেশ কানোজিয়া</span>
         <span class="name-other">દિપ્તેશ કનોજિયા</span>
         <span class="name-other">ਦਿਪਤੇਸ਼ ਕਨੋਜੀਆ</span>
@@ -72,7 +72,7 @@
         <span class="name-other">დიპტეშ კანოჯია</span>
         <span class="name-other">Դիպտեշ Կանոջիա</span>
         <span class="name-other">/ˈdɪp.t̪eʃ kəˈnoː.dʒɪ.ja/</span>
-        <span class="name-other" style="font-size: 1rem;">44 69 70 74 65 73 68 20 4B 61 6E 6F 6A 69 61</span>
+        <span class="name-other" style="font-size: 1rem;">44 69 70 74 65 73 68 20 4B 61 6E 6F 6A 69 61</span> -->
       {{- end -}}
     </a>
       {{ if or site.Menus.main .IsTranslated }}
@@ -135,13 +135,12 @@
           <a class="nav-link {{if $is_link_in_current_path }} active{{end}}" href="{{.URL | relLangURL}}"{{ if and $is_widget_page $is_same_page }} data-target="{{$hash}}"{{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>
             {{- .Pre -}}
               {{/* First, check if the link is one we want to translate */}}
-              {{ if or (eq .Name "Experience") (eq .Name "Research") (eq .Name "Blog") }}
+              {{ if or (eq .Name "Research") (eq .Name "Blog") }}
 
                 <span class="nav-text-wrapper">
                   <span class="en-nav">{{ .Name | safeHTML }}</span>
                   <span class="hi-nav">
-                    {{ if eq .Name "Experience" }}अनुभव
-                    {{ else if eq .Name "Research" }}अनुसंधान
+                    {{ if eq .Name "Research" }}अनुसंधान
                     {{ else if eq .Name "Blog" }}पोस्ट
                     {{ end }}
                   </span>

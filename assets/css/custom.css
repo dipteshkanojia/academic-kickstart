@@ -1,0 +1,298 @@
+/* ===========================================
+   CUSTOM WEBSITE STYLING - Diptesh Kanojia
+   ===========================================
+
+   This file contains custom CSS overrides for the Academic theme.
+   All colors use matte, professional shades of blue, green, and red.
+
+   QUICK COLOR REFERENCE:
+   - Primary Blue: #1e40af (used for links, active states, hover effects)
+   - Forest Green: #0c943c (used for default states, hover effects)
+   - Dark Gray: #374151 (navbar text in light theme)
+   - Light Gray: #f8fafc (light theme navbar background)
+   - Royal Deep Blue: #1e3a8a (dark theme navbar background)
+   =========================================== */
+
+/* ===========================================
+   ABOUT WIDGET STYLING
+   =========================================== */
+
+/* Remove underlines from all links in about widget */
+.wg-about a {
+  text-decoration: none !important;
+}
+
+/* LIGHT THEME: About widget colors */
+.wg-about h3[itemprop="jobTitle"],
+.wg-about h3[itemprop="worksFor"] a,
+.wg-about h3[itemprop="worksFor"] span[itemprop="name"],
+.wg-about a,
+.wg-about .network-icon a i {
+  color: #1e40af; /* Forest green for all elements */
+  text-decoration: none !important; /* Remove underlines from links */
+  transition: color 0.3s ease;
+}
+
+/* LIGHT THEME: Hover effects for about widget */
+.wg-about h3[itemprop="jobTitle"]:hover,
+.wg-about h3[itemprop="worksFor"] a:hover,
+.wg-about h3[itemprop="worksFor"] span[itemprop="name"]:hover,
+.wg-about a:hover,
+.wg-about .network-icon a i:hover {
+  color: #0c943c; /* Blue on hover */
+}
+
+/* DARK THEME: About widget colors */
+.dark .wg-about h3[itemprop="jobTitle"],
+.dark .wg-about h3[itemprop="worksFor"] a,
+.dark .wg-about h3[itemprop="worksFor"] span[itemprop="name"],
+.dark .wg-about a,
+.dark .wg-about .network-icon a i {
+  color: #2198b3 !important; /* Blue for all elements */
+  transition: color 0.3s ease;
+}
+
+/* DARK THEME: Hover effects for about widget */
+.dark .wg-about h3[itemprop="jobTitle"]:hover,
+.dark .wg-about h3[itemprop="worksFor"] a:hover,
+.dark .wg-about h3[itemprop="worksFor"] span[itemprop="name"]:hover,
+.dark .wg-about a:hover,
+.dark .wg-about .network-icon a i:hover {
+  color: #0c943c !important; /* Green on hover */
+}
+
+/* ===========================================
+   SECTION TITLES (Biography, Interests, Education)
+   =========================================== */
+
+/* LIGHT THEME: Section titles - black by default, blue on hover */
+.wg-about .col-md-6 h3,
+.wg-about h1 {
+  color: #000000 !important; /* Black for section titles */
+  transition: color 0.3s ease;
+}
+
+.wg-about .col-md-6 h3:hover,
+.wg-about h1:hover {
+  color: #0c943c !important; /* Blue on hover */
+}
+
+/* DARK THEME: Section titles - white by default, green on hover */
+.dark .wg-about .col-md-6 h3,
+.dark .wg-about h1 {
+  color: #ffffff !important; /* White for section titles */
+  transition: color 0.3s ease;
+}
+
+.dark .wg-about .col-md-6 h3:hover,
+.dark .wg-about h1:hover {
+  color: #0c943c !important; /* Green on hover */
+}
+
+/* ===========================================
+   INTERESTS LIST STYLING
+   =========================================== */
+
+/* LIGHT THEME: Interests list items */
+.wg-about .ul-interests li {
+  color: inherit; /* Inherit from parent */
+  transition: color 0.3s ease;
+}
+
+.wg-about .ul-interests li:hover {
+  color: #0c943c !important; /* Green on hover (same as section titles) */
+}
+
+/* DARK THEME: Interests list items */
+.dark .wg-about .ul-interests li {
+  color: inherit; /* Inherit from parent */
+  transition: color 0.3s ease;
+}
+
+.dark .wg-about .ul-interests li:hover {
+  color: #0c943c !important; /* Green on hover (same as section titles) */
+}
+
+/* ===========================================
+   EXPERIENCE WIDGET TIMELINE STYLING
+   =========================================== */
+
+/* LIGHT THEME: Experience timeline circles and lines */
+.experience .m-2 .badge {
+  background-color: transparent !important; /* Transparent for unfilled circles */
+  border-color: #1e40af !important; /* Primary blue border for unfilled */
+}
+
+.experience .m-2 .badge.exp-fill {
+  background-color: #1e40af !important; /* Primary blue for current positions (filled) */
+  border-color: #1e40af !important;
+}
+
+.experience .border-right {
+  border-color: #1e40af !important; /* Primary blue for timeline lines */
+}
+
+/* DARK THEME: Experience timeline circles and lines */
+.dark .experience .m-2 .badge {
+  background-color: transparent !important; /* Transparent for unfilled circles */
+  border-color: #2198b3 !important; /* Light blue border for unfilled */
+}
+
+.dark .experience .m-2 .badge.exp-fill {
+  background-color: #2198b3 !important; /* Light blue for current positions (filled) */
+  border-color: #2198b3 !important;
+}
+
+.dark .experience .border-right {
+  border-color: #2198b3 !important; /* Light blue for timeline lines */
+}
+
+/* ===========================================
+   EXPERIENCE WIDGET TITLE STYLING
+   =========================================== */
+
+/* LIGHT THEME: Experience role titles */
+.experience .exp-title {
+  color: #000000 !important; /* Primary blue for role titles */
+}
+
+/* DARK THEME: Experience role titles */
+.dark .experience .exp-title {
+  color: #ffffff !important; /* Light blue for role titles */
+}
+
+/* ===========================================
+   EXPERIENCE WIDGET LINK STYLING
+   =========================================== */
+
+/* LIGHT THEME: Experience widget links */
+.experience a {
+  color: #1e40af !important; /* Primary blue for links */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.experience a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* LIGHT THEME: Experience company links specifically */
+.experience .exp-company a,
+.experience .exp-company {
+  text-decoration: none !important; /* Remove underlines from company links and text */
+  border-bottom: none !important; /* Remove any bottom borders */
+}
+
+.experience .exp-company a:hover,
+.experience .exp-company:hover {
+  text-decoration: none !important; /* Ensure no underlines on hover */
+  border-bottom: none !important; /* Remove any bottom borders on hover */
+}
+
+/* DARK THEME: Experience widget links */
+.dark .experience a {
+  color: #2198b3 !important; /* Light blue for links */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.dark .experience a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* ===========================================
+   NAVBAR STYLING
+   =========================================== */
+
+/* LIGHT THEME: Navbar background and colors */
+.navbar {
+  background-color: #f8fafc !important; /* Light gray background */
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #374151 !important; /* Dark gray text */
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus {
+  color: #1e40af !important; /* Blue on hover */
+}
+
+.navbar .navbar-brand {
+  color: #0f3067 !important; /* Dark blue for brand */
+}
+
+/* LIGHT THEME: Active navbar item (current page) */
+.navbar .navbar-nav .nav-link.active:not(.theme-toggle) {
+  color: #1e40af !important; /* Blue for active item */
+}
+
+/* LIGHT THEME: Reset hover color for non-active navbar items */
+.navbar .navbar-nav .nav-link:not(.active):not(.theme-toggle):hover,
+.navbar .navbar-nav .nav-link:not(.active):not(.theme-toggle):focus {
+  color: #1e40af !important; /* Blue on hover for non-active items */
+}
+
+/* LIGHT THEME: Reset hover color for non-active navbar items */
+.navbar .navbar-nav .nav-link:not(.active):not(.theme-toggle):hover,
+.navbar .navbar-nav .nav-link:not(.active):not(.theme-toggle):focus {
+  color: #1e40af !important; /* Blue on hover for non-active items */
+}
+
+/* DARK THEME: Navbar background and colors */
+.dark .navbar {
+  background-color: #232c36 !important; /* Royal deep blue background */
+}
+
+.dark .navbar .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.8) !important; /* Semi-transparent white */
+}
+
+.dark .navbar .navbar-nav .nav-link:hover,
+.dark .navbar .navbar-nav .nav-link:focus {
+  color: #319cd2 !important; /* Light blue on hover */
+}
+
+.dark .navbar .navbar-brand {
+  color: #f1f5f9 !important; /* Light gray for brand */
+}
+
+/* DARK THEME: Active navbar item (current page) */
+.dark .navbar .navbar-nav .nav-link.active:not(.theme-toggle) {
+  color: #319cd2 !important; /* Light blue for active item */
+}
+
+/* DARK THEME: Reset hover color for non-active navbar items */
+.dark .navbar .navbar-nav .nav-link:not(.active):not(.theme-toggle):hover,
+.dark .navbar .navbar-nav .nav-link:not(.active):not(.theme-toggle):focus {
+  color: #319cd2 !important; /* Light blue on hover for non-active items */
+}
+
+/* DARK THEME: Reset hover color for non-active navbar items */
+.dark .navbar .navbar-nav .nav-link:not(.active):not(.theme-toggle):hover,
+.dark .navbar .navbar-nav .nav-link:not(.active):not(.theme-toggle):focus {
+  color: #319cd2 !important; /* Light blue on hover for non-active items */
+}
+
+/* ===========================================
+   CUSTOMIZATION GUIDE
+   ===========================================
+
+   TO CHANGE COLORS:
+   1. Primary Blue (#1e40af): Used for links, active states, hover effects
+   2. Forest Green (#0c943c): Used for default states and some hover effects
+   3. Navbar Backgrounds: Light gray (#f8fafc) and dark navy (#070d16)
+
+   TO MODIFY SECTIONS:
+   - About Widget: Look for ".wg-about" rules
+   - Section Titles: Look for ".col-md-6 h3, h1" rules
+   - Navbar: Look for ".navbar" rules
+   - Theme-specific: Add ".dark" prefix for dark theme overrides
+
+   TO ADD NEW STYLES:
+   - Add new rules at the end of the appropriate section
+   - Use !important for theme overrides
+   - Test in both light and dark themes
+   =========================================== */
