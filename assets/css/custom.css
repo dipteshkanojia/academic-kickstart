@@ -229,10 +229,10 @@
   color: #1e40af !important; /* Blue for active item */
 }
 
-/* LIGHT THEME: Reset hover color for non-active navbar items */
-.navbar .navbar-nav .nav-link:not(.active):not(.theme-toggle):hover,
-.navbar .navbar-nav .nav-link:not(.active):not(.theme-toggle):focus {
-  color: #1e40af !important; /* Blue on hover for non-active items */
+/* LIGHT THEME: Navbar hover colors - only when truly hovering */
+.navbar .navbar-nav .nav-link:not(.theme-toggle):hover,
+.navbar .navbar-nav .nav-link:not(.theme-toggle):focus {
+  color: #1e40af !important; /* Blue on hover for all items */
 }
 
 /* LIGHT THEME: Reset hover color for non-active navbar items */
@@ -264,10 +264,330 @@
   color: #319cd2 !important; /* Light blue for active item */
 }
 
-/* DARK THEME: Reset hover color for non-active navbar items */
-.dark .navbar .navbar-nav .nav-link:not(.active):not(.theme-toggle):hover,
-.dark .navbar .navbar-nav .nav-link:not(.active):not(.theme-toggle):focus {
-  color: #319cd2 !important; /* Light blue on hover for non-active items */
+/* DARK THEME: Navbar hover colors - only when truly hovering */
+.dark .navbar .navbar-nav .nav-link:not(.theme-toggle):hover,
+.dark .navbar .navbar-nav .nav-link:not(.theme-toggle):focus {
+  color: #319cd2 !important; /* Light blue on hover for all items */
+}
+
+/* ===========================================
+    PUBLICATIONS WIDGET STYLING
+    =========================================== */
+
+/* LIGHT THEME: Publications widget colors */
+.wg-pages .card-title a {
+  color: #1e40af !important; /* Primary blue for publication titles */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.wg-pages .card-title a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* LIGHT THEME: Publications widget author names */
+.wg-pages .article-metadata li {
+  color: inherit; /* Inherit from parent */
+  transition: color 0.3s ease;
+}
+
+.wg-pages .article-metadata li:hover {
+  color: #0c943c !important; /* Green on hover for metadata */
+}
+
+/* LIGHT THEME: Featured publications widget (wg-featured) */
+.wg-featured .article-title a {
+  color: #1e40af !important; /* Primary blue for featured publication titles */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.wg-featured .article-title a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* LIGHT THEME: Featured publications author links */
+.wg-featured .article-metadata a {
+  color: inherit; /* Inherit from parent */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.wg-featured .article-metadata a:hover {
+  color: #0c943c !important; /* Green on hover for author links */
+}
+
+/* DARK THEME: Publications widget colors */
+.dark .wg-pages .card-title a {
+  color: #2198b3 !important; /* Light blue for publication titles */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.dark .wg-pages .card-title a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* DARK THEME: Publications widget author names */
+.dark .wg-pages .article-metadata li {
+  color: inherit; /* Inherit from parent */
+  transition: color 0.3s ease;
+}
+
+.dark .wg-pages .article-metadata li:hover {
+  color: #0c943c !important; /* Green on hover for metadata */
+}
+
+/* DARK THEME: Featured publications widget (wg-featured) */
+.dark .wg-featured .article-title a {
+  color: #2198b3 !important; /* Light blue for featured publication titles */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.dark .wg-featured .article-title a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* DARK THEME: Featured publications author links */
+.dark .wg-featured .article-metadata a {
+  color: inherit; /* Inherit from parent */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.dark .wg-featured .article-metadata a:hover {
+  color: #0c943c !important; /* Green on hover for author links */
+}
+
+/* LIGHT THEME: Featured publications article content links */
+.wg-featured .article-style a {
+  color: #1e40af !important; /* Primary blue for links in article content */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.wg-featured .article-style a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* DARK THEME: Featured publications article content links */
+.dark .wg-featured .article-style a {
+  color: #2198b3 !important; /* Light blue for links in article content */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.dark .wg-featured .article-style a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* LIGHT THEME: Recent Research widget (wg-pages) author links - keep default gray, green on hover */
+.wg-pages .li-cite-author a {
+  color: inherit !important; /* Keep default gray color */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.wg-pages .li-cite-author a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* LIGHT THEME: Recent Research widget publication title links */
+.wg-pages .pub-list-item a[itemprop="name"] {
+  color: #1e40af !important; /* Primary blue for publication titles */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.wg-pages .pub-list-item a[itemprop="name"]:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* DARK THEME: Recent Research widget (wg-pages) author links - keep default color, green on hover */
+.dark .wg-pages .li-cite-author a {
+  color: inherit !important; /* Keep default color */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.dark .wg-pages .li-cite-author a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* DARK THEME: Recent Research widget publication title links */
+.dark .wg-pages .pub-list-item a[itemprop="name"] {
+  color: #2198b3 !important; /* Light blue for publication titles */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.dark .wg-pages .pub-list-item a[itemprop="name"]:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* ===========================================
+    PUBLICATION BUTTONS STYLING
+    =========================================== */
+
+/* LIGHT THEME: Publication buttons (PDF, Cite, Code, etc.) */
+.wg-pages .btn-outline-primary,
+.wg-featured .btn-outline-primary {
+  color: #1e40af !important; /* Primary blue text */
+  border-color: #1e40af !important; /* Primary blue border */
+  background-color: transparent !important;
+  transition: all 0.3s ease;
+}
+
+.wg-pages .btn-outline-primary:hover,
+.wg-featured .btn-outline-primary:hover {
+  color: #ffffff !important; /* White text on hover */
+  background-color: #0c943c !important; /* Green background on hover */
+  border-color: #0c943c !important; /* Green border on hover */
+  transform: translateY(-1px); /* Slight lift effect */
+}
+
+/* DARK THEME: Publication buttons (PDF, Cite, Code, etc.) */
+.dark .wg-pages .btn-outline-primary,
+.dark .wg-featured .btn-outline-primary {
+  color: #2198b3 !important; /* Light blue text */
+  border-color: #2198b3 !important; /* Light blue border */
+  background-color: transparent !important;
+  transition: all 0.3s ease;
+}
+
+.dark .wg-pages .btn-outline-primary:hover,
+.dark .wg-featured .btn-outline-primary:hover {
+  color: #ffffff !important; /* White text on hover */
+  background-color: #0c943c !important; /* Green background on hover */
+  border-color: #0c943c !important; /* Green border on hover */
+  transform: translateY(-1px); /* Slight lift effect */
+}
+
+/* ===========================================
+    SEE ALL PUBLICATIONS LINK STYLING
+    =========================================== */
+
+/* LIGHT THEME: See all publications link */
+.wg-pages .see-all a {
+  color: #1e40af !important; /* Primary blue */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.wg-pages .see-all a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* DARK THEME: See all publications link */
+.dark .wg-pages .see-all a {
+  color: #2198b3 !important; /* Light blue */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.dark .wg-pages .see-all a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* ===========================================
+    CONTACT WIDGET STYLING
+    =========================================== */
+
+/* LIGHT THEME: Contact widget links */
+.contact-widget a {
+  color: #1e40af !important; /* Primary blue for links */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.contact-widget a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* DARK THEME: Contact widget links */
+.dark .contact-widget a {
+  color: #2198b3 !important; /* Light blue for links */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.dark .contact-widget a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* ===========================================
+    TALKS WIDGET STYLING
+    =========================================== */
+
+/* LIGHT THEME: Talks widget title links */
+.wg-talks .article-title a,
+.wg-pages .article-title a {
+  color: inherit !important; /* Keep default white color */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.wg-talks .article-title a:hover,
+.wg-pages .article-title a:hover {
+  color: #1e40af !important; /* Primary blue on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* LIGHT THEME: Talks widget author links */
+.wg-talks .stream-meta a,
+.wg-pages .stream-meta a {
+  color: inherit !important; /* Keep default gray color */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.wg-talks .stream-meta a:hover,
+.wg-pages .stream-meta a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* DARK THEME: Talks widget title links */
+.dark .wg-talks .article-title a,
+.dark .wg-pages .article-title a {
+  color: inherit !important; /* Keep default color */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.dark .wg-talks .article-title a:hover,
+.dark .wg-pages .article-title a:hover {
+  color: #2198b3 !important; /* Light blue on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* DARK THEME: Talks widget author links */
+.dark .wg-talks .stream-meta a,
+.dark .wg-pages .stream-meta a {
+  color: inherit !important; /* Keep default color */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.dark .wg-talks .stream-meta a:hover,
+.dark .wg-pages .stream-meta a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
 }
 
 /* DARK THEME: Reset hover color for non-active navbar items */

@@ -80,25 +80,6 @@ date_format = "Jan 2006"
 	"""
 
 [[experience]]
-   title = "Reviewer/Program Committee Member/Senior Program Committee Member"
-   company = "Various Conferences and Journals"
-   company_url = "https://openreview.net/profile?id=%7EDiptesh_Kanojia1"
-   location = ""
-   date_start = "2017-01-15"
-   date_end = ""
-   description = """
-   (Meta-) Reviewed papers in the following conferences/journals:
-   
-   * *ACL Rolling Reviews, NeurIPS, CVPR, AAAI, ACM MM, IJCAI, ICCV, COLING, and LREC
-   * ACM CSUR, CSL, NLP, TALLIP, PR Letters. 
-   <br /> <br />
-
-   [**ACL Professional Conduct Committee (2021 - 2026)**](https://www.aclweb.org/adminwiki/index.php?title=Professional_Conduct_Committee)
-   * Member of the Professional Conduct Committee (PCC) establised by ACL; responsible for responding to complaints raised under the Anti-Harassment Policy.
- 
-	"""
-
-[[experience]]
   title = "Teaching Assistant"
   company = "Computer Science and Engineering Department, IIT Bombay"
   company_url = "http://www.cse.iitb.ac.in"
@@ -150,3 +131,22 @@ date_format = "Jan 2006"
 
 
 +++
+
+<!-- [[experience]]
+   title = "Reviewer/Program Committee Member/Senior Program Committee Member"
+   company = "Various Conferences and Journals"
+   company_url = "https://openreview.net/profile?id=%7EDiptesh_Kanojia1"
+   location = ""
+   date_start = "2017-01-15"
+   date_end = ""
+   description = """
+   (Meta-) Reviewed papers in the following conferences/journals:
+   
+   * *ACL Rolling Reviews, NeurIPS, CVPR, AAAI, ACM MM, IJCAI, ICCV, COLING, and LREC
+   * ACM CSUR, CSL, NLP, TALLIP, PR Letters. 
+   <br /> <br />
+
+   [**ACL Professional Conduct Committee (2021 - 2026)**](https://www.aclweb.org/adminwiki/index.php?title=Professional_Conduct_Committee)
+   * Member of the Professional Conduct Committee (PCC) establised by ACL; responsible for responding to complaints raised under the Anti-Harassment Policy.
+ 
+	""" -->
