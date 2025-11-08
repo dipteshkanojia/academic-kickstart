@@ -298,13 +298,13 @@
 
 /* LIGHT THEME: Featured publications widget (wg-featured) */
 .wg-featured .article-title a {
-  color: #1e40af !important; /* Primary blue for featured publication titles */
+  color: inherit !important; /* Default color (black/white) */
   text-decoration: none !important; /* Remove underlines */
   transition: color 0.3s ease;
 }
 
 .wg-featured .article-title a:hover {
-  color: #0c943c !important; /* Green on hover */
+  color: #1e40af !important; /* Primary blue on hover */
   text-decoration: none !important; /* Ensure no underlines on hover */
 }
 
@@ -343,13 +343,13 @@
 
 /* DARK THEME: Featured publications widget (wg-featured) */
 .dark .wg-featured .article-title a {
-  color: #2198b3 !important; /* Light blue for featured publication titles */
+  color: inherit !important; /* Default color (black/white) */
   text-decoration: none !important; /* Remove underlines */
   transition: color 0.3s ease;
 }
 
 .dark .wg-featured .article-title a:hover {
-  color: #0c943c !important; /* Green on hover */
+  color: #2198b3 !important; /* Light blue on hover */
   text-decoration: none !important; /* Ensure no underlines on hover */
 }
 
@@ -388,12 +388,19 @@
   text-decoration: none !important; /* Ensure no underlines on hover */
 }
 
-/* LIGHT THEME: Recent Research widget (wg-pages) author links - keep default gray, green on hover */
-.wg-pages .li-cite-author a {
-  color: inherit !important; /* Keep default gray color */
-  text-decoration: none !important; /* Remove underlines */
+/* LIGHT THEME: Recent Research widget (wg-pages) author links - lighter gray, green on hover */
+.li-cite-author a,
+.article-metadata .li-cite-author a,
+.pub-list-item .article-metadata .li-cite-author a,
+.pub-list-item .article-metadata li-cite-author a,
+.wg-pages .li-cite-author a,
+.wg-pages [itemprop="author"] a,
+.wg-pages a.author-link {
+  color: #d4d9e3 !important; /* Lighter gray */
+  text-decoration: none !important;
   transition: color 0.3s ease;
 }
+
 
 .wg-pages .li-cite-author a:hover {
   color: #0c943c !important; /* Green on hover */
@@ -402,19 +409,20 @@
 
 /* LIGHT THEME: Recent Research widget publication title links */
 .wg-pages .pub-list-item a[itemprop="name"] {
-  color: #1e40af !important; /* Primary blue for publication titles */
+  color: inherit !important; /* Default color (black/white) */
   text-decoration: none !important; /* Remove underlines */
   transition: color 0.3s ease;
 }
 
 .wg-pages .pub-list-item a[itemprop="name"]:hover {
-  color: #0c943c !important; /* Green on hover */
+  color: #1e40af !important; /* Primary blue on hover */
   text-decoration: none !important; /* Ensure no underlines on hover */
 }
 
-/* DARK THEME: Recent Research widget (wg-pages) author links - keep default color, green on hover */
-.dark .wg-pages .li-cite-author a {
-  color: inherit !important; /* Keep default color */
+/* DARK THEME: Recent Research widget (wg-pages) author links - slightly darker gray, green on hover */
+.dark .wg-pages .li-cite-author a,
+.dark .article-metadata li-cite-author a {
+  color: #9ca3af !important; /* Slightly darker gray for dark theme */
   text-decoration: none !important; /* Remove underlines */
   transition: color 0.3s ease;
 }
@@ -426,13 +434,13 @@
 
 /* DARK THEME: Recent Research widget publication title links */
 .dark .wg-pages .pub-list-item a[itemprop="name"] {
-  color: #2198b3 !important; /* Light blue for publication titles */
+  color: inherit !important; /* Default color (black/white) */
   text-decoration: none !important; /* Remove underlines */
   transition: color 0.3s ease;
 }
 
 .dark .wg-pages .pub-list-item a[itemprop="name"]:hover {
-  color: #0c943c !important; /* Green on hover */
+  color: #2198b3 !important; /* Light blue on hover */
   text-decoration: none !important; /* Ensure no underlines on hover */
 }
 
@@ -500,6 +508,168 @@
 .dark .wg-pages .see-all a:hover {
   color: #0c943c !important; /* Green on hover */
   text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* ===========================================
+    PUBLICATIONS INDEX PAGE STYLING
+    =========================================== */
+
+/* LIGHT THEME: Publications index page title links */
+.pub-list-item .article-title a {
+  color: #1e40af !important; /* Primary blue for publication titles */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.pub-list-item .article-title a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* LIGHT THEME: Publications index page author links */
+.pub-list-item .li-cite-author a {
+  color: inherit !important; /* Keep default gray color */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.pub-list-item .li-cite-author a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* LIGHT THEME: Publications index page buttons (PDF, Cite, etc.) */
+.pub-list-item .btn-outline-primary {
+  color: #1e40af !important; /* Primary blue text */
+  border-color: #1e40af !important; /* Primary blue border */
+  background-color: transparent !important;
+  transition: all 0.3s ease;
+}
+
+.pub-list-item .btn-outline-primary:hover {
+  color: #ffffff !important; /* White text on hover */
+  background-color: #0c943c !important; /* Green background on hover */
+  border-color: #0c943c !important; /* Green border on hover */
+  transform: translateY(-1px); /* Slight lift effect */
+}
+
+/* DARK THEME: Publications index page title links */
+.dark .pub-list-item .article-title a {
+  color: #2198b3 !important; /* Light blue for publication titles */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.dark .pub-list-item .article-title a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* DARK THEME: Publications index page author links */
+.dark .pub-list-item .li-cite-author a {
+  color: inherit !important; /* Keep default color */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.dark .pub-list-item .li-cite-author a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* DARK THEME: Publications index page buttons (PDF, Cite, etc.) */
+.dark .pub-list-item .btn-outline-primary {
+  color: #2198b3 !important; /* Light blue text */
+  border-color: #2198b3 !important; /* Light blue border */
+  background-color: transparent !important;
+  transition: all 0.3s ease;
+}
+
+.dark .pub-list-item .btn-outline-primary:hover {
+  color: #ffffff !important; /* White text on hover */
+  background-color: #0c943c !important; /* Green background on hover */
+  border-color: #0c943c !important; /* Green border on hover */
+  transform: translateY(-1px); /* Slight lift effect */
+}
+
+/* LIGHT THEME: Publications index page title links (global for index page) */
+.article-title a {
+  color: inherit !important; /* Default color (black/white) */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.article-title a:hover {
+  color: #1e40af !important; /* Primary blue on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* DARK THEME: Publications index page title links (global for index page) */
+.dark .article-title a {
+  color: inherit !important; /* Default color (black/white) */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.dark .article-title a:hover {
+  color: #2198b3 !important; /* Light blue on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* LIGHT THEME: Publications index page author links (global for index page) */
+/* .stream-meta a,
+[itemprop="author"] a {
+  color: #9ca3af !important; /* Lighter gray for better readability 
+  text-decoration: none !important; /* Remove underlines 
+  transition: color 0.3s ease;
+} */
+
+.stream-meta a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* DARK THEME: Publications index page author links (global for index page) */
+/* .dark .stream-meta a,
+.dark [itemprop="author"] a {
+  color: #9ca3af !important; /* Lighter gray for dark theme 
+  text-decoration: none !important; /* Remove underlines 
+  transition: color 0.3s ease;
+} */
+
+.dark .stream-meta a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* LIGHT THEME: Individual publication page buttons within btn-links (all screen sizes) */
+.btn-links .btn-outline-primary {
+  color: #1e40af !important; /* Primary blue text */
+  border-color: #1e40af !important; /* Primary blue border */
+  background-color: transparent !important;
+  transition: all 0.3s ease;
+}
+
+.btn-links .btn-outline-primary:hover {
+  color: #ffffff !important; /* White text on hover */
+  background-color: #0c943c !important; /* Green background on hover */
+  border-color: #0c943c !important; /* Green border on hover */
+  transform: translateY(-1px); /* Slight lift effect */
+}
+
+/* DARK THEME: Individual publication page buttons within btn-links (all screen sizes) */
+.dark .btn-links .btn-outline-primary {
+  color: #2198b3 !important; /* Light blue text */
+  border-color: #2198b3 !important; /* Light blue border */
+  background-color: transparent !important;
+  transition: all 0.3s ease;
+}
+
+.dark .btn-links .btn-outline-primary:hover {
+  color: #ffffff !important; /* White text on hover */
+  background-color: #0c943c !important; /* Green background on hover */
+  border-color: #0c943c !important; /* Green border on hover */
+  transform: translateY(-1px); /* Slight lift effect */
 }
 
 /* ===========================================
@@ -595,6 +765,235 @@
 .dark .navbar .navbar-nav .nav-link:not(.active):not(.theme-toggle):focus {
   color: #319cd2 !important; /* Light blue on hover for non-active items */
 }
+
+/* Navbar toggler button styling for mobile menu */
+.navbar-toggler {
+  border: none !important; /* Remove border */
+  background-color: transparent !important; /* Transparent background */
+}
+
+.navbar-toggler i {
+  color: #374151 !important; /* Dark gray for hamburger icon in light theme */
+  transition: color 0.3s ease;
+}
+
+/* Dark theme navbar toggler */
+.dark .navbar-toggler i {
+  color: rgba(255, 255, 255, 0.8) !important; /* Semi-transparent white for dark theme */
+}
+
+/* Blog section heading with Hindi hover effect */
+#posts .section-heading h1 {
+  color: inherit !important; /* Default color */
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+#posts .section-heading h1:hover {
+  color: #0c943c !important; /* Green on hover */
+}
+
+/* Dark theme blog section heading */
+.dark #posts .section-heading h1 {
+  color: inherit !important; /* Default color for dark theme */
+}
+
+.dark #posts .section-heading h1:hover {
+  color: #0c943c !important; /* Green on hover for dark theme */
+}
+
+/* Experience section heading with Hindi hover effect */
+#experience .section-heading h1 {
+  color: inherit !important; /* Default color */
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+#experience .section-heading h1:hover {
+  color: #0c943c !important; /* Green on hover */
+}
+
+/* Dark theme experience section heading */
+.dark #experience .section-heading h1 {
+  color: inherit !important; /* Default color for dark theme */
+}
+
+.dark #experience .section-heading h1:hover {
+  color: #0c943c !important; /* Green on hover for dark theme */
+}
+
+
+/* Fix for author names in Significant Publications/Recent Research card */
+.pub-list-item [itemprop~="author"][itemtype="http://schema.org/Person"] a,
+.pub-list-item [itemprop~="author name"][itemtype="http://schema.org/Person"] a {
+  color: #8c94a3 !important;
+  text-decoration: none !important;
+  transition: color 0.3s ease;
+}
+.pub-list-item [itemprop~="author"][itemtype="http://schema.org/Person"] a:hover,
+.pub-list-item [itemprop~="author name"][itemtype="http://schema.org/Person"] a:hover {
+  color: #0c943c !important;
+  text-decoration: none !important;
+}
+
+/* Fix for conference/journal titles and year in Recent Research widget */
+.wg-pages .pub-list-item > em {
+  color: #8c94a3 !important;
+  transition: color 0.3s ease;
+}
+
+/* Style the wrapped year text */
+.li-cite-year {
+  color: #8c94a3 !important;
+}
+
+/* Individual publication page links within article-container */
+.article-container a {
+  color: #1e40af !important; /* Primary blue */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.article-container a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* Individual publication page abstract heading hover effect */
+.article-container h3 {
+  color: inherit !important; /* Default color */
+  transition: color 0.3s ease;
+}
+
+.article-container h3:hover {
+  color: #0c943c !important; /* Green on hover */
+}
+
+/* Author name links in publication contexts only - not affecting about widget */
+.pub-list-item [itemprop="author name"] a,
+.pub-list-item [itemprop="author"] a,
+.stream-meta [itemprop="author name"] a,
+.stream-meta [itemprop="author"] a,
+.article-metadata [itemprop="author name"] a,
+.article-metadata [itemprop="author"] a {
+  color: #8c94a3 !important; /* Light gray for light theme */
+  text-decoration: none !important; /* Remove underlines */
+  transition: color 0.3s ease;
+}
+
+.pub-list-item [itemprop="author name"] a:hover,
+.pub-list-item [itemprop="author"] a:hover,
+.stream-meta [itemprop="author name"] a:hover,
+.stream-meta [itemprop="author"] a:hover,
+.article-metadata [itemprop="author name"] a:hover,
+.article-metadata [itemprop="author"] a:hover {
+  color: #0c943c !important; /* Green on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* Dark theme author links in publication contexts only */
+.dark .pub-list-item [itemprop="author name"] a,
+.dark .pub-list-item [itemprop="author"] a,
+.dark .stream-meta [itemprop="author name"] a,
+.dark .stream-meta [itemprop="author"] a,
+.dark .article-metadata [itemprop="author name"] a,
+.dark .article-metadata [itemprop="author"] a {
+  color: #9ca3af !important; /* Slightly darker gray for dark theme */
+}
+
+.dark .pub-list-item [itemprop="author name"] a:hover,
+.dark .pub-list-item [itemprop="author"] a:hover,
+.dark .stream-meta [itemprop="author name"] a:hover,
+.dark .stream-meta [itemprop="author"] a:hover,
+.dark .article-metadata [itemprop="author name"] a:hover,
+.dark .article-metadata [itemprop="author"] a:hover {
+  color: #0c943c !important; /* Green on hover */
+}
+
+/* Share buttons styling with circular background colors */
+.share-btn-twitter,
+.share-btn-email,
+.share-btn-linkedin {
+  background-color: #1e40af !important; /* Primary blue background */
+  color: #ffffff !important; /* White text/icons */
+  border: none !important; /* Remove borders */
+  border-radius: 50% !important; /* Circular shape */
+  width: 40px !important; /* Fixed width */
+  height: 40px !important; /* Fixed height */
+  padding: 0 !important; /* Remove padding */
+  display: inline-flex !important; /* Flexbox for centering */
+  align-items: center !important; /* Center vertically */
+  justify-content: center !important; /* Center horizontally */
+  transition: background-color 0.3s ease;
+  text-decoration: none !important; /* Remove underlines */
+}
+
+.share-btn-twitter:hover,
+.share-btn-email:hover,
+.share-btn-linkedin:hover {
+  background-color: #0c943c !important; /* Green background on hover */
+  color: #ffffff !important; /* White text/icons on hover */
+  text-decoration: none !important; /* Ensure no underlines on hover */
+}
+
+/* Dark theme share buttons */
+.dark .share-btn-twitter,
+.dark .share-btn-email,
+.dark .share-btn-linkedin {
+  background-color: #2198b3 !important; /* Light blue background */
+  color: #ffffff !important; /* White text/icons */
+}
+
+.dark .share-btn-twitter:hover,
+.dark .share-btn-email:hover,
+.dark .share-btn-linkedin:hover {
+  background-color: #0c943c !important; /* Green background on hover */
+  color: #ffffff !important; /* White text/icons on hover */
+}
+
+/* Dark theme for individual publication page links */
+.dark .article-container a {
+  color: #2198b3 !important; /* Light blue */
+}
+
+.dark .article-container a:hover {
+  color: #0c943c !important; /* Green on hover */
+}
+
+/* Dark theme for individual publication page heading hover */
+.dark .article-container h3:hover {
+  color: #0c943c !important; /* Green on hover */
+}
+
+
+/* Article tags styling with lighter gray background by default */
+.article-tags .badge {
+  background-color: #f3f4f6 !important; /* Light gray background by default */
+  color: inherit !important; /* Default text color */
+  border: none !important; /* Remove borders */
+  transition: background-color 0.3s ease;
+}
+
+.article-tags .badge:hover {
+  background-color: #0c943c !important; /* Green background on hover */
+  color: #ffffff !important; /* White text on hover */
+  border-color: #0c943c !important; /* Match border to background */
+}
+
+/* Dark theme for article tags */
+.dark .article-tags .badge {
+  background-color: #374151 !important; /* Darker gray for dark theme */
+  color: inherit !important; /* Default text color */
+}
+
+.dark .article-tags .badge:hover {
+  background-color: #0c943c !important; /* Green background on hover */
+  color: #ffffff !important; /* White text on hover */
+  border-color: #0c943c !important; /* Match border to background */
+}
+
+
+
 
 /* ===========================================
    CUSTOMIZATION GUIDE
