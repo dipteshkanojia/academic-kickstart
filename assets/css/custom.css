@@ -10,9 +10,9 @@
 
 :root {
   /* Primary Colors */
-  --primary-blue: #1e40af;        /* Used for links, active states, hover effects */
+  --primary-blue: #1b3dad;        /* Used for links, active states, hover effects */
   --forest-green: #0c943c;        /* Used for default states and some hover effects */
-  --light-blue: #8aa6f1;          /* Light blue for dark theme variants */
+  --light-blue: #9ba2f1;          /* Light blue for dark theme variants */
 
   /* Neutral Colors */
   --black: #000000;               /* Pure black */
