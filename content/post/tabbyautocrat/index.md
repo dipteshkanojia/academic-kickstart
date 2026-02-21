@@ -50,7 +50,7 @@ I will update this page further with more **disdained** looks.
 
 ### Update: February 21, 2026
 
-It’s official, the annexation is complete. The cat distribution system is real. He practically domesticates us now, and garden was just the beginning I guess. Now he has an indefinite leave to remain on the furniture too. Our corner table rug is laden with his hair, abd the bin is lined with empty wet and dry food packets. He spends most nights here now, and it has been this way for more than a few months. I guess I don't get to complain anymore given his purrs on me and especially given my busicuit privileges. 
+It’s official, the annexation is complete. The cat distribution system is real. He practically domesticates us now, and garden was just the beginning I guess. Now he has an indefinite leave to remain on the furniture too. Our corner table rug is full of his hair, and the bin is laden with empty wet- and dry-food packets. He spends most nights here, and it has been this way for more than a few months. I guess I don't get to complain anymore given his purrs on me and especially given my 'biscuits privileges'. 
 
 {{< figure src="cat7.jpg" title="Yoga break? I will not say more." >}}
 
