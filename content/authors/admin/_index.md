@@ -62,7 +62,7 @@ social:
   link: https://www.linkedin.com/in/dipteshkanojia/
 - icon: google-scholar
   icon_pack: ai
-  link: http://scholar.google.co.in/citations?user=UNCgCAEAAAAJ&hl=en
+  link: https://scholar.google.com/citations?hl=en&user=UNCgCAEAAAAJ&view_op=list_works&sortby=pubdate
 - icon: github
   icon_pack: fab
   link: https://github.com/dipteshkanojia
