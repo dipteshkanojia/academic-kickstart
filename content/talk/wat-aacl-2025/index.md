@@ -8,7 +8,7 @@ draft = false
 # End time can optionally be hidden by prefixing the line with `#`.
 time_start = 2025-12-24T12:00:00
 
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
+# Authors. Comma separated list.
 authors = ["Diptesh Kanojia"]
 
 # Abstract and optional shortened version.
