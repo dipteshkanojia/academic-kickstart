@@ -1,7 +1,7 @@
 ---
 title: "Airavata: Introducing Hindi Instruction-tuned LLM"
 date: 2024-01-26T00:00:00
-authors: ["Jay Gala", "Thanmay Jayakumar", "Jaavid Aktar Husain", "Mohammed Safi Ur Rahman Khan", "Diptesh Kanojia", "Ratish Puduppully", "Mitesh M Khapra", "Raj Dabre", "Rudra Murthy", "Anoop Kunchukuttan"]
+authors: ["Jay Gala", "Thanmay Jayakumar", "Jaavid Aktar Husain", "Mohammed Safi Ur Rahman Khan", "Diptesh Kanojia", "Ratish Puduppully", "Mitesh M. Khapra", "Raj Dabre", "Rudra Murthy", "Anoop Kunchukuttan"]
 publication_types: ["3"]
 abstract: ""
 featured: false
