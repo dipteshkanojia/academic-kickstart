@@ -10,6 +10,7 @@ url_pdf: "https://aclanthology.org/2026.emnlp-main.2321.pdf"
 url_preprint: "https://arxiv.org/abs/2607.07669"
 url_code: "https://github.com/surrey-nlp/DiaLLM"
 url_dataset: "https://huggingface.co/datasets/surrey-nlp/dialect-preferences"
+url_poster: "files/poster-emnlp-2026-diallm.pdf"
 doi: "10.18653/2026.emnlp-main.2321"
 links:
 - name: "Local PDF"

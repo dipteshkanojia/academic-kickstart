@@ -7,6 +7,7 @@ abstract: "Tiny Recursive Models (TRM) achieve strong results on reasoning tasks
 featured: false
 publication: "*Proceedings of the Second Workshop on Language Models for Low-Resource Languages (LoResLM 2026)*"
 url_pdf: "https://aclanthology.org/2026.loreslm-1.52.pdf"
+url_code: "https://github.com/surrey-nlp/TRMQE"
 url_dataset: "https://huggingface.co/datasets/surrey-nlp/Low-resource-QE-DA-dataset"
 doi: "10.18653/v1/2026.loreslm-1.52"
 links:
