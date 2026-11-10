@@ -7,6 +7,7 @@ abstract: "Quality Estimation (QE) is essential for assessing machine translatio
 featured: false
 publication: "*Proceedings of the Second Workshop on Language Models for Low-Resource Languages (LoResLM 2026)*"
 url_pdf: "https://aclanthology.org/2026.loreslm-1.55.pdf"
+url_preprint: "https://arxiv.org/abs/2603.07372"
 url_code: "https://github.com/surrey-nlp/ALOPE/tree/main/Domain-based-QE-with-ALOPE"
 doi: "10.18653/v1/2026.loreslm-1.55"
 links:

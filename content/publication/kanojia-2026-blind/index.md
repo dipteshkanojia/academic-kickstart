@@ -7,6 +7,7 @@ abstract: "The WMT26 General MT task evaluates systems on 10 language pairs that
 featured: false
 publication: "*Proceedings of the Eleventh Conference on Machine Translation*"
 url_pdf: "https://aclanthology.org/2026.wmt-main.69.pdf"
+url_preprint: "https://arxiv.org/abs/2609.13611"
 url_code: "https://github.com/surrey-nlp/PseudoRef"
 doi: "10.18653/2026.wmt-main.69"
 links:

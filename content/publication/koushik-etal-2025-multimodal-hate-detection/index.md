@@ -7,6 +7,7 @@ abstract: "Social media platforms enable the propagation of hateful content acro
 featured: true
 publication: "*Companion Proceedings of the ACM on Web Conference 2025 (WWW 2025)*"
 url_pdf: "https://doi.org/10.1145/3701716.3718382"
+url_preprint: "https://arxiv.org/abs/2502.07138"
 url_code: "https://github.com/surrey-nlp/Video-vs-Meme-Hate"
 url_video: "https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3701716.3718382&file=wk1104-video.mp4.mp4"
 url_slides: "files/ppt-mm4sg-www-2025-hate.pdf"

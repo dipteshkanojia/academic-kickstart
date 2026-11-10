@@ -7,6 +7,7 @@ abstract: "This paper investigates the reference-less evaluation of machine tran
 featured: false
 publication: "*Proceedings of the First Workshop on Language Models for Low-Resource Languages*"
 url_pdf: "https://aclanthology.org/2025.loreslm-1.33.pdf"
+url_preprint: "https://arxiv.org/abs/2501.04473"
 url_dataset: "https://huggingface.co/datasets/ArchSid/QE-DA-datasets"
 tags: ["quality estimation", "machine translation", "low-resource languages", "LLMs"]
 ---
