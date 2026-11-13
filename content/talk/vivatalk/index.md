@@ -17,7 +17,7 @@ abstract_short = "Lexical Resources | POS Tagging | Interactive Hands-on Demo Se
 
 # Name of event and optional event URL.
 event = "NLP Workshop @ VIVA Institute of Engineering and Technology, Virar"
-event_url = "http://www.cfilt.iitb.ac.in/Workshop.html"
+event_url = "https://web.archive.org/web/20210918034425/https://www.cfilt.iitb.ac.in/Workshop.html"
 
 # Location of event.
 location = "VIVA Group of Institutions, Mumbai, India"
@@ -39,7 +39,7 @@ tags = []
 
 # Links (optional).
 url_pdf = ""
-url_slides = "http://www.cfilt.iitb.ac.in/Workshop.html"
+url_slides = "https://web.archive.org/web/20210918034425/https://www.cfilt.iitb.ac.in/Workshop.html"
 url_video = ""
 url_code = ""
 

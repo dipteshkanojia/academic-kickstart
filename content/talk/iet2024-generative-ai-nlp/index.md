@@ -37,7 +37,7 @@ projects = []
 tags = ["talks", "invited-lecture", "generative-ai", "natural-language-processing", "people-centred-ai"]
 
 # Links (optional).
-url_pdf = "https://localevents.theiet.org/register.php?event=5e9be8"
+url_pdf = ""
 url_slides = "files/IET-GenAI-NLP.pdf"
 url_video = "https://www.youtube.com/watch?v=pFhJEa65_sM"
 url_code = ""

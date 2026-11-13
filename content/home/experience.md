@@ -61,7 +61,7 @@ date_format = "Jan 2006"
   date_start = "2022-01-10"
   date_end = "2023-05-30"
   description = """
-  Co-taught the Natural Language Processing course with [Dr. Rudramurthy V](https://research.ibm.com/people/rudra-murthy-venkataramana), and co-supervised Master's projects.
+  Co-taught the Natural Language Processing course with [Dr. Rudramurthy V](https://web.archive.org/web/20260414120007/https://research.ibm.com/people/rudra-murthy-venkataramana), and co-supervised Master's projects.
 	  """
 
 [[experience]]

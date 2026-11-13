@@ -13,7 +13,7 @@ summary = "A webview based app for BrahmiNet."
 tags = ["android"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://play.google.com/store/apps/details?id=in.ac.iitb.cfilt.brahminet"
+external_link = ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

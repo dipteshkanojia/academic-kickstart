@@ -9,6 +9,6 @@ abstract: "We present our work on developing fifteen Hierarchical Phrase Based S
 publication: "*Winning System of SMT Competition at ICON 2014*"
 tags: ["winner", "machine translation", "linguistics", "shared task", "competition"]
 url_pdf: "files/icon-2014-smtcompetition.pdf"
-url_source: "https://cdn.iiit.ac.in/cdn/ltrc.iiit.ac.in/icon/2014/sharedtask_results_accepted_papers.pdf"
+url_source: "https://web.archive.org/web/20231014073601/http://cdn.iiit.ac.in/cdn/ltrc.iiit.ac.in/icon/2014/sharedtask_results_accepted_papers.pdf"
 ---
 
