@@ -8,6 +8,7 @@ featured: false
 publication: "*Proceedings of the Eleventh Conference on Machine Translation*"
 url_pdf: "https://aclanthology.org/2026.wmt-main.19.pdf"
 url_preprint: "https://arxiv.org/abs/2608.16344"
+url_code: "https://github.com/surrey-nlp/IndicQE-APE"
 url_dataset: "https://huggingface.co/datasets/surrey-nlp/IndicQE-APE"
 url_poster: "files/poster-wmt-2026-indicqe.pdf"
 doi: "10.18653/2026.wmt-main.19"
